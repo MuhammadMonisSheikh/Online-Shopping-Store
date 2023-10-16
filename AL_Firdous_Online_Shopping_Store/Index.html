@@ -13,14 +13,19 @@
     <link rel="shortcut icon" href="img/icons.png" type="image/x-icon">
 
 
-    <!-- BOOTSTRAP CDB LINK -->
+    <!-- BOOTSTRAP CDN LINK -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <!-- BOOTSTRAP JS CDB LINK -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+  
 </head>
 <body>
     <!-- HOME -->
@@ -46,19 +51,17 @@
                           
                     <ul class="navbar-nav justify-content-center flex-grow-1 ">
                         <li class="nav-item">
-                            <a class="nav-link nav-link-hover active text-center" data-bs-dismiss="offcanvas"
+                            <a class="nav-link active text-center" data-bs-dismiss="offcanvas"
                                 aria-current="page" href="#home">Home</a>
                         </li>
-                        <li class="nav-item" data-bs-dismiss="offcanvas">
-                            <a class="nav-link nav-link-hover text-center" href="#shop">Shop</a>
-                        </li>
+                        
 
                         <li class="nav-item" data-bs-dismiss="offcanvas">
                             <a class="nav-link nav-link-hover text-center" href="#about">About</a>
                         </li>
 
                         <li class="nav-item" data-bs-dismiss="offcanvas">
-                            <a class="nav-link nav-link-hover text-center" href="#contact">Contact</a>
+                            <a class="nav-link nav-link-hover text-center" href="#contact">Contact US</a>
                         </li>
                         
                             <div class="dropdown">
@@ -71,7 +74,7 @@
                                 <a href="#">Gentes Shoes</a>
                                 <a href="#">Ladies Shoes</a>
                                 <a href="#">jewellery</a>
-                                <a href="#">Earbuds&Headphones</a> 
+                                <a href="#">Earphones & Headphones</a> 
                                 <a href="#">Speakers</a>                            
                             
                             </div>
@@ -80,21 +83,61 @@
 
 
                     </ul>
-                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
+                      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn search" type="submit">Search</button>
+      </form>
+                    
                 </div>
             </div>
         </div>
     </nav>
-
+<div class="welcome-to-our-store">
+   <img src="img/Banner.png" alt="" class="banner"> 
 <div class="shop_now">
-<a class="btn btn-info position-relative fw-bold text-white" style="width: 196px; font-size: 1.8rem; left: 200px; top:68%;  height: 60px;"> Shop Now!</a>
+<a class="btn shop-now"> Shop Now!</a>
 </div>
-
+</div>
 </section>
-<!--  -->
+<!-- PRODUCTS -->
+
+<section class="products">
+  <div class="container">
+    <h2 class="heading1 text-center text-uppercase">All Products</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-lg-4">
+          <div class="card h-25">
+            <img src="Product_imges/Product_img1.jpg" class="card-img-top" alt="Product_img1">
+            <div class="card-body">
+              <h5 class="card-title">Men's Parachute Puffer Jackets</h5>
+              <p class="card-text fw-bold">Rs2075/-</p>
+              <a href="" class="btn btn-outline-dark fw-bold d-grid gap-2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-25">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-25">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+
+      </div>
+</section>
 
 </body>
 </html>
