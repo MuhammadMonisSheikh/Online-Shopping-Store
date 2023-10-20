@@ -19,7 +19,7 @@
   position: relative;
 }
 
-.active {
+.navbar .active {
   color: aqua !important;
   padding: 10px 15px !important;
   margin: 0px 30px;
@@ -27,7 +27,7 @@
 }
 
 
-.active::before {
+.navbar .active::before {
   content: "";
   width: 14%;
   height: 20%;
@@ -41,7 +41,7 @@
 
 
 
-.active::after {
+.navbar .active::after {
   content: "";
   width: 14%;
   height: 20%;
@@ -344,6 +344,141 @@ color: #fff !important;
   transform: scale(1.05);
 }
 
+
+
+
+.Product_3_img1 {
+  max-width: 100%;
+  background-color: #31313134;
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  border-bottom: 1px solid #31313128;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.Product_3_img1 img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.Product_3_img1:hover img {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+.product_card_img4 {
+  max-width: 100%;
+  background-color: #31313134;
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  border-bottom: 1px solid #31313128;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.product_card_img4 img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.product_card_img4:hover img {
+  transform: scale(1.05);
+}
+
+
+
+.product_card_img5 {
+  max-width: 100%;
+  background-color: #31313134;
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  border-bottom: 1px solid #31313128;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.product_card_img5 img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.product_card_img5:hover img {
+  transform: scale(1.05);
+}
+
+
+.Product_6_img1 {
+  max-width: 100%;
+  background-color: #31313134;
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  border-bottom: 1px solid #31313128;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.Product_6_img1 img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.Product_6_img1:hover img {
+  transform: scale(1.05);
+}
+
+
+.Product_7_img1 {
+  max-width: 100%;
+  background-color: #31313134;
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  border-bottom: 1px solid #31313128;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.Product_7_img1 img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.Product_7_img1:hover img {
+  transform: scale(1.05);
+}
+
+
+
+
 .products .row .card  .btn{
   width: 306px;
   font-weight: bold;
@@ -352,7 +487,7 @@ color: #fff !important;
 
 
 
-/* MODAL */
+/* MODALS */
 
 .modal.card{
   background-color: rgba(0, 255, 255, 0.483);
@@ -396,17 +531,7 @@ color: #fff;
 .modal-body .card{
   background-color: #000 !important;
 }
-  
-.product_card_img1 {
-  max-width: 100%;
-  background-color: #31313134;
-  min-height: 250px;
-  max-height: 250px;
-  overflow: hidden;
-  border-bottom: 1px solid #31313128;
-  text-align: center;
-  flex-grow: 1 !important;
-}
+   
 
 
 .product_card_img_modal-1 img{
@@ -421,17 +546,7 @@ color: #fff;
   width: 420px;
 }
 
-
  
-.product_card_img2 {
-  max-width: 100%; 
-  min-height: 250px;
-  max-height: 250px;
-  overflow: hidden; 
-  text-align: center;
-  flex-grow: 1 !important;
-}
-
 
 .product_card_img_modal-2 img{
   width: 390px;
@@ -444,6 +559,78 @@ color: #fff;
   transform: scale(1.05);
   width: 420px;
 }
+
+
+
+
+.product_card_img_modal-3 img{
+  width: 390px;
+  height: 490px; 
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.product_card_img_modal-3:hover img {
+  transform: scale(1.05);
+  width: 420px;
+}
+
+
+.product_card_img_modal-4 img{
+  width: 390px;
+  height: 490px; 
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.product_card_img_modal-4:hover img {
+  transform: scale(1.05);
+  width: 420px;
+}
+
+
+
+.product_card_img_modal-5 img{
+  width: 390px;
+  height: 490px; 
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.product_card_img_modal-5:hover img {
+  transform: scale(1.05);
+  width: 420px;
+}
+
+
+
+.product_card_img_modal-6 img{
+  width: 390px;
+  height: 490px; 
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.product_card_img_modal-6:hover img {
+  transform: scale(1.05);
+  width: 420px;
+}
+
+
+
+.product_card_img_modal-7 img{
+  width: 390px;
+  height: 490px; 
+  object-fit: cover;
+  transition: 0.3s ease-out;
+}
+
+.product_card_img_modal-7:hover img {
+  transform: scale(1.05);
+  width: 420px;
+}
+
+
 
 
 
