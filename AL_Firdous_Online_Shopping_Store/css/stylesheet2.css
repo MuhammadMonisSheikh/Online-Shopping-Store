@@ -740,6 +740,9 @@
   }
   
   
+  .Product_modal-dialog_53 {
+    max-width: 1048px !important;
+}
   
   
   .Product_53_img1 {
@@ -766,6 +769,12 @@
     transform: scale(1.05);
   }
   
+
+
+  .product_card-body_53{
+    width: 520px !important;
+  }
+
   
   .Product_54_img1 {
     max-width: 100%;
@@ -808,7 +817,7 @@
   
   .product_card_img_modal-50 img{
     width: 390px;
-    height:570px; 
+    height:530px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -846,7 +855,7 @@
   
   .product_card_img_modal-53 img{
     width: 390px;
-    height:530px; 
+    height:550px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -2303,3 +2312,19 @@
     transform: scale(1.05);
     width: 420px;
   }
+
+
+  /* FOOTER */
+  .footer{
+    border-top:1px solid aqua;
+      }
+
+      .cp{
+        color: aqua;
+      }
+
+
+.fa-whatsapp{
+  color:green;
+ 
+}
