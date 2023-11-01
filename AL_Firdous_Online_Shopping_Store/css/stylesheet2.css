@@ -1103,7 +1103,7 @@
   
   .product_card_img_modal-56 img{
     width: 390px;
-    height:570px; 
+    height:530px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -1390,7 +1390,7 @@
   
   .product_card_img_modal-62 img{
     width: 390px;
-    height:570px; 
+    height:530px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -1676,7 +1676,7 @@
   
   .product_card_img_modal-68 img{
     width: 390px;
-    height:570px; 
+    height:530px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -1963,7 +1963,7 @@
   
   .product_card_img_modal-74 img{
     width: 390px;
-    height:570px; 
+    height:530px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -2239,7 +2239,7 @@
   
   .product_card_img_modal-79 img{
     width: 390px;
-    height:530px; 
+    height:550px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -2251,7 +2251,7 @@
   
   .product_card_img_modal-80 img{
     width: 390px;
-    height:570px; 
+    height:530px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -2289,7 +2289,7 @@
   
   .product_card_img_modal-83 img{
     width: 390px;
-    height:530px; 
+    height:558px; 
     object-fit: cover;
     transition: 0.3s ease-out;
   }
@@ -2323,8 +2323,69 @@
         color: aqua;
       }
 
+.footer ul {
+  position: relative;
+  top: 10px;
+}
+  
+.footer ul li{
+  position: relative;
+  list-style: none;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+.footer ul li a{
+  text-decoration: none;
+}
+.footer ul li a .brands{
+  font-size: 2.5em;
+  color: #ffff;
+}
 
-.fa-whatsapp{
-  color:green;
- 
+.footer ul li:nth-child(1){
+  text-shadow: 0 10px 30px rgba(240, 8, 0, 0.911);
+}
+.footer ul li:nth-child(2){
+  text-shadow: 0 10px 30px rgba(0, 194, 16, 0.911);
+}
+.footer ul li:nth-child(3){
+  text-shadow: 0 10px 30px rgba(2, 120, 255, 0.911);
+}
+.footer ul li::before{
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  font-size: 6em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.footer ul li:nth-child(1)::before{
+  content: '\f16d';    /*یونی کد فونت اسوم هست*/
+  width: 100%;
+  background-image: linear-gradient(45deg , #f09433 0% , #e6683c 25% , #dc2343 50% , #cc2366 75% , #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 4px solid #dc2743;
+  text-shadow: 0 0 0 rgba(233, 1, 1, 0);
+  font-size: 2.5em;
+}
+.footer ul li:nth-child(2)::before{
+  content: '\f232';
+  color: #25d366;
+  border-bottom: 4px solid #25d366;
+  text-shadow: 0 0 0 rgba(0, 194, 16, 0);
+  font-size: 2.5em;
+}
+.footer ul li:nth-child(3)::before{
+  content: '\f09a';
+  color: #1da1f2;
+  border-bottom: 4px solid #1da1f2;
+  text-shadow: 0 0 0 rgba(2, 120, 255, 0.911);
+  font-size: 2.5em;
+}
+
+.footer ul li:hover::before{
+  height:56px;
 }

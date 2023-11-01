@@ -1,0 +1,1061 @@
+/* DESKTOP VIEW*/
+
+@media (max-width:2000px) and (min-width:1500px) {
+    .banner {
+        width: 100%;
+    }
+
+}
+
+
+/* LAPTOP VIEW */
+
+
+
+@media (max-width:1365px) {
+    .banner {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1198px) {
+
+    .products .row .card .btn {
+        width: 246px;
+    }
+
+    .card-text-1 {
+        top: 4px !important;
+    }
+
+    .btn-1 {
+        top: 0px !important;
+    }
+
+    .card-text-18 {
+        top: 4px !important;
+    }
+
+    .btn-18 {
+        top: 0px !important;
+    }
+
+
+    .btn-21 {
+        top: 0px !important;
+    }
+
+
+    .card-text-26 {
+        top: 4px !important;
+    }
+
+    .btn-26 {
+        top: 0px !important;
+    }
+
+    .card-text-36 {
+        top: 4px !important;
+    }
+
+    .btn-36 {
+        top: 0px !important;
+    }
+
+
+
+    .card-text-47 {
+        top: 4px !important;
+    }
+
+    .btn-47 {
+        top: 0px !important;
+    }
+
+    .card-text-48 {
+        top: 4px !important;
+    }
+
+    .btn-48 {
+        top: 0px !important;
+    }
+
+
+    .card-text-53 {
+        top: 4px !important;
+    }
+
+    .btn-53 {
+        top: 0px !important;
+    }
+
+
+    .card-text-57 {
+        top: 4px !important;
+    }
+
+    .btn-57 {
+        top: 0px !important;
+    }
+
+    .card-text-58 {
+        top: 4px !important;
+    }
+
+    .btn-58 {
+        top: 0px !important;
+    }
+
+    .card-text-60 {
+        top: 4px !important;
+    }
+
+    .btn-60 {
+        top: 0px !important;
+    }
+
+
+    .card-text-62 {
+        top: 4px !important;
+    }
+
+    .btn-62 {
+        top: 0px !important;
+    }
+
+    .card-text-65 {
+        top: 4px !important;
+    }
+
+    .btn-65 {
+        top: 0px !important;
+    }
+
+    .card-text-83 {
+        top: 4px !important;
+    }
+
+    .btn-83 {
+        top: 0px !important;
+    }
+
+
+    .button {
+        width: 135px;
+        margin: 116px 109px 80px 80px;
+    }
+
+}
+
+@media (max-width:1190px) {
+    .nav-link-hover {
+        margin: 0px 15px;
+    }
+
+    .logo {
+        width: 140px;
+        height: 146px;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .nav-link-hover {
+        margin: 0px 12px;
+    }
+}
+
+@media (max-width:1055px) {
+    .nav-link-hover {
+        margin: 0px 10px;
+    }
+
+    .search {
+        width: 130px !important;
+        font-size: 18px !important;
+    }
+}
+
+/* IPAD LANDSCAPE VIEW */
+
+@media (max-width: 1022px) {
+    .nav-link-hover {
+        margin: 0px 8px;
+    }
+
+    .logo {
+        width: 134px;
+        height: 132px;
+    }
+}
+
+
+@media (max-width: 1004px) {
+    .nav-link-hover {
+        margin: 0px 6px;
+    }
+
+    .logo {
+        width: 130px;
+        height: 128px;
+    }
+
+    .search {
+        width: 118px !important;
+        font-size: 16px !important;
+    }
+
+    .products .row {
+        --bs-gutter-x: 2rem !important;
+    }
+
+
+}
+
+/* TABLET VIEW */
+
+
+@media (max-width:991px) {
+
+
+
+    .responsive-nav {
+        width: 90% !important;
+        position: relative;
+        top: -26px;
+    }
+
+    .navbar .active {
+        margin: 50px 370px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 370px;
+    }
+
+    .dropdown_btn {
+        padding: 12px 62px !important;
+    }
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu,
+    .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 375px;
+        opacity: 1;
+        pointer-events: inherit;
+        top: 112px;
+    }
+
+
+    .search-container {
+        padding-top: 62px;
+    }
+
+    .offcanvas-body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .button {
+        margin: 116px 108px 80px 52px;
+    }
+
+
+    .heading1 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading2 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading3 {
+        top: 80px;
+        position: relative;
+    }
+
+
+    .heading4 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading5 {
+        top: 80px;
+        position: relative;
+    }
+
+
+    .heading6 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading7 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading8 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading9 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading10 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading11 {
+        top: 80px;
+        position: relative;
+    }
+
+    .heading12 {
+        top: 80px;
+        position: relative;
+    }
+
+
+    .products .row {
+        padding-top: 160px !important;
+    }
+
+    .products .modal .row {
+        padding-top: 0px !important;
+    }
+
+
+
+    .cp {
+        margin-bottom: -2px;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+    .nav-link-hover {
+        margin: 50px 352px;
+    }
+
+    .navbar .active {
+        margin: 50px 352px;
+    }
+
+    .dropdown_btn {
+        padding: 12px 72px !important;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    .dropdown_btn {
+        padding: 12px 65px !important;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .dropdown_btn {
+        padding: 12px 50px !important;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .dropdown_btn {
+        padding: 12px 40px !important;
+    }
+}
+
+@media (max-width: 860px) {
+
+    .navbar .active {
+        margin: 50px 338px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 338px;
+    }
+
+}
+
+
+@media (max-width: 844px) {
+
+    .navbar .active {
+        margin: 50px 330px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 330px;
+    }
+
+}
+
+
+@media (max-width: 826px) {
+
+    .navbar .active {
+        margin: 50px 320px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 320px;
+    }
+
+}
+
+
+@media (max-width: 810px) {
+
+    .navbar .active {
+        margin: 50px 310px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 310px;
+    }
+
+}
+
+
+
+@media (max-width: 800px) {
+
+    .navbar .active {
+        margin: 50px 300px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 300px;
+    }
+
+}
+
+
+
+@media (max-width: 770px) {
+
+    .navbar .active {
+        margin: 50px 290px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 290px;
+    }
+
+}
+
+
+/* iPad portrait */
+
+@media (max-width: 768px) {
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu,
+    .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 293px;
+        pointer-events: inherit;
+        top: 108px;
+    }
+
+    .shop-now {
+        top: 45% !important;
+    }
+
+}
+
+/* MOBILE VIEW */
+
+
+@media (max-width: 767px) {
+
+    .shop-now {
+        left: 118px !important;
+    }
+
+
+    .button {
+        margin: 116px 108px 80px 194px;
+    }
+
+    .product_card_img_modal-1 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-1:hover img {
+        width: 597px;
+    }
+
+
+    .product_card_img_modal-2 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-2:hover img {
+        width: 597px;
+    }
+
+
+    .product_card_img_modal-4 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-4:hover img {
+        width: 597px;
+    }
+
+
+
+
+    .product_card_img_modal-5 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-5:hover img {
+        width: 597px;
+    }
+
+
+     .product_card_img_modal-16 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-16:hover img {
+        width: 597px;
+    }
+
+
+     .product_card_img_modal-35 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-35:hover img {
+        width: 597px;
+    }
+
+         .product_card_img_modal-36 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-36:hover img {
+        width: 597px;
+    }
+
+
+         .product_card_img_modal-54 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-54:hover img {
+        width: 597px;
+    }
+
+
+    
+    
+
+    
+    
+         .product_card_img_modal-68 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-68:hover img {
+        width: 597px;
+    }
+
+
+
+    
+         .product_card_img_modal-72 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-72:hover img {
+        width: 597px;
+    }
+
+    
+    
+         .product_card_img_modal-73 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-73:hover img {
+        width: 597px;
+    }
+
+
+    
+         .product_card_img_modal-57 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-57:hover img {
+        width: 597px;
+    }
+
+
+
+
+    
+         .product_card_img_modal-74 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-74:hover img {
+        width: 597px;
+    }
+
+
+
+         .product_card_img_modal-78 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-78:hover img {
+        width: 597px;
+    }
+
+
+         .product_card_img_modal-84 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-84:hover img {
+        width: 597px;
+    }
+
+    .modal-dialog {
+        height: 1240px;
+    }
+
+
+
+
+        .footer ul li a .brands {
+            font-size: 2em;
+        }
+
+        .footer ul li::before {
+            top: -8px;
+        }
+
+        .footer ul li:nth-child(1)::before {
+            font-size: 2em;
+        }
+
+
+        .footer ul li:nth-child(2)::before {
+            font-size: 2em;
+        }
+
+
+        .footer ul li:nth-child(3)::before {
+            font-size: 2em;
+        }
+
+        .footer ul li:hover::before {
+            height: 46px;
+        }
+
+        .button {
+            margin: 116px 108px 80px 166px;
+        }
+
+
+
+
+
+
+
+
+
+
+}
+
+    @media (max-width: 750px) {
+
+        .navbar .active {
+            margin: 50px 270px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 270px;
+        }
+
+    }
+
+
+    /* iPhone 6-8 Plump landscape */
+
+    @media (width: 736px) {
+
+        .shop-now {
+            top: 478px !important;
+        }
+    }
+
+    @media (width: 667px) {
+        .shop-now {
+            top: 422px !important;
+        }
+    }
+
+    /* iPhone eXpensive landscape */
+
+    @media (width: 734px) {
+        .shop-now {
+            top: 400px !important;
+        }
+    }
+
+
+
+    @media (max-width: 700px) {
+
+        .navbar .active {
+            margin: 50px 260px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 260px;
+        }
+
+    }
+
+
+
+    @media (max-width: 690px) {
+
+        .navbar .active {
+            margin: 50px 250px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 250px;
+        }
+
+    }
+
+    /* Android (Pixel 2) landscape */
+
+    @media (max-width: 684px) {
+
+        .shop-now {
+            top: 415px !important;
+        }
+    }
+
+    @media (max-width: 670px) {
+
+        .navbar .active {
+            margin: 50px 235px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 235px;
+        }
+
+    }
+
+
+    @media (max-width: 640px) {
+
+        .navbar .active {
+            margin: 50px 225px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 225px;
+        }
+
+    }
+
+    @media (max-width: 630px) {
+
+        .navbar .active {
+            margin: 50px 210px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 210px;
+        }
+
+    }
+
+
+
+    @media (max-width: 600px) {
+
+        .navbar .active {
+            margin: 50px 200px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 200px;
+        }
+
+    }
+
+
+
+
+    @media (max-width: 590px) {
+
+        .navbar .active {
+            margin: 50px 190px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 190px;
+        }
+
+    }
+
+    @media (max-width: 575px) {
+
+        .navbar .active {
+            margin: 50px 180px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 180px;
+        }
+
+        .products .row {
+            --bs-gutter-x: 0rem !important;
+        }
+
+        .footer ul li a .brands {
+            font-size: 1.5em;
+        }
+
+        .footer ul li::before {
+            top: -5px;
+        }
+
+        .footer ul li:nth-child(1)::before {
+            font-size: 1.5em;
+        }
+
+
+        .footer ul li:nth-child(2)::before {
+            font-size: 1.5em;
+        }
+
+
+        .footer ul li:nth-child(3)::before {
+            font-size: 1.5em;
+        }
+
+        .footer ul li:hover::before {
+            height: 38px;
+        }
+
+        .button {
+            margin: 116px 108px 80px 166px;
+        }
+    }
+
+    @media (max-width: 560px) {
+        .button {
+            margin: 116px 108px 80px 150px;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .button {
+            margin: 116px 108px 80px 140px;
+        }
+    }
+
+
+
+    /* iPhone 6-8 Plump portrait */
+    @media (max-width: 414px) {
+
+        .shop-now {
+            top: 462px !important;
+            left: 42px !important;
+        }
+
+        .button {
+            margin: 116px 108px 80px 95px;
+        }
+
+        .navbar .active {
+            margin: 50px 120px;
+        }
+
+        .nav-link-hover {
+            margin: 50px 120px;
+        }
+
+        .dropdown .dropdown_btn:focus+.dropdown_menu,
+        .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+            left: 125px;
+            pointer-events: inherit;
+            top: 104px;
+        }
+
+
+.product_card_img_modal-1 img {
+    width: 597px;
+    position: relative;
+    left: 0px;
+}
+
+
+.product_card_img_modal-1 img {
+     left: 0px;
+}
+ 
+
+.product_card_img_modal-2 img {
+     left: 0px;
+}
+ 
+
+.product_card_img_modal-4 img {
+     left: 0px;
+}
+ 
+
+.product_card_img_modal-5 img {
+     left: 0px;
+}
+ 
+
+ .product_card_img_modal-16 img {
+     left: 0px;
+}
+ 
+
+ .product_card_img_modal-35 img {
+     left: 0px;
+}
+ 
+     .product_card_img_modal-36 img {
+     left: 0px;
+}
+ 
+
+     .product_card_img_modal-54 img {
+     left: 0px;
+}
+
+     .product_card_img_modal-68 img {
+     left: 0px;
+}
+ 
+
+
+     .product_card_img_modal-72 img {
+     left: 0px;
+}
+ 
+
+
+     .product_card_img_modal-73 img {
+     left: 0px;
+}
+ 
+
+
+
+     .product_card_img_modal-57 img {
+     left: 0px;
+}
+ 
+
+     .product_card_img_modal-74 img {
+     left: 0px;
+}
+ 
+
+     .product_card_img_modal-78 img {
+     left: 0px;
+}
+ 
+
+
+     .product_card_img_modal-84 img {
+     left: 0px;
+}
+ 
+
+
+
+        .footer .container {
+            width: 60%;
+        }
+
+        .footer ul {
+            left: 40px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .logo {
+            width: 118px;
+            height: 120px;
+        }
+
+
+        .nav-link-hover {
+            margin: 50px 97px;
+        }
+
+
+
+
+        .button {
+            margin: 116px 108px 80px 85px;
+        }
+
+
+        .footer .container {
+            width: 70%;
+        }
+    }

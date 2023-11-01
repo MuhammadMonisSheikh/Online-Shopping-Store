@@ -294,10 +294,10 @@ color: #fff !important;
 .heading1::before {
   content: "";
   position: absolute;
-  width: 31%;
+  width: 50%;
   height: 3px;
   background-color: aqua; 
-  left: 35%;
+  left: 25%;
   transform: translateX(-5%);
   animation: animate 5s linear infinite;
 }
@@ -307,11 +307,11 @@ color: #fff !important;
 .heading1::after {
   content: "";
   position: absolute;
-  width: 31%;
+  width: 50%;
   height: 3px;
   top: 76px;
   background-color: aqua; 
-  left: 35%;
+  left: 25%;
   transform: translateX(-50%);
   animation: animate 5s linear infinite;
 }
