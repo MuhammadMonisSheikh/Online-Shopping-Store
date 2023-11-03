@@ -1,0 +1,542 @@
+/* LAPTOP VIEW */
+ 
+@media (max-width:1190px) {
+    .nav-link-hover {
+        margin: 0px 15px;
+    }
+
+    .logo {
+        width: 140px;
+        height: 146px;
+    }
+ .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 18px;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .nav-link-hover {
+        margin: 0px 12px;
+    }
+}
+
+@media (max-width:1055px) {
+    .nav-link-hover {
+        margin: 0px 10px;
+    }
+
+    .search {
+        width: 130px !important;
+        font-size: 18px !important;
+    }
+}
+
+/* IPAD LANDSCAPE VIEW */
+
+@media (max-width: 1022px) {
+    .nav-link-hover {
+        margin: 0px 8px;
+    }
+
+    .logo {
+        width: 134px;
+        height: 132px;
+    }
+}
+
+
+@media (max-width: 1004px) {
+    .nav-link-hover {
+        margin: 0px 6px;
+    }
+
+    .logo {
+        width: 130px;
+        height: 128px;
+    }
+
+    .search {
+        width: 118px !important;
+        font-size: 16px !important;
+    }
+
+ .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+    left: 10px;
+}
+}
+
+/* TABLET VIEW */
+
+
+@media (max-width:991px) {
+     .responsive-nav {
+        width: 90% !important;
+        position: relative;
+        top: -26px;
+    }
+ .nav-link-hover {
+        margin: 50px 370px;
+    }
+
+    .dropdown_btn {
+        padding: 12px 62px !important;
+    }
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu,
+    .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 354px;
+        opacity: 1;
+        pointer-events: inherit;
+        top: 112px;
+    }
+
+
+    .search-container {
+        padding-top: 62px;
+    }
+
+    .offcanvas-body::-webkit-scrollbar {
+        display: none;
+    }
+ 
+     .cp {
+        margin-bottom: -2px;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+    .nav-link-hover {
+        margin: 50px 352px;
+    }     .dropdown_btn {
+        padding: 12px 72px !important;
+    }
+
+ 
+
+}
+
+@media (max-width: 930px) {
+
+    .dropdown_btn {
+        padding: 12px 65px !important;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+
+    .dropdown_btn {
+        padding: 12px 50px !important;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .dropdown_btn {
+        padding: 12px 40px !important;
+    }
+}
+
+@media (max-width: 860px) {
+ 
+    .nav-link-hover {
+        margin: 50px 338px;
+    }
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 340px;
+    }
+
+}
+
+
+@media (max-width: 844px) { 
+    
+    .nav-link-hover {
+        margin: 50px 330px;
+    }
+
+}
+
+
+@media (max-width: 826px) {
+     .nav-link-hover {
+        margin: 50px 320px;
+    }
+
+}
+
+@media (max-width: 820px){
+    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 322px;
+    }
+    }
+    
+
+@media (max-width: 810px) {
+ 
+
+    .nav-link-hover {
+        margin: 50px 310px;
+    }
+
+}
+
+
+
+@media (max-width: 800px) {
+ 
+
+    .nav-link-hover {
+        margin: 50px 300px;
+    }
+
+}
+
+
+
+@media (max-width: 770px) {
+ 
+
+    .nav-link-hover {
+        margin: 50px 290px;
+    }
+
+}
+
+
+/* iPad portrait */
+
+@media (max-width: 768px) {
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu,
+    .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 293px;
+        pointer-events: inherit;
+        top: 108px;
+    }
+
+    .login_section {
+        background-color: #000;
+        height: 1122px;
+    }
+ 
+}
+
+/* MOBILE VIEW */
+
+
+@media (max-width: 767px) {
+ 
+        .footer ul li a .brands {
+            font-size: 2em;
+        }
+
+        .footer ul li::before {
+            top: -8px;
+        }
+
+        .footer ul li:nth-child(1)::before {
+            font-size: 2em;
+        }
+
+
+        .footer ul li:nth-child(2)::before {
+            font-size: 2em;
+        }
+
+
+        .footer ul li:nth-child(3)::before {
+            font-size: 2em;
+        }
+
+        .footer ul li:hover::before {
+            height: 46px;
+        }
+ 
+}
+
+    @media (max-width: 750px) {
+ 
+        .nav-link-hover {
+            margin: 50px 270px;
+        }
+
+    }
+
+    @media (max-width: 740px) {
+    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 280px;
+    }    
+    }
+    /* iPhone 6-8 Plump landscape */
+
+    @media (width: 736px) {
+
+        
+    
+        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+            left: 274px;
+        }
+    
+    }
+ 
+    @media (max-width: 720px) {
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 272px;
+    }
+    }
+
+    /* iPhone eXpensive landscape */
+ 
+
+    @media (max-width: 700px) {
+   .nav-link-hover {
+            margin: 50px 260px;
+        }
+
+    }
+
+
+
+    @media (max-width: 690px) {
+ 
+        .nav-link-hover {
+            margin: 50px 250px;
+        }
+
+        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+            left: 252px;
+        }
+
+    }
+
+    /* Android (Pixel 2) landscape */
+    @media (max-width: 684px) {
+
+    .login-heading {
+        font-size: 2.5rem;
+       letter-spacing: 2px;
+    }
+
+   .login-heading::before {
+       content: "";
+         top: 0px;
+}
+
+.login-heading::after {
+content: "";
+top: 80px;
+}
+    }
+    @media (max-width: 670px) {
+ 
+        .nav-link-hover {
+            margin: 50px 235px;
+        }
+
+    }
+    @media (max-width: 650px) {
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 236px;
+    }
+    }
+
+    @media (max-width: 640px) {
+ 
+        .nav-link-hover {
+            margin: 50px 225px;
+        }
+
+    }
+
+    @media (max-width: 630px) {
+ 
+
+        .nav-link-hover {
+            margin: 50px 210px;
+        }
+
+    }
+ 
+    @media (max-width: 600px) {
+                  
+
+        .nav-link-hover {
+            margin: 50px 200px;
+        }
+
+        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+            left: 205px;
+        }
+
+    }
+
+
+
+
+    @media (max-width: 590px) {
+ 
+        .nav-link-hover {
+            margin: 50px 190px;
+        }
+
+    }
+
+    @media (max-width: 575px) {
+
+     
+
+        .nav-link-hover {
+            margin: 50px 180px;
+        }
+
+       
+
+        .footer ul li a .brands {
+            font-size: 1.5em;
+        }
+
+        .footer ul li::before {
+            top: -5px;
+        }
+
+        .footer ul li:nth-child(1)::before {
+            font-size: 1.5em;
+        }
+
+
+        .footer ul li:nth-child(2)::before {
+            font-size: 1.5em;
+        }
+
+
+        .footer ul li:nth-child(3)::before {
+            font-size: 1.5em;
+        }
+
+        .footer ul li:hover::before {
+            height: 38px;
+        } 
+    }
+
+    @media (max-width: 560px) {
+
+    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 184px;
+    }
+    }
+
+    @media (max-width: 510px){
+    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left: 168px;
+    }
+}
+
+    @media (max-width: 500px) {
+
+        .nav-link-hover {
+            margin: 50px 162px;
+        }
+ 
+        .login-heading::after {
+            content: "";
+            top: 130px;
+        }
+
+
+    }
+    /* iPhone 6-8 Plump portrait */
+    @media (max-width: 414px) {
+
+
+         
+
+        .nav-link-hover {
+            margin: 50px 120px;
+        }
+
+        .dropdown .dropdown_btn:focus+.dropdown_menu,
+        .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+            left: 125px;
+            pointer-events: inherit;
+            top: 104px;
+        }
+
+        .login-heading {
+             font-size: 2rem;
+            letter-spacing: 2px;
+         }
+
+        .login-heading::before {
+            content: "";
+              top: 0px;
+}
+
+.login-heading::after {
+    content: "";
+     top: 102px;
+  }
+ 
+        .footer .container {
+            width: 60%;
+        }
+
+        .footer ul {
+            left: 40px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .logo {
+            width: 118px;
+            height: 120px;
+        }
+
+
+        .nav-link-hover {
+            margin: 50px 97px;
+        }
+
+
+ 
+        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+        left:100px;
+        width: 254px;
+        }
+
+   
+
+.register_me {
+    border: 2px solid aqua !important;
+    font-weight: bold !important;
+    color: aqua !important;
+    padding: 10px 22px 10px 16px !important;
+    font-size: 10px;
+    margin-left: -4px !important;
+}
+
+
+.col-md-9{
+    width: 308px;
+}
+
+        .register_me {
+             padding: 10px 22px 10px 16px !important;
+             margin-left: -4px !important;
+        }
+
+        .contact-us {
+             padding: 10px 20px 10px 18px !important;
+         }
+
+        .footer .container {
+            width: 70%;
+        }
+    }

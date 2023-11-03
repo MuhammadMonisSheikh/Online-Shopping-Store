@@ -629,31 +629,10 @@
     .shop-now {
         top: 45% !important;
     }
-
-
-    .heading4::after {
-        content: "";
-        top: 110px;
-    }
-
-
-
-    .heading7::after {
-        content: "";
-        top: 110px;
-    }
-
-    
-    .heading8::after {
-        content: "";
-        top: 110px;
-    }
-
-
-    .heading11::after {
-        content: "";
-        top: 110px;
-    }
+    #products{
+        background-color: #000;
+        height: 1650vh;
+      }
 
 
 }
@@ -663,14 +642,9 @@
 
 @media (max-width: 767px) {
 
-    .shop-now {
-        left: 118px !important;
-    }
-
-
     .modal-dialog .card-body{
-        width: 300px;
-            }
+width: 300px;
+    }
 
     .button {
         margin: 116px 108px 80px 194px;
@@ -694,6 +668,16 @@
     }
 
     .product_card_img_modal-2:hover img {
+        width: 597px;
+    }
+
+    .product_card_img_modal-3 img {
+        width: 597px;
+        position: relative;
+        left: 70px;
+    }
+
+    .product_card_img_modal-3:hover img {
         width: 597px;
     }
 
@@ -918,23 +902,25 @@
     /* iPhone 6-8 Plump landscape */
 
     @media (width: 736px) {
-
-        .shop-now {
-            top: 478px !important;
-        }
+        #products{
+            height: 8350vh;
+          }
+      
     }
 
     @media (width: 667px) {
-        .shop-now {
-            top: 422px !important;
+        #products {
+            height: 9380vh;
         }
+        
     }
 
     /* iPhone eXpensive landscape */
 
     @media (width: 734px) {
-        .shop-now {
-            top: 400px !important;
+        #products {
+            background-color: #000;
+            height: 7790vh;
         }
     }
 
@@ -973,6 +959,12 @@
         .shop-now {
             top: 415px !important;
         }
+
+
+        #products {
+            height: 7490vh;
+        }
+
     }
 
     @media (max-width: 670px) {
@@ -1131,22 +1123,10 @@
             content: "";
             top: 150px;
         }
-
-        .heading4 {
-            font-size: 1.5rem;
-            letter-spacing: 2px;
-        }
-        
-        .heading6::after {
-            content: "";
-            top: 150px;
-        }
-        
-        .heading9::after {
-            content: "";
-            top: 150px;
-        }
-        
+                              
+        #products{
+                height: 4350vh;
+              }
 
 .product_card_img_modal-1 img {
     width: 597px;
@@ -1371,6 +1351,15 @@
             left: 40px;
         }
     }
+
+    @media (max-width: 414px){
+    #products {
+        height: 4424vh;
+    }
+}
+
+
+
     @media (max-width: 375px) {
         .logo {
             width: 118px;
@@ -1383,18 +1372,9 @@
         }
 
 
-
-
-        .button {
-            margin: 116px 108px 80px 85px;
+        #products {
+            height: 4860vh;
         }
-
-
-        .heading7 {
-            font-size: 1.5rem;
-            letter-spacing: 2px;
-        }
-
         .footer .container {
             width: 70%;
         }

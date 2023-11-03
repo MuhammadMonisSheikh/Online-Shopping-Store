@@ -1,0 +1,2059 @@
+
+ /* BRANDS PRODUCT */
+ 
+  
+   
+  
+  .Product_37_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_37_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_37_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_38_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_38_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_38_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_39_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_39_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_39_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_40_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_40_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_40_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  .Product_modal-dialog_41 {
+    max-width: 1248px !important;
+}
+  
+  
+  .Product_41_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_41_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_41_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  .product_card-body_41{
+    width: 620px !important;
+  }
+
+
+  
+  .Product_modal-dialog_42 {
+    max-width: 1160px !important;
+}
+  
+  .Product_42_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_42_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_42_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .product_card-body_42{
+    width: 580px !important;
+  }
+  
+  /* BRANDS Product Model */
+  
+  .product_card_img_modal-37 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-37:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-38 img{
+    width: 390px;
+    height:500px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-38:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-39 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-39:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-40 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-40:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-41 img{
+    width: 390px;
+    height:560px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-41:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-42 img{
+    width: 390px;
+    height:560px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-42:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+
+
+  
+ /* DAILY USE ITEMS PRODUCT */
+
+   
+  
+  .Product_43_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_43_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_43_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_44_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_44_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_44_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_45_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_45_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_45_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_46_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_46_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_46_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_47_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_47_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_47_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .Product_48_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_48_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_48_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  /*  DAILY USE ITEMS Product Model */
+  
+  .product_card_img_modal-43 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-43:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-44 img{
+    width: 390px;
+    height:490px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-44:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-45 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-45:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-46 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-46:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-47 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-47:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-48 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-48:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+
+
+  
+  
+ /* WOMAN'S STITCHED CLOTHES PRODUCT */
+   
+  
+  .Product_49_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_49_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_49_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_50_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_50_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_50_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_51_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_51_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_51_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_52_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_52_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_52_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .Product_modal-dialog_53 {
+    max-width: 1048px !important;
+}
+  
+  
+  .Product_53_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_53_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_53_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+
+
+  .product_card-body_53{
+    width: 520px !important;
+  }
+
+  
+  .Product_54_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_54_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_54_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  /*  WOMAN'S STITCHED CLOTHES Product Model */
+  
+  .product_card_img_modal-49 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-49:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-50 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-50:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-51 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-51:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-52 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-52:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-53 img{
+    width: 390px;
+    height:550px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-53:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-54 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-54:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+
+
+  
+ /*  MEN'S STITCHED CLOTHES PRODUCT */
+
+  
+  .Product_55_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_55_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_55_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_56_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_56_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_56_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_57_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_57_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_57_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_58_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_58_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_58_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_59_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_59_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_59_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .Product_60_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_60_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_60_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  /*  MEN'S STITCHED CLOTHES Product Model */
+  
+  .product_card_img_modal-55 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-55:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-56 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-56:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-57 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-57:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-58 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-58:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-59 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-59:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-60 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-60:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+
+
+
+  
+  
+ /*  MOTHER & BABY PRODUCT */
+   
+  .Product_61_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_61_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_61_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_62_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_62_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_62_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_63_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_63_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_63_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_64_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_64_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_64_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_65_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_65_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_65_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .Product_66_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_66_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_66_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  /*  MEN'S STITCHED CLOTHES Product Model */
+  
+  .product_card_img_modal-61 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-61:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-62 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-62:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-63 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-63:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-64 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-64:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-65 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-65:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-66 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-66:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+
+
+  
+  
+ /* HOME DECOR PRODUCT */
+ 
+   
+  
+  .Product_67_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_67_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_67_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_68_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_68_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_68_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_69_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_69_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_69_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_70_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_70_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_70_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_71_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_71_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_71_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .Product_72_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_72_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_72_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  /*  HOME DECOR Product Model */
+  
+  .product_card_img_modal-67 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-67:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-68 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-68:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-69 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-69:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-70 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-70:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-71 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-71:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-72 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-72:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+
+
+
+  
+  
+ /* MEN'S UNSTITCHED CLOTHES PRODUCT */
+
+   
+   
+  
+  .Product_73_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_73_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_73_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_74_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_74_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_74_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_75_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_75_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_75_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_76_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_76_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_76_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_77_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_77_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_77_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .Product_78_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_78_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_78_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  /*  MEN'S UNSTITCHED CLOTHES Product Model */
+  
+  .product_card_img_modal-73 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-73:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-74 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-74:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-75 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-75:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-76 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-76:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-77 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-77:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-78 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-78:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+
+
+
+
+  
+  
+ /* MEN'S UNSTITCHED CLOTHES PRODUCT */
+ 
+  .Product_79_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_79_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_79_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  .Product_80_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_80_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_80_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_81_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_81_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_81_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_82_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_82_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_82_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  .Product_83_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_83_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_83_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  .Product_84_img1 {
+    max-width: 100%;
+    background-color: #31313134;
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #31313128;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .Product_84_img1 img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .Product_84_img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  
+  /*  MEN'S UNSTITCHED CLOTHES Product Model */
+  
+  .product_card_img_modal-79 img{
+    width: 390px;
+    height:550px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-79:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-80 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-80:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  .product_card_img_modal-81 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-81:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-82 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-82:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  .product_card_img_modal-83 img{
+    width: 390px;
+    height:558px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-83:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+  
+  
+  
+  .product_card_img_modal-84 img{
+    width: 390px;
+    height:530px; 
+    object-fit: cover;
+    transition: 0.3s ease-out;
+  }
+  
+  .product_card_img_modal-84:hover img {
+    transform: scale(1.05);
+    width: 420px;
+  }
+
+
+  /* FOOTER */
+  .footer{
+    border-top:1px solid aqua;
+      }
+
+      .cp{
+        color: aqua;
+      }
+
+.footer ul {
+  position: relative;
+  top: 10px;
+}
+  
+.footer ul li{
+  position: relative;
+  list-style: none;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+.footer ul li a{
+  text-decoration: none;
+}
+.footer ul li a .brands{
+  font-size: 2.5em;
+  color: #ffff;
+}
+
+.footer ul li:nth-child(1){
+  text-shadow: 0 10px 30px rgba(240, 8, 0, 0.911);
+}
+.footer ul li:nth-child(2){
+  text-shadow: 0 10px 30px rgba(0, 194, 16, 0.911);
+}
+.footer ul li:nth-child(3){
+  text-shadow: 0 10px 30px rgba(2, 120, 255, 0.911);
+}
+.footer ul li::before{
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  font-size: 6em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.footer ul li:nth-child(1)::before{
+  content: '\f16d';    /*یونی کد فونت اسوم هست*/
+  width: 100%;
+  background-image: linear-gradient(45deg , #f09433 0% , #e6683c 25% , #dc2343 50% , #cc2366 75% , #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 4px solid #dc2743;
+  text-shadow: 0 0 0 rgba(233, 1, 1, 0);
+  font-size: 2.5em;
+}
+.footer ul li:nth-child(2)::before{
+  content: '\f232';
+  color: #25d366;
+  border-bottom: 4px solid #25d366;
+  text-shadow: 0 0 0 rgba(0, 194, 16, 0);
+  font-size: 2.5em;
+}
+.footer ul li:nth-child(3)::before{
+  content: '\f09a';
+  color: #1da1f2;
+  border-bottom: 4px solid #1da1f2;
+  text-shadow: 0 0 0 rgba(2, 120, 255, 0.911);
+  font-size: 2.5em;
+}
+
+.footer ul li:hover::before{
+  height:56px;
+}
