@@ -284,6 +284,20 @@
     padding-bottom: 24px;
 }
 
+.contact-side-image-container{
+  height: 520px;
+}
+
+
+.contact-side-image{
+     position: relative;
+    left: -12px;
+    height: 519px !important;
+    width: 488px !important;
+
+}
+
+
   .card-header{
     border-bottom: 2px solid aqua !important;
 

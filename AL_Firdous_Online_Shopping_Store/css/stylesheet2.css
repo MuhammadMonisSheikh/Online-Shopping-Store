@@ -407,13 +407,80 @@
  
 
   /* FOOTER */
-  .footer{
-    border-top:1px solid aqua;
-      }
+ 
 
-      .cp{
-        color: #fff;
-      }
+ .footer {
+  z-index: 1;
+  --footer-background:rgb(41,40,40);
+  display: grid;
+  position: relative;
+  grid-area: footer; 
+  height: 10px;
+  width: 99%;
+}
+ .footer .bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  background: var(--footer-background);
+  filter: url("#blob");
+  width: 1260px;
+}
+ .footer .bubbles .bubble {
+  position: absolute;
+  left: var(--position, 50%);
+  background: var(--footer-background);
+  border-radius: 100%;
+  -webkit-animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+          animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+  transform: translate(-50%, 100%);
+  box-shadow:3px 2px 20px 8px aqua ;
+}
+ .footer .row {
+  z-index: 2;
+   padding: 2rem 10px;
+  background: var(--footer-background);
+  align-items: center;
+  height: 90%;
+}
+ .footer .row a,  .footer .row p {
+  color: #F5F7FA;
+  text-decoration: none;
+}
+ .footer .row b {
+  color: white;
+}
+ .footer .row p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+ .footer .row > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .footer .row > div > div {
+  margin: 0.25rem 0;
+}
+ .footer .row > div > div > * {
+  margin-right: 0.5rem;
+}
+
+.footer .row > div > div > a:hover {
+color: aqua;
+}
+
+ .footer .row > div .image {
+  align-self: center;
+  width: 13rem;
+  height: 8rem;
+  margin: 0.25rem 0;
+  background-size: cover;
+  background-position: center;
+}
+
 
 .footer ul {
   position: relative;
@@ -454,7 +521,7 @@
   transition: 0.5s ease-in-out;
 }
 .footer ul li:nth-child(1)::before{
-  content: '\f16d';    /*یونی کد فونت اسوم هست*/
+  content: '\f16d';     
   width: 100%;
   background-image: linear-gradient(45deg , #f09433 0% , #e6683c 25% , #dc2343 50% , #cc2366 75% , #bc1888 100%);
   -webkit-background-clip: text;
@@ -481,3 +548,61 @@
 .footer ul li:hover::before{
   height:56px;
 }
+
+.footer2{
+  background-color: rgb(41,40,40);
+  height: 58px;
+  border-top: 2px solid aqua;
+  color: #fff;
+  position: relative;
+  top: 184px;
+}
+
+.cp{
+  text-align: center;
+  padding-left: 640px;
+  position: relative;
+  top: 16px;
+}
+
+/* KEYFRAMES */
+@-webkit-keyframes bubble-size {
+  0%, 75% {
+    width: var(--size, 4rem);
+    height: var(--size, 4rem);
+  }
+  100% {
+    width: 0rem;
+    height: 0rem;
+  }
+}
+
+@keyframes bubble-size {
+  0%, 75% {
+    width: var(--size, 4rem);
+    height: var(--size, 4rem);
+  }
+  100% {
+    width: 0rem;
+    height: 0rem;
+  }
+}
+@-webkit-keyframes bubble-move {
+  0% {
+    bottom: -4.5rem;
+  }
+  100% {
+    bottom: var(--distance, 10rem);
+  }
+}
+@keyframes bubble-move {
+  0% {
+    bottom: -4rem;
+  }
+  100% {
+    bottom: var(--distance, 10rem);
+  }
+}
+
+
+ 
