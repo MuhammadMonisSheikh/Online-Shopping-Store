@@ -1983,13 +1983,85 @@
 
 
   /* FOOTER */
-  .footer{
-    border-top:1px solid aqua;
-      }
+  
+.footer{
+  background-color: rgb(41,40,40);
+  height: 34vh;
+  font-family: 'Heebo' !important;
+}
 
-      .cp{
-        color: aqua;
-      }
+
+.footer .row a,  .footer .row p {
+  color: #F5F7FA;
+  text-decoration: none;
+}
+
+
+.footer .row b {
+  color: white;
+}
+ .footer .row p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+ .footer .row > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .footer .row > div > div {
+  margin: 0.25rem 0;
+}
+ .footer .row > div > div > * {
+  margin-right: 0.5rem;
+}
+
+.footer .row > div > div >  a{ 
+  width: 126px;
+  background-color: rgb(41,40,40);
+  transition: all .4s;
+  display: inline-block;
+}
+.footer .row > div > div >  a.sf{
+width: 90px;
+}
+.footer .row > div > div >  a.em{
+width: 160px;
+}
+
+
+.footer .row > div > div > span{ 
+  width: 374px;
+  font-size: 1em;
+  display: inline-block;
+  transition: all .4s;
+cursor: default; 
+}
+
+.footer .row > div > div > a:hover {
+color: aqua;
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: rotate(5deg) scale(1.3);
+}
+
+.footer .row > div > div > span:hover {
+  color: aqua;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+      transform: rotate(5deg) scale(1.3);
+  }
+  
+
+ .footer .row > div .image {
+  align-self: center;
+  width: 14rem;
+  height: 8rem;
+  margin: 0.25rem 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 14px;
+}
+
 
 .footer ul {
   position: relative;
@@ -2030,7 +2102,7 @@
   transition: 0.5s ease-in-out;
 }
 .footer ul li:nth-child(1)::before{
-  content: '\f16d';    /*یونی کد فونت اسوم هست*/
+  content: '\f16d';     
   width: 100%;
   background-image: linear-gradient(45deg , #f09433 0% , #e6683c 25% , #dc2343 50% , #cc2366 75% , #bc1888 100%);
   -webkit-background-clip: text;
@@ -2057,3 +2129,30 @@
 .footer ul li:hover::before{
   height:56px;
 }
+
+
+.footer2{ 
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid aqua;
+  color: #fff;
+  position: relative;
+    text-align: center;
+}
+
+.footer2 span a{ 
+  width: 95px;
+  background-color: rgb(41,40,40);
+  transition: all .4s;
+  display: inline-block;
+  text-decoration: none !important;
+  color: #fff;
+} 
+
+.footer2 span a:hover {
+  color: aqua;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+      transform: rotate(5deg) scale(1.3);
+  }
+  
