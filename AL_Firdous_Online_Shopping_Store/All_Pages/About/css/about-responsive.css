@@ -1,24 +1,91 @@
-/* LAPTOP VIEW */
+ /* LAPTOP VIEW */
  
+
+@media (max-width:1304px) {
+    .about-heading {
+     animation: responsive-animation-h1 3s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes responsive-animation-h1{
+ 
+ 100% {
+    font-size: 2rem;
+    height: 7rem;
+}
+50% {
+    font-size: 2.3rem;
+    height: 7rem;
+}
+0% {
+    font-size: 2rem;
+    height: 7rem;
+}
+}
+} 
+
+@media (max-width:1298px) {
+    .footer {
+        height: 30%;
+    }
+}
+
+@media (max-width:1282px) {
+    .about-heading {
+        width: 94%;
+   }
+ 
+}
+
+   @media (max-width:1200px) {
+
+   .logo {
+     left: 28px;
+   }
+
+   .al-firdous {
+     left: 14px;
+   }
+
+
+   }
+ 
+@media (max-width:1194px) {
+   
+.nav-link-hover {
+     margin: 0px 18px;
+}
+
+}
+
 @media (max-width:1190px) {
     .nav-link-hover {
         margin: 0px 15px;
     }
 
     .logo {
-        width: 140px;
-        height: 146px;
+        width: 110px;
+        height: 100px;
     }
- .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+    
+    .al-firdous {
         left: 18px;
-    }
+    }    
 }
 
-
 @media (max-width:1100px) {
+   
+    .logo {
+        width: 116px;
+        height: 110px;
+        left: 24px;
+    }
+   
     .nav-link-hover {
         margin: 0px 12px;
     }
+ 
 }
 
 @media (max-width:1055px) {
@@ -33,52 +100,40 @@
 }
 
 /* IPAD LANDSCAPE VIEW */
-
-@media (max-width: 1024px) {
-
-.about{
-     height: 1080px;
-  }
-}
-
-
+ 
 @media (max-width: 1022px) {
     .nav-link-hover {
         margin: 0px 8px;
-    }
-
-    .logo {
-        width: 134px;
-        height: 132px;
-    }
+    } 
 }
-
 
 @media (max-width: 1004px) {
     .nav-link-hover {
         margin: 0px 6px;
     }
-
-    .logo {
-        width: 130px;
-        height: 128px;
-    }
+ 
 
     .search {
         width: 118px !important;
         font-size: 16px !important;
-    }
+    } 
 
- .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-    left: 10px;
-}
 }
 
 /* TABLET VIEW */
 
 
 @media (max-width:991px) {
-     .responsive-nav {
+
+    .logo {
+         top: -7px;
+    }
+
+    .al-firdous {
+     top: 80px;
+    }
+
+    .responsive-nav {
         width: 90% !important;
         position: relative;
         top: -26px;
@@ -98,7 +153,7 @@
 
     .dropdown .dropdown_btn:focus+.dropdown_menu,
     .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 354px;
+        left: 375px;
         opacity: 1;
         pointer-events: inherit;
         top: 112px;
@@ -111,14 +166,30 @@
 
     .offcanvas-body::-webkit-scrollbar {
         display: none;
-    }
- 
-     .cp {
+    } 
+
+    .about-heading {
+         width: 50%;
+    } 
+    .cp {
         margin-bottom: -2px;
     }
 
 }
 
+@media (max-width: 960px) {
+
+.footer .row > div .image {
+     left: 20%;
+}
+
+.footer .row > div > div > span:hover {
+    color: aqua;
+    background-color:rgb(41,40,40);
+        transform: rotate(5deg) scale(1.2);
+    }
+
+}
 
 @media (max-width: 950px) {
     .nav-link-hover {
@@ -133,8 +204,13 @@
         padding: 12px 72px !important;
     }
 
- 
+}
 
+@media (max-width: 940px) {
+    .footer .row > div > div > span {
+    width: 374px;
+    font-size: 14px;
+}
 }
 
 @media (max-width: 930px) {
@@ -144,13 +220,24 @@
     }
 }
 
-
-
 @media (max-width: 900px) {
 
     .dropdown_btn {
         padding: 12px 50px !important;
     }
+
+
+    .footer .row > div > div > span:hover {
+        color: aqua;
+        background-color:rgb(41,40,40);
+            transform: rotate(5deg) scale(1.2);
+        }
+
+    .footer .row > div .image {
+         width: 156px;
+    }    
+
+
 }
 
 @media (max-width: 880px) {
@@ -170,12 +257,13 @@
         margin: 50px 338px;
     }
 
-    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 340px;
+
+    .footer .row > div > div > span {
+         font-size: 13px;
     }
 
-}
 
+}
 
 @media (max-width: 844px) {
 
@@ -189,6 +277,22 @@
 
 }
 
+@media (max-width: 830px) {
+
+.footer ul {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-size: 12px;
+}
+
+.footer ul li::before {
+     top: -6px;
+}
+
+
+
+}
 
 @media (max-width: 826px) {
 
@@ -202,13 +306,6 @@
 
 }
 
-@media (max-width: 820px){
-    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 322px;
-    }
-    }
-    
-
 @media (max-width: 810px) {
 
     .navbar .active {
@@ -219,9 +316,19 @@
         margin: 50px 310px;
     }
 
+
+    .footer .row > div > div > span {
+         position: relative;
+        z-index: 1;
+        width: 286px;
+    }
+
+    .footer .row > div .image {
+        width: 130px;
+    left: 15%;
+    }
+
 }
-
-
 
 @media (max-width: 800px) {
 
@@ -231,6 +338,25 @@
 
     .nav-link-hover {
         margin: 50px 300px;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+.footer .row > div .image {
+     left: 34%;
+}
+}
+
+@media (max-width: 770px) {
+
+    .navbar .active {
+        margin: 50px 290px;
+    }
+
+    .nav-link-hover {
+        margin: 50px 290px;
     }
 
 }
@@ -245,33 +371,56 @@
         pointer-events: inherit;
         top: 108px;
     }
-
-    .about{
-        height: 1160px;
-     }
  
 }
-
-
-@media (max-width: 770px) {
-
-    .navbar .active {
-        margin: 50px 290px;
-    }
-
-    .nav-link-hover {
-        margin: 50px 290px;
-    }
-
-}
-
-
 
 /* MOBILE VIEW */
 
 
 @media (max-width: 767px) {
- 
+  
+    .footer {
+        height: 65%;
+    }
+
+
+    .footer .row > div .image {
+        left: 0%;
+        width: 178px;
+
+    }
+
+    .footer ul {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-size: 18px;
+        justify-content: center;
+    }
+
+    .footer .row b {
+         font-size: 20px;
+    }
+
+    .footer .row > div > div > a.sf {
+        width: 124px;
+         font-size: 24px;
+}
+
+    .footer .row > div > div > a{
+        width: 168px;
+        font-size: 24px;
+}
+    .footer .row > div > div > a.em{
+        width: 226px;
+        font-size: 24px;
+    }
+
+    .footer .row > div > div > span {
+         width: 474px;
+         font-size: 22px;
+        }
+
         .footer ul li a .brands {
             font-size: 2em;
         }
@@ -295,9 +444,10 @@
         }
 
         .footer ul li:hover::before {
-            height: 46px;
+            height: 52px;
         }
  
+
 }
 
     @media (max-width: 750px) {
@@ -312,36 +462,15 @@
 
     }
 
-    @media (max-width: 740px) {
-    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 280px;
-    }    
-    }
-    /* iPhone 6-8 Plump landscape */
-
-    @media (max-width: 736px) {
-
-        
-    
-        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-            left: 274px;
-        }
-    
-        .about{
-            height: 1400px;
-         }
-
-    }
- 
-    @media (max-width: 720px) {
-
-    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 272px;
-    }
-    }
-
     /* iPhone eXpensive landscape */
  
+    @media (max-width: 727px) {
+
+    .footer .row > div > div > span {
+        width: 432px;
+        font-size: 20px;
+    }
+    }
 
     @media (max-width: 700px) {
 
@@ -355,8 +484,6 @@
 
     }
 
-
-
     @media (max-width: 690px) {
 
         .navbar .active {
@@ -367,17 +494,10 @@
             margin: 50px 250px;
         }
 
-        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-            left: 252px;
-        }
-
     }
 
     /* Android (Pixel 2) landscape */
-
-   
-
-    @media (max-width: 670px) {
+     @media (max-width: 670px) {
 
         .navbar .active {
             margin: 50px 235px;
@@ -387,12 +507,6 @@
             margin: 50px 235px;
         }
 
-    }
-    @media (max-width: 650px) {
-
-    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 236px;
-    }
     }
 
     @media (max-width: 640px) {
@@ -418,7 +532,7 @@
         }
 
     }
- 
+
     @media (max-width: 600px) {
 
         .navbar .active {
@@ -429,14 +543,7 @@
             margin: 50px 200px;
         }
 
-        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-            left: 205px;
-        }
-
     }
-
-
-
 
     @media (max-width: 590px) {
 
@@ -459,72 +566,68 @@
         .nav-link-hover {
             margin: 50px 180px;
         }
+  
 
-       
-        .about{
-            height: 1550px;
-         }
-
-        .footer ul li a .brands {
-            font-size: 1.5em;
+ 
+        .about-container{
+            max-width: 482px;
         }
 
-        .footer ul li::before {
-            top: -5px;
-        }
-
-        .footer ul li:nth-child(1)::before {
-            font-size: 1.5em;
+        .lead {
+            font-size: 1.2rem !important; 
         }
 
 
-        .footer ul li:nth-child(2)::before {
-            font-size: 1.5em;
+
+    } 
+
+    @media (max-width: 540px) {
+
+        .about-container {
+            max-width: 444px;
+        }
+    }
+
+    @media (max-width: 504px) {
+
+
+        .footer .row > div > div > a.sf {
+            width: 104px;
+             font-size: 20px;
         }
 
-
-        .footer ul li:nth-child(3)::before {
-            font-size: 1.5em;
-        }
-
-        .footer ul li:hover::before {
-            height: 38px;
-        } 
+    .footer .row > div > div > span {
+        width: 388px;
+        font-size: 18px;
     }
 
-    @media (max-width: 560px) {
-
-    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 184px;
-    }
+    .footer .row > div > div > a {
+        width: 138px;
+        font-size: 20px;
     }
 
-    @media (max-width: 510px){
-    .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 168px;
-    }
-}
-
-    @media (max-width: 500px) {
-
-        .nav-link-hover {
-            margin: 50px 162px;
-        }
-
-    .navbar .active {
-        margin: 50px 158px;
     }
 
-
-    .about{
-        height: 1650px;
-     }
-
-    }
     /* iPhone 6-8 Plump portrait */
+    @media (max-width: 414px){
+    .about-container {
+        max-width: 340px;
+    }
+
+    .about-p {
+        padding: 1rem;
+    }
+    
+    
+
+    .lead {
+        font-size: 1rem !important;
+    }
+    
+
+}    
+
     @media (max-width: 414px) {
-
-
         .navbar .active {
             margin: 50px 120px;
         }
@@ -539,25 +642,39 @@
             pointer-events: inherit;
             top: 104px;
         }
- 
-        .about{
-            height: 1950px;
-         }
+  
 
+ 
 
         .footer .container {
             width: 60%;
         }
+ 
 
-        .footer ul {
-            left: 40px;
+
+        .footer .row > div > div > span {
+            width: 302px;
+            font-size: 14px;
         }
+
+        .footer .row > div > div > a {
+            width: 124px;
+            font-size: 18px;
+        }
+
+
     }
+  
 
     @media (max-width: 375px) {
         .logo {
-            width: 118px;
+            width: 87%;
             height: 120px;
+        }
+
+        .al-firdous {
+            top: 85px;
+        left: 10px;
         }
 
 
@@ -565,24 +682,16 @@
             margin: 50px 97px;
         }
 
-
-
-        .navbar .active {
-            margin: 50px 94px;
+        .about-container {
+            max-width: 334px;
         }
 
-        .dropdown .dropdown_btn:focus+.dropdown_menu, .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left:100px;
-        width: 254px;
+          .footer .row > div > div > span {
+            width: 262px;
+            font-size: 15px;
         }
 
 
-        
-        .about{
-            height: 2100px;
-         }
-
-        .footer .container {
-            width: 70%;
-        }
+   
+   
     }

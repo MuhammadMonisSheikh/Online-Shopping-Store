@@ -1,9 +1,12 @@
- 
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
+  background-color: #000 !important;
+  height: 100%;
 }
 
 :root {
@@ -313,8 +316,8 @@ letter-spacing: 2px;
 
 /* ALL PRODUCTS */
 
-#products{
-  background-color: #000; 
+#products{ 
+  width: 100%;
 }
   /* CARDS */
 
@@ -506,6 +509,7 @@ letter-spacing: 2px;
 .contenntt ul p{
 font-size: 30px;
 }
+
 .cards-5 {
   perspective: 150rem;
   -moz-perspective: 150rem;
