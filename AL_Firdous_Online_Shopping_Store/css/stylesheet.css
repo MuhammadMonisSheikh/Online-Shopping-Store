@@ -5,9 +5,10 @@
 }
 
 body{
-  background-color: #000 !important;
+  background-color: #ffffff !important;
   height: 100%;
 }
+ 
 
 :root {
   --color: #fff;
@@ -44,127 +45,81 @@ width: 7px;
 
 .navbar {
   height: 100px;
-border-bottom: 1px solid aqua;
+border-bottom: 1px solid #1F763B;
 font-family: 'Heebo' !important;
 }
 
-
-.logo {
-  width: 100px;
-  height: 90px;
-  top: -12px;
-  left: 55px;
-  position: relative;
-}
-
-.al-firdous{
-  position: absolute;
-  color: #D8FEFE;
-  top: 64px;
-  left: 40px;
-  font-size: 22px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.al-firdous span {
-  color: aqua !important;
-  display: inline;
-  letter-spacing: 6px;
-  font-size: 24px;
-   transform: rotate(360deg);
-  animation: icon 4s linear infinite;
-}
+ 
+ 
 
 .navbar .active {
-  color: aqua !important;
+  color: #1F763B !important;
   padding: 10px 15px !important;
-  margin: 0px 30px;
+  margin: 0px 0px;
   position: relative; 
+  font-weight: bold !important;
+  font-size: 18px!important;
 }
 
-
-.navbar .active::before {
-  content: "";
-  width: 14%;
-  height: 20%;
-  left: 0%;
-  top: 0%;
-  position: absolute;
-  transition: all 0.3s;
-  border-top: 2px solid rgb(214, 253, 253);
-  border-left: 2px solid rgb(214, 253, 253);
-}
+ 
 
 
 
 .navbar .active::after {
-  content: "";
-  width: 14%;
-  height: 20%;
-  right: 0%;
-  bottom: 0%;
   position: absolute;
-  transition: all 0.3s;
-  border-bottom: 2px solid rgb(214, 253, 253);
-  border-right: 2px solid rgb(214, 253, 253);
+  content: "";
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  background-color: #4CB648;
+  transition: .3s linear;
+  width: 46%;
+  height: 2px;
 }
 
 
 
 
 .nav-link-hover {
-  color: #fff !important;
+  color: #000 !important;
   padding: 12px 15px !important;
-  margin: 0px 30px;
+  margin: 0px 12px;
   position: relative;
+  font-weight: bold !important;
+  font-size: 18px!important;
 }
 
 
 
-.nav-link-hover::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0%;
-  top: 0%;
+ 
+
+
+
+.nav-link-hover::after  {
   position: absolute;
-  transition: all 0.3s;
-  border-top: 2px solid aqua;
-  border-left: 2px solid aqua;
-}
-
-
-
-.nav-link-hover::after {
   content: "";
-  width: 100%;
-  height: 100%;
-  right: 0%;
-  bottom: 0%;
-  position: absolute;
-  transition: all 0.3s;
-  border-bottom: 2px solid aqua;
-  border-right: 2px solid aqua;
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #4CB648;
+  transition: .3s linear;
 }
 
 
 .nav-link-hover:hover {
-  color: aqua !important;
+  color: #1F763B !important;
 }
 
 
-
-.nav-link-hover:hover::before,
-.nav-link-hover:hover:after {
-  width: 14%;
-  height: 20%;
-  transform: rotate(360deg);
-  border-color: rgb(214, 253, 253);
  
+.nav-link-hover:hover:after {
+  width: 55%;
+  height: 2px;
 }
 
 
@@ -285,20 +240,19 @@ font-family: 'Heebo' !important;
 /* BANNER */
 
 .banner{
-   height: 658px;
-   min-height: 500px;
-   width: 1349.4px;
+  height: 684px;
+     width: 100%;
 }
 
 
 .shop-now {
   width: 196px !important;
   font-size: 1.8rem !important;
-  left: 200px !important;
-  top: 68% !important;
+  left: 67% !important;
+  top: 78% !important;
   height: 60px !important;
-  border: 2px solid aqua !important;
-  color: #fff !important;
+  border: 2px solid #4CB648 !important;
+  color: #1F763B !important;
   border-radius: 10px !important;
   position: absolute;
 font-weight: bold !important;
@@ -308,7 +262,7 @@ font-family: 'Heebo' !important;
 
 
 .shop-now:hover {
-  background-color: aqua !important;
+  background-color: #4CB648 !important;
 color: #000 !important;
 letter-spacing: 2px;
 }
@@ -1736,17 +1690,4 @@ font-family: 'Heebo' !important;
   transform: scale(1);
   box-shadow: none;
 }
-}
-
-
-@keyframes icon{
-  0% {
-      transform: rotateY(360deg) scale(0);
-  }
-  50% {
-      transform: rotate(0deg) scale(1);
-  }
-  100% {
-      transform: rotateY(0deg) scale(0);
-  }
 }
