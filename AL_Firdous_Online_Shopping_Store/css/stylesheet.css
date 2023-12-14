@@ -44,7 +44,7 @@ width: 7px;
 
 
 .navbar {
-  height: 100px;
+  height: 80px;
 border-bottom: 1px solid #1F763B;
 font-family: 'Heebo' !important;
 }
@@ -210,25 +210,25 @@ font-family: 'Heebo' !important;
   background-image: url(../img/banner.png);
 background-size: cover;
 background-position: center -174px;
- height: 776px;
+ height: 995px;
 width: 100%;
 background-repeat: no-repeat;
 }
 
 .shop-now {
-  width: 13.5% !important;
+  width: 14% !important;
   font-size: 1.5rem !important;
-  left: 66.5% !important;
+  left: 68.5% !important;
   top: 76% !important;
   height: 10% !important;
   border: 3px solid #1F763B !important;
   color: #1F763B !important;
   border-radius: 10px !important;
   position: absolute;
-  padding-top: 1% !important;
-font-weight: bold !important;
-transition: 0.5s linear !important;
-font-family: 'Heebo' !important;
+  padding-top: 1.4% !important;
+  font-weight: bold !important;
+  transition: 0.5s linear !important;
+  font-family: 'Heebo' !important;
 }
 
 
@@ -284,6 +284,7 @@ letter-spacing: 2px;
   background-size: 100%;
   position: relative;
   display: block;
+  transform: scale(1) translateY(-100px);
 }
 
 .mens__col-one {
@@ -305,7 +306,7 @@ letter-spacing: 2px;
 }
 
 .images__image:hover .images__img {
-  transform: scale(1.1);
+  transform: scale(1.4) translateY(-100px);
   overflow-y: hidden;
   overflow-x: hidden;
   object-fit: cover;
