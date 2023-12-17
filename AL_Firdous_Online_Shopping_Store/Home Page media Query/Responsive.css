@@ -1,11 +1,95 @@
 /* DESKTOP VIEW*/
-
-@media (max-width:2000px) and (min-width:1500px) {
-    .banner {
-        width: 100%;
+ @media (max-width:1400px) {
+    #home {
+         height: 648px;
     }
 
+    .shop-now {
+       left: 66.3% !important;
+          padding-top: 1% !important;
 }
+
+.heading1 {
+     width: 50%;
+}
+
+
+.heading4 {
+     width: 96%;
+}
+
+
+.product--black img {
+    max-width: 100% !important;
+}
+
+.product--pink .product_inner img {
+    width: 85%;
+}
+
+.product--gray .product_inner img {
+    width: 100%;
+}
+
+.button {
+    margin: 1px 27% 110px;
+}
+.all-products {
+    padding-left: 13% !important;
+    padding-right: 0px !important;
+}
+
+.product--black-2 .product_inner img {
+    height: 252px !important;
+    max-width: 82%;
+}
+
+
+.product--black-3 .product_inner img {
+    height: 316px !important;
+}
+
+.product--black-4 .product_inner img {
+    height: 285px !important;
+    max-width: 74%;
+}
+
+.product--yellow .product_inner img {
+    height: 300px !important;
+}
+
+.product--yellow-2 .product_inner img {
+    height: 237px !important;
+}
+
+
+.product--yellow-3 .product_inner img {
+    height: 236px !important;
+    max-width: 90%;
+}
+
+.product--pink-2 .product_inner img {
+    height: 275px !important;
+}
+
+.product--pink-3 .product_inner img {
+    height: 275px !important;
+}
+
+.product--pink-4 .product_inner img {
+    height: 275px !important;
+}
+
+
+.wucs-btn {
+    margin: 24% 32% 110px;
+}
+
+.BSM-btn{
+    margin: 24% 36% 110px;
+}
+
+ }
 
 
 /* LAPTOP VIEW */
