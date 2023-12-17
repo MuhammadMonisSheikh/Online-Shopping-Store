@@ -49,7 +49,9 @@ border-bottom: 1px solid #1F763B;
 font-family: 'Heebo' !important;
 }
 
- 
+.container-fluid.responsive-nav{
+  height: 100%;
+}
  
 
 .navbar .active {
@@ -243,7 +245,7 @@ letter-spacing: 2px;
 /* ALL PRODUCTS */
 
 #products{ 
-  width: 98%;
+  width: 100%;
 }
   /* CARDS */
  
@@ -332,7 +334,9 @@ letter-spacing: 2px;
   padding-right: 16px;
 }
 
-
+.all-products{
+  padding-left: 10% !important;
+}
 
 .product, .product--black, .product--pink, .product--gray, .product--black-2, .product--black-3, .product--black-4, .product--yellow, .product--yellow-2, .product--yellow-3, .product--pink-2, .product--pink-3, .product--pink-4 {
   box-shadow: 1px 5px 15px #CCC; 
@@ -344,7 +348,6 @@ letter-spacing: 2px;
   position: relative;
   flex: auto;
 }
-
 
 .product--black {
   background: linear-gradient(-52deg, rgb(41,40,40) 55%, rgba(255, 255, 255, 0.5) 56%);
@@ -487,11 +490,14 @@ letter-spacing: 2px;
 }
 
 
-
 .product img, .product--black img, .product--pink img, .product--gray img, .product--black-2 img, .product--black-3 img, .product--black-4 img, .product--yellow img, .product--yellow-2 img, .product--yellow-2 img, .product--pink-2 img, .product--pink-3 img, .product--pink-4 img {
   max-width: 100%;
   height: auto !important;
   text-align: center;
+}
+
+.product--black img{
+  max-width: 90% !important;
 }
 
 
@@ -504,36 +510,38 @@ letter-spacing: 2px;
 }
 
 .product--black-2 .product_inner img {
-   height: 366px !important;
+   height: 330px !important;
+   max-width: 74%;
 }
 
 .product--black-3 .product_inner img {
-  height: 398px !important;
+  height: 360px !important;
 }
 
 .product--black-4 .product_inner img {
-  height: 398px !important;
+  height: 358px !important;
+  max-width: 74%;
 } 
 
 .product--yellow .product_inner img {
-    height: 433px !important;
+    height: 392px !important;
 } 
 .product--yellow-2 .product_inner img {
-    height: 398px !important;
+    height: 359px !important;
 } 
 
 .product--yellow-3 .product_inner img {
-    height: 398px !important;
+    height: 359px !important;
 } 
 .product--pink-2  .product_inner img {
-    height: 398px !important;
+    height: 376px !important;
 } 
 
 .product--pink-3  .product_inner img {
-    height: 398px !important;
+    height: 376px !important;
 } 
 .product--pink-4  .product_inner img {
-    height: 398px !important;
+    height: 376px !important;
 } 
 
 
@@ -545,10 +553,12 @@ color: rgba(255, 255, 255, 0.654);
 text-align: center;
 }
 
- 
+.allp-buttons {
+  height: 48px;
+}
 
 .buy_now{
-  border: 2px solid #1F763B !important;
+  border: 4px solid #1F763B !important;
   color: #fff !important;
     border-radius: 10px !important;
   width: 150px !important;
@@ -560,18 +570,12 @@ text-align: center;
 
 .buy_now:hover{
   background-color: #4CB648 !important;
-  border: 2px solid #4CB648 !important;
+  border: 4px solid #4CB648 !important;
   color: #000 !important;
   letter-spacing: 2px;
 }
 
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width: 6rem !important;
-  height: 8rem !important;
-  position: relative;
-  top: -33px;
-}
+ 
 
   .cards-2 {
     position: relative;
@@ -670,7 +674,7 @@ text-align: center;
   position: relative;
   width: 100%;
   height: 150px;
-  background: rgb(51 51 51 / 94%);
+  background: rgb(51 51 51 / 99%);
   border-radius: 15px;
   border-top-left-radius: 0;
 }
@@ -694,7 +698,7 @@ text-align: center;
   height: 52%;
   width: 50%;
   font-size: 1.6rem;
-  background: rgb(51 51 51 / 94%);
+  background: rgb(51 51 51 / 99%);
   border-top: 12px solid #fff;
   border-right: 12px solid #fff;
   border-top-right-radius: 25px;
@@ -714,7 +718,7 @@ text-align: center;
  
 .price button {
   position: relative;
-  border: 3px solid #1F763B !important;
+  border: 4px solid #1F763B !important;
   color: #fff !important;
   border-radius: 10px !important;
   width: 150px !important;
@@ -734,7 +738,7 @@ text-align: center;
 .price button:hover {
   color: #000 !important;
   background-color: #4CB648 !important;
-  border: 3px solid #4CB648 !important;
+  border: 4px solid #4CB648 !important;
   border: 2px solid #fff;
   transform: scale(1.06);
   transition: all .2s;
@@ -877,7 +881,7 @@ font-size: 30px;
 }
 
 .cards-5__side--back-1 {
-  background-image: linear-gradient(to right bottom, #00ffff, #000);
+  background-image: linear-gradient(to right bottom, #4EB548, #000);
 }
 
 
@@ -907,8 +911,9 @@ font-size: 30px;
 }
 
 .btn-5 {
-  border: 2px solid aqua !important;
-  color: aqua !important;
+  
+  border: 4px solid #1F763B !important;
+  color: #fff !important;
   border-radius: 10px !important;
   width: 150px !important;
   font-weight: bold !important;
@@ -923,8 +928,8 @@ font-size: 30px;
 .btn-5:hover {
   animation: pulsate 1s infinite;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  background-color: aqua !important; 
-  letter-spacing: 2px;
+  background-color: #4CB648 !important;
+  border: 4px solid #4CB648 !important;letter-spacing: 2px;
   color: #000 !important;
 }
 
@@ -1064,7 +1069,7 @@ font-size: 28px;
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 10px solid rgba(0, 255, 255, 0.54);
+  border: 10px solid rgba(78, 181, 72,.5);
   text-decoration: none;
 }
 
@@ -1104,13 +1109,13 @@ font-size: 28px;
 }
 
 .card-wuc:before {
-  background-image:linear-gradient(to right bottom, rgba(0, 255, 255, 0.54),#000000bd);
+  background-image:linear-gradient(to right bottom,rgba(78, 181, 72,.5),#000000bd);
   width: 250%;
   height: 250%;
 }
 
 .card-wuc:after {
-  background-image: linear-gradient(to right bottom, rgba(0, 255, 255, 0.54), #000000bd);
+  background-image: linear-gradient(to right bottom,rgba(78, 181, 72,.3), #000000bd);
   width: 200%;
   height: 200%;
 }
@@ -1148,7 +1153,7 @@ font-size: 28px;
   padding: 15px;
   margin:160px auto 60px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   color: #000;
   font-size: 3rem;
   text-decoration: none;
@@ -1385,9 +1390,9 @@ color: #fff;
 font-family: 'Heebo' !important;
 
   padding: 15px;
-  margin:-10px 16px 10px;
+  margin:160px auto 60px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   color: #000;
   font-size: 3rem;
   text-decoration: none;
@@ -1585,9 +1590,9 @@ font-family: 'Heebo' !important;
 .heading3{
 font-family: 'Heebo' !important;
   padding: 15px;
-  margin:-10px 20px 10px;
+  margin:160px auto 60px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   color: #000;
   font-size: 3rem;
   text-decoration: none;
@@ -1689,9 +1694,9 @@ font-family: 'Heebo' !important;
 font-family: 'Heebo' !important;
 
   padding: 15px;
-  margin:-10px auto 10px;
+  margin:160px auto 60px;
   text-align: center;
-  width: 100%;
+  width: 80%;
   color: #000;
   font-size: 3rem;
   text-decoration: none;
@@ -1850,7 +1855,7 @@ letter-spacing: 2px;
   align-items: center;
   justify-content: center; 
   transition: 0.5s linear !important;
-  margin: 64px 114px 110px;
+  margin: 1px 34% 110px;
  
 }
 
@@ -1861,6 +1866,42 @@ letter-spacing: 2px;
   color: black !important;
   letter-spacing: 2px;
 } 
+
+
+.see-more-btn{
+  border: 2px solid #1F763B !important;
+  color: #1F763B !important;
+  border-radius: 10px !important;
+  width: 150px !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  transition: 0.5s linear !important;
+  align-items: center;
+  justify-content: center; 
+  transition: 0.5s linear !important;
+  margin: 26% 32% 110px;
+}
+
+.see-more-btn:hover {
+  cursor: pointer;
+  background: #4CB648 !important;
+  border: 2px solid #4CB648 !important;
+  color: black !important;
+  letter-spacing: 2px;
+} 
+
+.CSM-btn{
+  margin: 26% 23% 110px;
+}
+
+.wucs-btn{
+  margin: 26% 23% 110px;
+}
+
+.BSM-btn{
+  margin: 26% 26% 110px;
+}
+
 
 /* KEYFRAMES */
 @keyframes animation-h1{
