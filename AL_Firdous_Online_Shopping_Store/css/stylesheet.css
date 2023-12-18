@@ -1172,8 +1172,8 @@ text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 /* MODALS */
 
 .modal.card{
-  background-color: rgba(0, 255, 255, 0.483);
-  height: 750px !important;
+  background-color: rgba(76,182,72, 0.483);
+  height: 100% !important;
 }
 
 .modal-dialog{
