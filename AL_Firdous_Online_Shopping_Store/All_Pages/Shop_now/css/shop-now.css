@@ -206,41 +206,6 @@ font-family: 'Heebo' !important;
   color: #fff;
 }
 
-/* BANNER */
-
-#home{ 
-  background-image: url(../img/banner.png);
-background-size: cover;
-background-position: center -174px;
- height: 995px;
-width: 100%;
-background-repeat: no-repeat;
-}
-
-.shop-now {
-  width: 14% !important;
-  font-size: 1.5rem !important;
-  left: 68.5% !important;
-  top: 76% !important;
-  height: 10% !important;
-  border: 3px solid #1F763B !important;
-  color: #1F763B !important;
-  border-radius: 10px !important;
-  position: absolute;
-  padding-top: 1.4% !important;
-  font-weight: bold !important;
-  transition: 0.5s linear !important;
-  font-family: 'Heebo' !important;
-}
-
-
-.shop-now:hover {
-  background-color: #4CB648 !important;
-  border: 3px solid #4CB648 !important;
-color: #000 !important;
-letter-spacing: 2px;
-}
-
 
 /* ALL PRODUCTS */
 

@@ -7,15 +7,16 @@
  
   body{
     
-    background-color: #000 !important;
+    background-color: #fff !important;
     height: 100%;
   }
 
 
 
   ::selection{
-    background-color: aqua;
-    color: #000;
+    background-color: #1F763B;
+    color: #ffff;
+    font-weight: bold;
   }
   
   .dropdown_menu::-webkit-scrollbar{
@@ -35,223 +36,173 @@
   }
   
   
-  /* NAVBAR */
-  
-  
-  .navbar {
-    height: 100px;
-  border-bottom: 1px solid aqua;
-  font-family: 'Heebo' !important;
-  }
-  
-  
-.logo {
-  width: 100px;
-  height: 90px;
-  top: -12px;
-  left: 55px;
-  position: relative;
+/* NAVBAR */
+
+
+.navbar {
+  height: 80px;
+border-bottom: 1px solid #1F763B;
+font-family: 'Heebo' !important;
 }
 
-.al-firdous{
-  position: absolute;
-  color: #D8FEFE;
-  top: 64px;
-  left: 40px;
-  font-size: 22px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container-fluid.responsive-nav{
+  height: 100%;
 }
+ 
 
-
-.al-firdous span {
-  color: aqua !important;
-  display: inline;
-  letter-spacing: 6px;
-  font-size: 24px;
-   transform: rotate(360deg);
-  animation: icon 4s linear infinite;
+.navbar .active {
+  color: #1F763B !important;
+  padding: 10px 15px !important;
+  margin: 0px 0px;
+  position: relative; 
+  font-weight: bold !important;
+  font-size: 16px!important;
 }
 
 .navbar .active::after {
-  content: "";
-  width: 14%;
-  height: 20%;
-  right: 0%;
-  bottom: 0%;
   position: absolute;
-  transition: all 0.3s;
-  border-bottom: 2px solid rgb(214, 253, 253);
-  border-right: 2px solid rgb(214, 253, 253);
+  content: "";
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  background-color: #4CB648;
+  transition: .3s linear;
+  width: 46%;
+  height: 2px;
+}
+
+.nav-link-hover {
+  color: #000 !important;
+  padding: 12px 15px !important;
+  margin: 0px 12px;
+  position: relative;
+  font-weight: bold !important;
+  font-size: 16px!important;
+}
+
+.nav-link-hover::after  {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #4CB648;
+  transition: .3s linear;
+}
+
+.nav-link-hover:hover {
+  color: #1F763B !important;
+}
+
+
+ 
+.nav-link-hover:hover:after {
+  width: 55%;
+  height: 2px;
 }
 
 
 
-
-.nav-link-hover {
-  color: #fff !important;
-  padding: 12px 15px !important;
-  margin: 0px 30px;
+/* DROPDOWN */
+.dropdown {
+  display: inline-block;
   position: relative;
 }
 
 
 
-.nav-link-hover::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0%;
+
+
+.dropdown_btn:before,
+.dropdown_btn:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.2s linear;
+}
+
+.dropdown_btn:focus:after {
+  box-shadow: 2px 0 1px rgba(0, 0, 0, 0.05) inset;
   top: 0%;
+}
+
+
+
+.dropdown_btn:hover:before,
+.dropdown_btn:hover:after {
+  box-shadow: 2px 0 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+
+.dropdown_btn:focus:before {
+  box-shadow: 2px 0 1px rgba(0, 0, 0, 0.05) inset;
+  top: 100%;
+}
+
+
+
+.dropdown_btn {
+  display: inline-block;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  padding: 0 50px 0 15px;
+  border-radius: 10px; 
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown_menu {
+  pointer-events: none;
   position: absolute;
-  transition: all 0.3s;
-  border-top: 2px solid aqua;
-  border-left: 2px solid aqua;
+  width: 310px;
+  top: 55px;
+  left: -100px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out; 
+  background-color: #fff;
+  overflow-y: scroll;
+  height: 500px;
 }
 
-
-
-.nav-link-hover::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  right: 0%;
-  bottom: 0%;
-  position: absolute;
-  transition: all 0.3s;
-  border-bottom: 2px solid aqua;
-  border-right: 2px solid aqua;
+.dropdown .dropdown_btn:focus+.dropdown_menu,
+.dropdown .dropdown_btn:focus+.dropdown_menu:hover {
+  left: 34px;
+  opacity: 1;
+  pointer-events: inherit;
 }
 
-
-.nav-link-hover:hover {
-  color: aqua !important;
+.dropdown_menu a {
+  display: block;
+  line-height: 45px;
+  padding: 0 15px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: all 0.2s linear;
+  overflow: hidden;
+  background-color: white;
+  color: #1F763B;
 }
 
-
-
-.nav-link-hover:hover::before,
-.nav-link-hover:hover:after {
-  width: 14%;
-  height: 20%;
-  transform: rotate(360deg);
-  border-color: rgb(214, 253, 253);
- 
-} 
-  
-  
-  /* DROPDOWN */
-  .dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  
-  
-  
-  
-  .dropdown_btn:before,
-  .dropdown_btn:after {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transition: all 0.2s linear;
-  }
-  
-  .dropdown_btn:focus:after {
-    box-shadow: 2px 0 1px rgba(0, 0, 0, 0.05) inset;
-    top: 0%;
-  }
-  
-  
-  
-  .dropdown_btn:hover:before,
-  .dropdown_btn:hover:after {
-    box-shadow: 2px 0 1px rgba(0, 0, 0, 0.05) inset;
-  }
-  
-  
-  .dropdown_btn:focus:before {
-    box-shadow: 2px 0 1px rgba(0, 0, 0, 0.05) inset;
-    top: 100%;
-  }
-  
-  
-  
-  .dropdown_btn {
-    display: inline-block;
-    border: 0;
-    outline: none;
-    font-size: 18px;
-    padding: 0 50px 0 15px;
-    border-radius: 10px; 
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .dropdown_menu {
-    pointer-events: none;
-    position: absolute;
-    width: 310px;
-    top: 55px;
-    left: -100px;
-    opacity: 0;
-    transition: all 0.5s ease-in-out; 
-    background-color: rgba(0, 0, 0, 0.885);
-    overflow-y: scroll;
-    height: 500px;
-  }
-  
-  .dropdown .dropdown_btn:focus+.dropdown_menu,
-  .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-    left: 34px;
-    opacity: 1;
-    pointer-events: inherit;
-  }
-  
-  .dropdown_menu a {
-    display: block;
-    line-height: 45px;
-    padding: 0 15px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: all 0.2s linear;
-    overflow: hidden;
-    background-color: black;
-    color: aqua;
-  }
-  
-  .dropdown_menu a:first-child {
-    border-radius: 10px 10px 0 0;
-  }
-  
-  .dropdown_menu a:hover {
-    background-color: rgba(0, 255, 255, 0.398);
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16) inset;
-  }
-  
-  .search {
-    border: 2px solid aqua !important;
-    color: aqua !important;
-    border-radius: 10px !important;
-    width: 150px !important;
-    font-weight: bold !important;
-    font-size: 20px !important;
-    transition: 0.5s linear !important;
-    font-family: 'Heebo' !important;
+.dropdown_menu a:first-child {
+  border-radius: 10px 10px 0 0;
 }
-  
-  .search:hover {
-    background-color: aqua !important;
-    color: #000 !important;
-    letter-spacing: 2px;
-  }
-  
+
+.dropdown_menu a:hover {
+  background-color: rgba(75, 181, 71, 0.5);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16) inset;
+  color: #fff;
+}
+
+   
   /* CONTACT SECTION */
   .register_section{
     padding-top: 4rem;
@@ -264,8 +215,8 @@
     padding: 15px;
     margin: 1px auto;
     text-align: center;
-    width: 100%;
-    color: #fff;
+    width: 80%;
+    color: #000;
     font-size: 3rem;
     text-decoration: none;
     letter-spacing: 3px;
@@ -297,7 +248,7 @@
 
 
   .card-header{
-    border-bottom: 2px solid aqua !important;
+    border-bottom: 2px solid #4EB548 !important;
 
   }
 
@@ -309,7 +260,7 @@
 }
 
   .text-animation span{
-    color: aqua !important;
+    color: #1B7838 !important;
     display: inline;
     letter-spacing: 4px;
     font-size: 30px;
@@ -325,16 +276,23 @@
 
 
 .form-control-label{
-    color: aqua;
+    color: #1B7838;
     font-weight: bold;
     font-size: 1rem;
 }
 
+.form-control{
+  border-color: #1F763B !important; 
+}
+
+.form-control:focus {  
+   box-shadow: 0 0 0 0.25rem rgb(31, 118, 59, .25) !important;
+}
 
 
 .register_me{
-  border: 2px solid aqua !important;
-  color: aqua !important;
+  border: 2px solid #1F763B !important;
+  color: #1F763B !important;
   border-radius: 10px !important;
   width: 182px !important;
   font-weight: bold !important;
@@ -345,7 +303,8 @@ position: relative;
 
 
 .register_me:hover{
-  background-color: aqua !important;
+  background: #4CB648 !important;
+  border: 2px solid #4CB648 !important;
   color: #000 !important;
   letter-spacing: 2px;
 }
@@ -353,8 +312,8 @@ position: relative;
 
 
 .login{
-  border: 2px solid aqua !important;
-  color: aqua !important;
+  border: 2px solid #1F763B !important;
+  color: #1F763B !important;
   border-radius: 10px !important;
   width: 150px !important;
   font-weight: bold !important;
@@ -365,15 +324,16 @@ position: relative;
 
 
 .login:hover{
-  background-color: aqua !important;
+  background: #4CB648 !important;
+  border: 2px solid #4CB648 !important;
   color: #000 !important;
   letter-spacing: 2px;
 }
 
 
 .contact-us{
-  border: 2px solid aqua !important;
-  color: aqua !important;
+  border: 2px solid #1F763B !important;
+  color: #1F763B !important;
   border-radius: 10px !important;
   width: 180px !important;
   font-weight: bold !important;
@@ -384,7 +344,8 @@ position: relative;
 
 
 .contact-us:hover{
-  background-color: aqua !important;
+  background: #4CB648 !important;
+  border: 2px solid #4CB648 !important;
   color: #000 !important;
   letter-spacing: 2px;
 }
@@ -450,13 +411,13 @@ position: relative;
   }
   
   .footer .row > div > div > a:hover {
-  color: aqua;
+  color: #4EB548;
   background-color: rgb(41,40,40);
       transform: rotate(5deg) scale(1.3);
   }
   
   .footer .row > div > div > span:hover {
-    color: aqua;
+    color: #4EB548;
     background-color:rgb(41,40,40);
         transform: rotate(5deg) scale(1.3);
     }
@@ -547,7 +508,7 @@ position: relative;
     height: 40px;
     display: flex;
     align-items: center;
-    border-top: 2px solid aqua;
+    border-top: 2px solid #4EB548;
     color: #fff;
     position: relative;
       text-align: center;
@@ -564,11 +525,11 @@ position: relative;
   } 
   
   .footer2 span a:hover {
-    color: aqua;
+    color: #4EB548;
     background-color: rgb(41,40,40);
     transform: rotate(5deg) scale(1.3) translate(1px, -10px);
+  
     }
-
     
   
 
@@ -595,7 +556,7 @@ position: relative;
 
     @keyframes move {
         100% {
-            box-shadow:3px 2px 20px 8px aqua ;
+            box-shadow:3px 2px 20px 8px #4EB548 ;
         }
     }
     
