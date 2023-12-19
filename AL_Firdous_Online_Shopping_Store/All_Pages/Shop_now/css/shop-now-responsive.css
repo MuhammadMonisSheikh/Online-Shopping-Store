@@ -1,9 +1,12 @@
  
 
 /* LAPTOP VIEW */
+@media (max-width:1400px) {
 
-
- 
+.heading1 {
+     width: 56%;
+}
+} 
 @media (max-width:1352px) {
 
 #products {
