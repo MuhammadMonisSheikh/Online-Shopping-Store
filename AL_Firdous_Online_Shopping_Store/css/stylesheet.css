@@ -945,6 +945,8 @@ font-size: 30px;
   padding-top: 10rem;
 }
 
+.product-img1, .product-img2, .product-img3, .product-img4, .product-img5, .product-img6, 
+.product-img7, .product-img8, .product-img9, .product-img10, .product-img11, .product-img12, 
 .product-img25, .product-img26, .product-img27, .product-img28, .product-img29, .product-img30 {
   margin: 1rem;
   height: 24rem;
@@ -955,6 +957,8 @@ font-size: 30px;
   font-family: 'Heebo';
 }
  
+.product-img1:hover, .product-img2:hover, .product-img3:hover, .product-img4:hover, .product-img5:hover, .product-img6:hover, 
+.product-img7:hover, .product-img8:hover, .product-img9:hover, .product-img10:hover, .product-img11:hover, .product-img12:hover, 
 .product-img25:hover, .product-img26:hover, .product-img27:hover, .product-img28:hover, .product-img29:hover, .product-img30:hover {
   background-color: rgb(31 118 59 / 57%);
   border-radius: 10%;
@@ -974,6 +978,11 @@ font-size: 30px;
   top: -9rem;
   position: relative;
 }
+
+.product-img2 .product-image { 
+  width: 254px;
+}
+
 
 .product-img26 .product-heading{
 top: -11rem !important;
@@ -1010,9 +1019,26 @@ top: -11rem !important;
   letter-spacing: -1px;
  }
 
+
+ .product-img1 .product-heading {
+  top: -9rem !important;
+}
+ 
+
+ .product-img2 .product-heading {
+  top: -9rem !important;
+}
+
+ .product-img3 .product-heading {
+  top: -10rem !important;
+}
+ 
  .product-img28 .product-heading span {
    font-size: 20px;
  }
+
+
+
 
  .product-img28 .product-heading {
   top: -10rem;
