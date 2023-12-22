@@ -983,8 +983,7 @@ font-size: 30px;
   width: 254px;
 }
 
-.product-img6 .product-image {
-  height: 326px;
+.product-img6 .product-image { 
   width: 191px;
    left: 4rem;
 }
@@ -1041,8 +1040,14 @@ top: -11rem !important;
  .product-img5 .product-heading {
   top: -10rem !important;
 }
- 
- .product-img28 .product-heading span {
+.product-img6  .product-heading {
+ top: -9rem !important;
+}
+.product-img7  .product-heading {
+ top: -9rem !important;
+}
+
+.product-img28 .product-heading span {
    font-size: 20px;
  }
 
