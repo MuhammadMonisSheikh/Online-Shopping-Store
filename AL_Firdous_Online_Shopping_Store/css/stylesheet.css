@@ -45,8 +45,7 @@ width: 7px;
 
 .navbar {
   height: 80px;
-border-bottom: 1px solid #1F763B;
-font-family: 'Heebo' !important;
+border-bottom: 1px solid #1F763B; 
 }
 
 .container-fluid.responsive-nav{
@@ -987,6 +986,9 @@ font-size: 30px;
   width: 191px;
    left: 4rem;
 }
+.product-img8 .product-image { 
+    left: -2rem;
+}
 
 .product-img26 .product-heading{
 top: -11rem !important;
@@ -1045,6 +1047,18 @@ top: -11rem !important;
 }
 .product-img7  .product-heading {
  top: -9rem !important;
+}
+.product-img8  .product-heading {
+ top: -9rem !important;
+font-size: 1rem;
+}
+.product-img9  .product-heading {
+ top: -9rem !important;
+font-size: 1rem;
+}
+.product-img10  .product-heading {
+ top: -9rem !important;
+font-size: 1rem;
 }
 
 .product-img28 .product-heading span {
@@ -1188,6 +1202,16 @@ font-size: 28px;
 
 /* All PRODUCTS */
 
+
+.empty-space{
+   margin:150px auto 60px;
+  text-align: center;
+   color: #000;
+  font-size: 3rem;
+  text-decoration: none;
+  letter-spacing: 3px;
+  position: relative; 
+}
 
 .heading1{
   padding: 15px;
@@ -1844,8 +1868,9 @@ width: 98.5vw;
 
 .cooc-heading-container{
  position: absolute;  
- padding-top: 10rem;
- padding-left: 4rem;
+ padding-top: 10rem; 
+ width: 100%;
+ text-align: center;
 
  
 }
@@ -1861,7 +1886,7 @@ width: 98.5vw;
 .shop-now-cooc {
   width: 196px !important;
   font-size: 1.8rem !important;
-  left: 13% !important;
+  left: 44% !important;
   top: 10em !important;
   height: 60px !important;
   border: 2px solid #4CB648 !important;
@@ -1895,7 +1920,7 @@ letter-spacing: 2px;
   align-items: center;
   justify-content: center; 
   transition: 0.5s linear !important;
-  margin: 1px 34% 110px;
+  margin: -54px 34% 110px;
  
 }
 
