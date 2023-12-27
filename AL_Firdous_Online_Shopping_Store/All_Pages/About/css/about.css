@@ -202,6 +202,12 @@ font-family: 'Heebo' !important;
   color: #fff;
 }
 
+
+.fa-right-to-bracket{
+  font-size: 1.5rem;
+}
+
+
   /* ABOUT SECTION */
   .about{ 
      font-family: 'Heebo' !important;
@@ -402,6 +408,11 @@ font-family: 'Heebo' !important;
   
   .footer ul li:hover::before{
     height:56px;
+  }
+  
+
+  .footer-1{
+    height: 210px;
   }
   
   

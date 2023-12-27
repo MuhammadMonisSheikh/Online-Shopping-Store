@@ -46,6 +46,8 @@ width: 7px;
 .navbar {
   height: 80px;
 border-bottom: 1px solid #1F763B; 
+font-family: Quicksand,Helvetica Neue,Verdana,Arial,sans-serif;
+text-transform: uppercase;
 }
 
 .container-fluid.responsive-nav{
@@ -58,8 +60,7 @@ border-bottom: 1px solid #1F763B;
   padding: 10px 15px !important;
   margin: 0px 0px;
   position: relative; 
-  font-weight: bold !important;
-  font-size: 16px!important;
+   font-size: 14px!important;
 }
 
 .navbar .active::after {
@@ -81,8 +82,7 @@ border-bottom: 1px solid #1F763B;
   padding: 12px 15px !important;
   margin: 0px 12px;
   position: relative;
-  font-weight: bold !important;
-  font-size: 16px!important;
+   font-size: 14px!important;
 }
 
 .nav-link-hover::after  {
@@ -205,6 +205,12 @@ border-bottom: 1px solid #1F763B;
   color: #fff;
 }
 
+
+.fa-right-to-bracket{
+font-size: 1.5rem;
+}
+
+
 /* BANNER */
 
 #home{ 
@@ -267,9 +273,7 @@ letter-spacing: 2px;
   border-radius: 10px !important;
 }
 
-.images__image-one {
-  margin-left: -3rem;
-}
+ 
 
 .images__img {
   width: 100%;
@@ -295,6 +299,7 @@ letter-spacing: 2px;
   width: 100%;
   padding-left: 16px;
   padding-right: 16px;
+  margin-left: 48px;
 }
 
 .mens__col-men {
@@ -315,7 +320,7 @@ letter-spacing: 2px;
 }
  
 .images__image-two {
-  margin-left: 3rem;
+  margin-left: 6rem;
 }
 
 .mens__col-man {
@@ -770,7 +775,7 @@ font-size: 30px;
   -moz-perspective: 150rem;
   position: relative;
   height: 470px;
-  width: 450px;
+  width: 365px;
   font-family: 'Heebo';
 }
 
@@ -1204,7 +1209,7 @@ font-size: 28px;
 
 
 .empty-space{
-   margin:150px auto 60px;
+   margin:118px auto 60px;
   text-align: center;
    color: #000;
   font-size: 3rem;
@@ -1454,7 +1459,7 @@ color: #fff;
 font-family: 'Heebo' !important;
 
   padding: 15px;
-  margin:160px auto 60px;
+  margin:0px auto 60px;
   text-align: center;
   width: 40%;
   color: #000;
@@ -1758,7 +1763,7 @@ font-family: 'Heebo' !important;
 font-family: 'Heebo' !important;
 
   padding: 15px;
-  margin:160px auto 60px;
+  margin:0px auto 60px;
   text-align: center;
   width: 80%;
   color: #000;
@@ -1920,7 +1925,7 @@ letter-spacing: 2px;
   align-items: center;
   justify-content: center; 
   transition: 0.5s linear !important;
-  margin: -54px 34% 110px;
+  margin: -94px 34% 110px;
  
 }
 

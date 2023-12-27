@@ -201,6 +201,13 @@ font-family: 'Heebo' !important;
   color: #fff;
 }
 
+.fa-right-to-bracket{
+  font-size: 1.5rem;
+}
+
+
+
+
   /* CONTACT SECTION */
   .login_section{
     padding-top: 4rem;
@@ -504,6 +511,9 @@ font-family: 'Heebo' !important;
     height:56px;
   }
   
+  .footer-1{
+    height: 210px;
+  }
   
   .footer2{ 
     height: 40px;
