@@ -9,6 +9,10 @@ body{
   height: 100%;
 }
  
+.responsive-view{
+  display: none;
+}
+
 
 :root {
   --color: #fff;
