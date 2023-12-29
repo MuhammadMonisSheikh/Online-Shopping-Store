@@ -711,9 +711,26 @@ left: 12px;
         height: 642px;
      }
 
-     #products {
-        width: 90%;
+
+     .shop-now {
+        left: 66.2% !important;
+        top: 73% !important;
+          height: 8% !important;
     }
+    
+ 
+
+    .product-img2 .product-heading {
+         font-size: 1rem;
+}
+
+.product-img6 .product-heading {
+     font-size: 1rem;
+}
+  
+.product-img28 .product-heading {
+     font-size: 1rem;
+}
 
     .product-img1, .product-img2, .product-img3, .product-img4, .product-img5, .product-img6, .product-img7, .product-img8, .product-img9, .product-img10, .product-img11, .product-img12, .product-img25, .product-img26, .product-img27, .product-img28, .product-img29, .product-img30 {
          width: 18rem;
@@ -732,6 +749,19 @@ left: 12px;
 .cards-5 {
     width: 296px;
 }
+} 
+@media (width: 1024px) {
+
+     
+    .cooc-container {
+        width: 1007px;
+    }
+
+     #products {
+        width: 90%;
+    }
+
+  
 } 
 @media (max-width: 1022px) {
     .nav-link-hover {
@@ -1320,6 +1350,22 @@ left: 12px;
         top: 108px;
     } 
 
+    .heading4 {
+        width: 86%;
+    }
+    .shop-now {
+        top: 44% !important;
+         height: 4% !important;
+    }
+    
+    #products {
+        width: 100%;
+    }    
+
+    .cooc-container {
+        width: 751px;
+    }
+
 }
 
 /* MOBILE VIEW */
@@ -1736,12 +1782,50 @@ left: 12px;
     
 }
 
+@media (width: 736px) {
+.shop-now {
+    top: 25rem !important;
+    height: 11% !important;
+}
+
+.cooc-container {
+    width: 719px;
+}
+
+
+}
+
+
+
 @media (max-width: 735px) {
     .shop-now {
         width: 15% !important;
     }
 }     
+@media (width: 734px) {
+  
+    .navbar-nav-responsive{
+        overflow-y: scroll;
+    }
 
+    .navbar-nav-responsive2{
+        display: none !important;
+    }
+  
+    .shop-now {
+        top: 25rem !important;
+        height: 10% !important;
+    }
+
+    .cooc-container {
+        width: 100%;
+    }
+
+    .heading4 {
+        width: 100%;
+    }    
+
+}
     /* iPhone eXpensive landscape */
  
 
@@ -1812,6 +1896,33 @@ left: 12px;
 
     }
 
+    @media (max-width: 684px) {
+
+        .navbar-nav-responsive{
+            overflow-y: scroll;
+        }
+    
+        .navbar-nav-responsive2{
+            display: none !important;
+        }
+
+        .shop-now {
+        top: 25rem !important;
+        height: 9% !important;
+        width: 16% !important;
+        left: 70% !important;
+    }
+  
+    .cooc-container {
+        width: 100%;
+    }
+
+    .heading4 {
+        width: 100%;
+    }
+
+}
+    
     @media (max-width: 680px) {
 
         #home {
@@ -1842,11 +1953,11 @@ left: 12px;
     @media (max-width: 670px) {
 
         .navbar .active {
-            margin: 50px 235px;
+            margin: 22px 235px;
         }
 
         .nav-link-hover {
-            margin: 34px 235px;
+            margin: 22px 235px;
         }
 
         .shop-now {
@@ -1862,6 +1973,26 @@ width: 600px;
 
     }
 
+    @media (width: 667px){
+
+        .navbar-nav-responsive{
+            overflow-y: scroll;
+        }
+
+        .navbar-nav-responsive2{
+            display: none !important;
+        }
+        
+        .shop-now {
+             top: 20rem !important;
+             height: 10% !important;
+         }
+
+
+        .cooc-container {
+    width: 650px;
+}
+}
 
     @media (max-width: 650px) {
     .shop-now {
@@ -2130,30 +2261,39 @@ width: 600px;
 
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px) {
+ 
 
-        .banner {
-            height: 80%;
-            min-height: 467px;
-        }
-
-        .shop-now {
-            width: 43% !important;
-            font-size: 1.5rem !important;
-            left: 18% !important;
-    top: 42% !important;
-     height: 8%!important;
+        #home {
+            height: 290px;
         }        
 
-        .button {
-            margin: 116px 108px 80px 95px;
+
+        .navbar {
+            height: 68px;
         }
 
+        .navbar-brand {
+            height: 7pc !important;
+        }
+
+         .logo {
+            width: 100%;
+            height: 142px;
+            left: -5px;
+            top: -17px;
+        }
+        
         .navbar .active {
-            margin: 50px 120px;
+            margin: 4px 120px;
         }
 
         .nav-link-hover {
-            margin: 50px 120px;
+            margin: 26px 120px;
+        }
+
+
+        .dropdown_btn {
+            padding: 12px 30px !important;
         }
 
         .dropdown .dropdown_btn:focus+.dropdown_menu,
@@ -2162,11 +2302,53 @@ width: 600px;
             pointer-events: inherit;
             top: 104px;
         }
+        
+        .shop-now {
+            width: 19% !important;
+            font-size: 0.5rem !important;
+            left: 66% !important;
+            top: 32% !important;
+            height: 4%!important;
+        }
+
+
+        .heading1 {
+             left: 20px;
+        }
+
+        #products {
+            width: 92%;
+        }
  
+        .images__cont {
+            width: 370px;
+        }
+
+        .images__cont-two {
+            width: 370px;
+        }
+
+        .empty-space {
+            margin: 2px 8px;
+        }
+
+        .cards-2 {
+             left: 20px;
+        }
+
         .cards-5__picture {
             width: 100%;
         }
 
+
+        .cooc-container {
+            width: 395px;
+        }
+
+
+        .shop-now-cooc {
+            left: 27% !important;
+        }
 
 .product_card_img_modal-1 img {
     width: 597px;
@@ -2379,6 +2561,19 @@ width: 600px;
      left: 0px;
 }
  
+
+.card-wuc {
+     left: 20px;
+}
+
+.heading4 {
+     left: 20px;
+}
+
+.cards-5 {
+     left: 15px;
+}
+
 @keyframes responsive-animation-h1 {
     
 100% {
@@ -2434,16 +2629,32 @@ width: 600px;
 
 
         .nav-link-hover {
-            margin: 50px 97px;
+            margin: 26px 97px;
+        }
+        
+        .shop-now {
+            width: 22% !important;
+            font-size: 0.5rem !important;
+            height: 4%!important;
+            top: 31% !important;
+            left: 67% !important;
         }
 
 
 
-        .shop-now {
-            width: 45% !important;
-            font-size: 1.5rem !important;
-             height: 9%!important;
-          }
+        
+        #products {
+            width: 87%;
+        }
+
+        .images__cont {
+            width: 330px;
+        }
+
+        .images__cont-two {
+            width: 330px;
+        }
+
         
           .price button {
             width: 140px !important;
@@ -2451,14 +2662,17 @@ width: 600px;
         }
  
 
-        .button {
-            margin: 116px 48px 80px 95px;
-        }
-
+        .cooc-container {
+    width: 357px;
+}
           .footer .row > div > div > span {
             width: 262px;
             font-size: 15px;
         }
    
+        .footer-1 {
+            height: 524px;
+        }
+
    
     }
