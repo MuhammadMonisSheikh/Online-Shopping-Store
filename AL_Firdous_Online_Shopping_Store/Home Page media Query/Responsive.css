@@ -51,9 +51,15 @@
 
 
 
-@media (max-width:1365px) {
-    .banner {
-        width: 100%;
+@media (max-width:1366px) {
+
+    #home {
+        height: 697px;
+    }    
+    .shop-now {
+        left: 66.4% !important;
+        top: 77% !important;
+        padding-top: 0.7% !important;
     }
 
 }
@@ -1061,8 +1067,7 @@ left: 12px;
         height: 50px !important;
       }
 
-    .footer .row > div > div > span:hover {
-        color: aqua;
+    .footer .row > div > div > span:hover { 
         background-color:rgb(41,40,40);
             transform: rotate(5deg) scale(1.2);
         }
