@@ -46,7 +46,8 @@ width: 7px;
 .navbar {
   height: 80px;
 border-bottom: 1px solid #1F763B;
-font-family: 'Heebo' !important;
+font-family: Quicksand ,Helvetica Neue,Verdana,Arial,sans-serif;
+text-transform: uppercase;
 }
 
 .container-fluid.responsive-nav{
@@ -58,9 +59,8 @@ font-family: 'Heebo' !important;
   color: #1F763B !important;
   padding: 10px 15px !important;
   margin: 0px 0px;
-  position: relative; 
-  font-weight: bold !important;
-  font-size: 16px!important;
+  position: relative;  
+  font-size: 14px!important;
 }
 
 .navbar .active::after {
@@ -82,8 +82,7 @@ font-family: 'Heebo' !important;
   padding: 12px 15px !important;
   margin: 0px 12px;
   position: relative;
-  font-weight: bold !important;
-  font-size: 16px!important;
+   font-size: 14px!important;
 }
 
 .nav-link-hover::after  {

@@ -1854,7 +1854,26 @@ left: 12px;
         margin-left: -56px;
     }
 
+    .cooc-container {
+        width: 720px;
+    }
 
+    .heading4 {
+        width: 100%;
+    }
+
+
+    .shop-now {
+        top: 24% !important;
+        height: 3% !important;
+        padding-top: 1.2% !important;
+        left: 68.7% !important;
+    }
+
+
+    .footer-1 {
+        height: 600px;
+    }
 
 
     }
@@ -2062,9 +2081,9 @@ width: 600px;
         }
 
         .shop-now {
-            left: 69.6% !important;
-        }
-
+               top: 32% !important;
+             left: 68% !important;
+         }
 
         .images__cont {
             width: 540px;
@@ -2309,10 +2328,10 @@ width: 600px;
         }
         
         .shop-now {
-            width: 19% !important;
-            font-size: 0.5rem !important;
-            left: 66% !important;
-            top: 32% !important;
+            width: 18% !important;
+            left: 65% !important;
+          font-size: 0.5rem !important;
+             top: 32% !important;
             height: 4%!important;
         }
 
@@ -2599,7 +2618,9 @@ width: 600px;
             width: 60%;
         }
  
-
+        .footer-1 {
+            height: 662px;
+        }
 
         .footer .row > div > div > span {
             width: 302px;
@@ -2620,6 +2641,32 @@ width: 600px;
         left: 18px;
     }
     }
+    @media (max-width: 390px) {
+
+        #home {
+             width: 395px;
+        }
+
+        .shop-now {
+            left: 67% !important;
+            width: 19% !important;
+        }
+    .footer {
+         width: 101.2%;
+    }
+    }
+
+    @media (max-width: 380px){
+        #home {
+             width: 395px;
+        }
+
+        
+
+.footer {
+    width: 395px;
+}
+}
 
     @media (max-width: 375px) {
         .logo {
@@ -2681,3 +2728,10 @@ width: 600px;
 
    
     }
+
+    @media (max-width: 375px) {
+
+    .shop-now {
+         left: 72% !important;
+    }
+}

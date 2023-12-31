@@ -369,8 +369,8 @@ left: 4px;
     }
 
     .logo {
-        width: 110px;
-        height: 100px;
+        width: 203px;
+        height: 203px;
     }
     
     .al-firdous {
@@ -380,11 +380,15 @@ left: 4px;
 
 
 @media (max-width:1100px) {
-   
+  
+    .cooc-container {
+         width: 98vw;
+         background-position: 84% 48%;
+    }
+
     .logo {
-        width: 116px;
-        height: 110px;
-        left: 24px;
+        width: 177px;
+        height: 188px;
     }
    
     .nav-link-hover {
@@ -471,8 +475,14 @@ left: 4px;
 
 @media (max-width:991px) {
 
+    .navbar-brand{
+        height: 109px !important;
+    }
+
+
     .logo {
-         top: -7px;
+        position: relative;
+         top: -42px;
     }
 
     .al-firdous {
@@ -490,7 +500,7 @@ left: 4px;
     }
 
     .nav-link-hover {
-        margin: 50px 370px;
+        margin: 30px 370px;
     }
 
     .dropdown_btn {
@@ -512,11 +522,19 @@ left: 4px;
 
     .offcanvas-body::-webkit-scrollbar {
         display: none;
-    }
+    
+}
+
+.cooc-container {
+     background-position: 68% 48%;
+      height: 646px;
+}
 
     .button {
         margin: 116px 108px 80px 52px;
     }
+
+
 
     .heading1 {
          top: 52px;
@@ -589,11 +607,11 @@ left: 4px;
 
 @media (max-width: 950px) {
     .nav-link-hover {
-        margin: 50px 352px;
+        margin: 30px 352px;
     }
 
     .navbar .active {
-        margin: 50px 352px;
+        margin: 30px 352px;
     }
 
     .dropdown_btn {
@@ -648,11 +666,11 @@ left: 4px;
 @media (max-width: 860px) {
 
     .navbar .active {
-        margin: 50px 338px;
+        margin: 25px 338px;
     }
 
     .nav-link-hover {
-        margin: 50px 338px;
+        margin: 25px 338px;
     }
 
 
@@ -667,11 +685,11 @@ left: 4px;
 @media (max-width: 844px) {
 
     .navbar .active {
-        margin: 50px 330px;
+        margin: 25px 330px;
     }
 
     .nav-link-hover {
-        margin: 50px 330px;
+        margin: 25px 330px;
     }
 
 }
@@ -715,12 +733,17 @@ left: 4px;
 @media (max-width: 826px) {
 
     .navbar .active {
-        margin: 50px 320px;
+        margin: 25px 320px;
     }
 
     .nav-link-hover {
-        margin: 50px 320px;
+        margin: 25px 320px;
     }
+
+    .cooc-container {
+        width: 97.9vw;
+    }
+
 
 }
 
@@ -728,11 +751,11 @@ left: 4px;
 @media (max-width: 810px) {
 
     .navbar .active {
-        margin: 50px 310px;
+        margin: 25px 310px;
     }
 
     .nav-link-hover {
-        margin: 50px 310px;
+        margin: 25px 310px;
     }
 
 
@@ -754,16 +777,20 @@ left: 4px;
 @media (max-width: 800px) {
 
     .navbar .active {
-        margin: 50px 300px;
+        margin: 25px 300px;
     }
 
     .nav-link-hover {
-        margin: 50px 300px;
+        margin: 25px 300px;
     }
 
 }
+@media (max-width: 786px) {
 
-
+.cooc-container {
+    width: 97.6vw;
+}
+}
 @media (max-width: 780px) {
 
 .footer .row > div .image {
@@ -774,11 +801,11 @@ left: 4px;
 @media (max-width: 770px) {
 
     .navbar .active {
-        margin: 50px 290px;
+        margin: 25px 290px;
     }
 
     .nav-link-hover {
-        margin: 50px 290px;
+        margin: 25px 290px;
     }
 
 }
@@ -790,7 +817,7 @@ left: 4px;
 
     .dropdown .dropdown_btn:focus+.dropdown_menu,
     .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
-        left: 293px;
+        margin-left: -345px;
         pointer-events: inherit;
         top: 108px;
     }
@@ -1100,6 +1127,10 @@ left: 4px;
     }
 
 
+    .footer-1 {
+        height: 580px;
+    }
+
     .footer .row > div .image {
         left: 0%;
         width: 178px;
@@ -1172,11 +1203,11 @@ left: 4px;
     @media (max-width: 750px) {
 
         .navbar .active {
-            margin: 50px 270px;
+            margin: 25px 270px;
         }
 
         .nav-link-hover {
-            margin: 50px 270px;
+            margin: 25px 270px;
         }
 
     }
@@ -1199,11 +1230,11 @@ left: 4px;
     @media (max-width: 700px) {
 
         .navbar .active {
-            margin: 50px 260px;
+            margin: 25px 260px;
         }
 
         .nav-link-hover {
-            margin: 50px 260px;
+            margin: 25px 260px;
         }
 
     }
@@ -1213,13 +1244,21 @@ left: 4px;
     @media (max-width: 690px) {
 
         .navbar .active {
-            margin: 50px 250px;
+            margin: 25px 250px;
         }
 
         .nav-link-hover {
-            margin: 50px 250px;
+            margin: 25px 250px;
         }
 
+    }
+
+    @media (max-width: 687px) {
+
+    .cooc-container {
+         height: 447px;
+         width: 97.4vw;
+    }
     }
 
     /* Android (Pixel 2) landscape */
@@ -1229,11 +1268,11 @@ left: 4px;
     @media (max-width: 670px) {
 
         .navbar .active {
-            margin: 50px 235px;
+            margin: 25px 235px;
         }
 
         .nav-link-hover {
-            margin: 50px 235px;
+            margin: 25px 235px;
         }
 
     }
@@ -1242,37 +1281,42 @@ left: 4px;
     @media (max-width: 640px) {
 
         .navbar .active {
-            margin: 50px 225px;
+            margin: 25px 225px;
         }
 
         .nav-link-hover {
-            margin: 50px 225px;
+            margin: 25px 225px;
         }
 
+    }
+
+    @media (max-width: 634px) {
+
+    .cooc-container {
+         width: 97.2vw;
+    }
     }
 
     @media (max-width: 630px) {
 
         .navbar .active {
-            margin: 50px 210px;
+            margin: 25px 210px;
         }
 
         .nav-link-hover {
-            margin: 50px 210px;
+            margin: 25px 210px;
         }
 
     }
 
-
-
     @media (max-width: 600px) {
 
         .navbar .active {
-            margin: 50px 200px;
+            margin: 25px 200px;
         }
 
         .nav-link-hover {
-            margin: 50px 200px;
+            margin: 25px 200px;
         }
 
     }
@@ -1299,23 +1343,34 @@ left: 4px;
     @media (max-width: 590px) {
 
         .navbar .active {
-            margin: 50px 190px;
+            margin: 25px 190px;
         }
 
         .nav-link-hover {
-            margin: 50px 190px;
+            margin: 25px 190px;
         }
 
     }
 
+
+    @media (max-width: 585px) {
+    .cooc-container {
+        width: 97vw;
+    }
+    }
+    
     @media (max-width: 575px) {
 
         .navbar .active {
-            margin: 50px 180px;
+            margin: 25px 172px;
         }
 
+
+        .dropdown_btn {
+            padding: 12px 20px !important;
+        }
         .nav-link-hover {
-            margin: 50px 180px;
+            margin: 25px 172px;
         }
 
 
@@ -1346,6 +1401,10 @@ left: 4px;
 
     @media (max-width: 550px) {
       
+
+        .cooc-container {
+            width: 96.6vw;
+        }
 
         .cards-5 {
             width: 100%;
@@ -1393,6 +1452,13 @@ left: 4px;
 
     }
 
+    @media (max-width: 500px) {
+
+    .cooc-container {
+        height: 320px;
+    }
+    }
+
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px) {
  
@@ -1403,11 +1469,11 @@ left: 4px;
         }
 
         .navbar .active {
-            margin: 50px 120px;
+            margin: 15px 120px;
         }
 
         .nav-link-hover {
-            margin: 50px 120px;
+            margin: 15px 120px;
         }
 
         .dropdown .dropdown_btn:focus+.dropdown_menu,
@@ -1417,9 +1483,43 @@ left: 4px;
             top: 104px;
         }
  
+
+        .cooc-container {
+            width: 95.6vw;
+            height: 264px;
+        }
+
         .cards-5__picture {
             width: 100%;
         }
+        
+                .cards-5__picture--55 {
+                     transform: translate(5px, -46px);
+                }
+        
+                .cards-5__picture--56 {
+                     transform: translate(5px, -46px);
+                }
+        
+                .cards-5__picture--57 {
+                     transform: translate(5px, -46px);
+                }
+        
+                .cards-5__picture--58 {
+                     transform: translate(5px, -46px);
+                }
+        
+                .cards-5__picture--59 {
+                     transform: translate(5px, -46px);
+                }
+        
+                .cards-5__picture--60 {
+                     transform: translate(5px, -46px);
+                }
+
+
+
+        
 
 
 .product_card_img_modal-1 img {
@@ -1677,18 +1777,21 @@ left: 4px;
 
     @media (max-width: 375px) {
         .logo {
-            width: 87%;
-            height: 120px;
+            width: 100%;
+            height: 137px;
         }
 
         .al-firdous {
             top: 85px;
         left: 10px;
         }
-
+        .cooc-container {
+            width: 94.6vw;
+            height: 236px;
+        }
 
         .nav-link-hover {
-            margin: 50px 97px;
+            margin: 1px 97px;
         }
       
           .price button {
