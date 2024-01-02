@@ -787,6 +787,7 @@
 
     } 
 
+
     @media (max-width: 514px) {
 
         .navbar .active {
@@ -830,7 +831,7 @@
 
         .login-heading {
             width: 75%;
-        }
+        }  
 
 
     .login {

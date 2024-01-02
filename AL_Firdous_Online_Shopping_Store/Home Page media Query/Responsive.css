@@ -2259,6 +2259,17 @@ width: 600px;
 
     }
  
+
+    @media (max-width: 522px) {
+
+        .shop-now {
+             left: 66% !important;
+        }
+        
+     
+    }    
+    
+
     @media (max-width: 520px) {
     .shop-now {
         width: 18% !important;
@@ -2355,7 +2366,7 @@ width: 600px;
         
         .shop-now {
             width: 18% !important;
-            left: 65% !important;
+            left: 66.5% !important;
           font-size: 0.5rem !important;
              top: 32% !important;
             height: 4%!important;
@@ -2640,6 +2651,7 @@ width: 600px;
 }
 }
 
+
         .footer .container {
             width: 60%;
         }
@@ -2695,6 +2707,12 @@ width: 600px;
 }
 
     @media (max-width: 375px) {
+
+        #home {
+            width: 358px;
+            height: 238px;
+        }
+
         .logo {
             width: 87%;
             height: 120px;
@@ -2711,11 +2729,11 @@ width: 600px;
         }
         
         .shop-now {
-            width: 20% !important;
-            font-size: 0.5rem !important;
+            width: 17% !important;
+            font-size: 6px !important;
             height: 4%!important;
-            top: 31% !important;
-            left: 69.4% !important;
+            top: 27% !important;
+            left: 64.4% !important;
         }
 
 
@@ -2748,8 +2766,12 @@ width: 600px;
             font-size: 15px;
         }
    
+        .footer {
+            width: 358px;
+        }
+
         .footer-1 {
-            height: 524px;
+            height: 650px;
         }
 
    

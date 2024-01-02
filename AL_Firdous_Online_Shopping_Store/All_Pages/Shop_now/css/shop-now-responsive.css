@@ -1531,32 +1531,7 @@ left: 4px;
         .cards-5__picture {
             width: 100%;
         }
-        
-                .cards-5__picture--55 {
-                     transform: translate(5px, -46px);
-                }
-        
-                .cards-5__picture--56 {
-                     transform: translate(5px, -46px);
-                }
-        
-                .cards-5__picture--57 {
-                     transform: translate(5px, -46px);
-                }
-        
-                .cards-5__picture--58 {
-                     transform: translate(5px, -46px);
-                }
-        
-                .cards-5__picture--59 {
-                     transform: translate(5px, -46px);
-                }
-        
-                .cards-5__picture--60 {
-                     transform: translate(5px, -46px);
-                }
-
-
+         
 
         
 
@@ -1787,6 +1762,35 @@ left: 4px;
     height: 7rem;
 }
 }
+
+.cards-5__picture--55 {
+    transform: translate(0px, -39px);
+}
+.cards-5__picture--56 {
+    transform: translate(-36px, -39px);
+    width:112%;
+}
+
+.cards-5__picture--57 {
+    transform: translate(-74px, -39px);
+width: 120%;
+}
+
+.cards-5__picture--58 {
+    transform: translate(0px, -39px);
+}
+
+.cards-5__picture--59 {
+    transform: translate(0px, -39px);
+}
+
+.cards-5__picture--60 {
+    transform: translate(0px, -39px);
+}
+
+
+
+
 
         .footer .container {
             width: 60%;
