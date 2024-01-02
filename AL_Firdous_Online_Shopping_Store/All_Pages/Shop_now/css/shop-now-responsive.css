@@ -1212,7 +1212,32 @@ left: 4px;
 
     }
 
+    @media (width: 736px) {
 
+        .navbar .active {
+            margin: 9px 270px;
+        }
+        
+        .nav-link-hover {
+            margin: 0px 270px;
+        }
+        
+        
+        }
+
+        @media (width: 734px) {
+
+            .navbar .active {
+                margin: 9px 270px;
+            }
+            
+            .nav-link-hover {
+                margin: 0px 270px;
+            }
+            
+            
+            }
+        
      
 
     /* iPhone eXpensive landscape */
@@ -1261,6 +1286,20 @@ left: 4px;
     }
     }
 
+
+    @media (width: 684px) {
+
+        .navbar .active {
+            margin: -6px 270px;
+        }
+        
+        .nav-link-hover {
+            margin: 0px 235px;
+        }
+        
+        
+        }
+    
     /* Android (Pixel 2) landscape */
 
  

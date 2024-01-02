@@ -29,6 +29,11 @@
     .footer {
         height: 30%;
     }
+
+    .footer .row > div > div > span:hover {
+          transform: rotate(5deg) scale(1.2);
+    }
+
 }
 
 @media (max-width:1282px) {
@@ -70,9 +75,10 @@
     }
 
     .logo {
-        width: 110px;
-        height: 100px;
+        width: 238px;
+        height: 250px;
     }
+
     
     .al-firdous {
         left: 18px;
@@ -103,11 +109,10 @@
 @media (max-width:1100px) {
    
     .logo {
-        width: 116px;
-        height: 110px;
-        left: 24px;
-    }
-   
+        width: 88%;
+        height: 223px;
+    }   
+
     .nav-link-hover {
         margin: 0px 12px;
     }
@@ -192,8 +197,13 @@ font-size: 18px !important;
 
 @media (max-width:991px) {
 
+    .navbar-brand {
+        height: 104px;
+    }
+
     .logo {
-         top: -7px;
+        position: relative;
+        top: -62px;
     }
 
     .al-firdous {
@@ -207,11 +217,11 @@ font-size: 18px !important;
     }
 
     .navbar .active {
-        margin: 50px 370px;
+        margin: 35px 370px;
     }
 
     .nav-link-hover {
-        margin: 50px 370px;
+        margin: 30px 370px;
     }
 
     .dropdown_btn {
@@ -253,9 +263,7 @@ font-size: 18px !important;
      left: 20%;
 }
 
-.footer .row > div > div > span:hover {
-    color: aqua;
-    background-color:rgb(41,40,40);
+.footer .row > div > div > span:hover { 
         transform: rotate(5deg) scale(1.2);
     }
 
@@ -263,11 +271,11 @@ font-size: 18px !important;
 
 @media (max-width: 950px) {
     .nav-link-hover {
-        margin: 50px 352px;
+        margin: 35px 352px;
     }
 
     .navbar .active {
-        margin: 50px 352px;
+        margin: 30px 352px;
     }
 
     .dropdown_btn {
@@ -298,7 +306,6 @@ font-size: 18px !important;
 
 
     .footer .row > div > div > span:hover {
-        color: aqua;
         background-color:rgb(41,40,40);
             transform: rotate(5deg) scale(1.2);
         }
@@ -320,11 +327,11 @@ font-size: 18px !important;
 @media (max-width: 860px) {
 
     .navbar .active {
-        margin: 50px 338px;
+        margin: 35px 338px;
     }
 
     .nav-link-hover {
-        margin: 50px 338px;
+        margin: 30px 338px;
     }
 
 
@@ -338,11 +345,11 @@ font-size: 18px !important;
 @media (max-width: 844px) {
 
     .navbar .active {
-        margin: 50px 330px;
+        margin: 35px 330px;
     }
 
     .nav-link-hover {
-        margin: 50px 330px;
+        margin: 30px 330px;
     }
 
 }
@@ -374,11 +381,11 @@ font-size: 18px !important;
 @media (max-width: 826px) {
 
     .navbar .active {
-        margin: 50px 320px;
+        margin: 35px 320px;
     }
 
     .nav-link-hover {
-        margin: 50px 320px;
+        margin: 30px 320px;
     }
 
 }
@@ -386,11 +393,11 @@ font-size: 18px !important;
 @media (max-width: 810px) {
 
     .navbar .active {
-        margin: 50px 310px;
+        margin: 25px 310px;
     }
 
     .nav-link-hover {
-        margin: 50px 310px;
+        margin: 20px 310px;
     }
 
 
@@ -428,12 +435,17 @@ font-size: 18px !important;
 @media (max-width: 800px) {
 
     .navbar .active {
-        margin: 50px 300px;
+        margin: 25px 300px;
     }
 
     .nav-link-hover {
-        margin: 50px 300px;
+        margin: 20px 300px;
     }
+
+
+    .footer-1 {
+    height: 223px;
+}
 
 }
 
@@ -451,11 +463,11 @@ font-size: 18px !important;
 @media (max-width: 770px) {
 
     .navbar .active {
-        margin: 50px 290px;
+        margin: 25px 290px;
     }
 
     .nav-link-hover {
-        margin: 50px 290px;
+        margin: 20px 290px;
     }
 
 }
@@ -496,6 +508,10 @@ font-size: 18px !important;
         height: 65%;
     }
 
+
+    .footer-1 {
+        height: 630px;
+    }
 
     .footer .row > div .image {
         left: 0%;
@@ -566,14 +582,52 @@ font-size: 18px !important;
     @media (max-width: 750px) {
 
         .navbar .active {
-            margin: 50px 270px;
+            margin: 25px 270px;
         }
 
         .nav-link-hover {
-            margin: 50px 270px;
+            margin: 20px 270px;
         }
 
     }
+
+    @media (width: 736px) {
+
+        .navbar .active {
+            margin: 9px 270px;
+        }
+        
+        .nav-link-hover {
+            margin: 0px 270px;
+        }
+        
+        
+        }
+
+
+        @media (width: 734px) {
+  
+            .navbar .active {
+                margin: 9px 270px;
+            }
+            
+            .nav-link-hover {
+                margin: 0px 270px;
+            }
+            .shop-now {
+                top: 25rem !important;
+                height: 10% !important;
+            }
+        
+            .cooc-container {
+                width: 100%;
+            }
+        
+            .heading4 {
+                width: 100%;
+            }    
+        
+        }
 
     /* iPhone eXpensive landscape */
  
@@ -588,11 +642,11 @@ font-size: 18px !important;
     @media (max-width: 700px) {
 
         .navbar .active {
-            margin: 50px 260px;
+            margin: 25px 260px;
         }
 
         .nav-link-hover {
-            margin: 50px 260px;
+            margin: 20px 260px;
         }
 
     }
@@ -600,11 +654,11 @@ font-size: 18px !important;
     @media (max-width: 690px) {
 
         .navbar .active {
-            margin: 50px 250px;
+            margin: 25px 250px;
         }
 
         .nav-link-hover {
-            margin: 50px 250px;
+            margin: 20px 250px;
         }
 
     }
@@ -613,23 +667,58 @@ font-size: 18px !important;
      @media (max-width: 670px) {
 
         .navbar .active {
-            margin: 50px 235px;
+            margin: 25px 235px;
         }
 
         .nav-link-hover {
-            margin: 50px 235px;
+            margin: 20px 235px;
         }
 
     }
 
+    @media (width: 684px) {
+
+        .navbar .active {
+            margin: -6px 270px;
+        }
+        
+        .nav-link-hover {
+            margin: 0px 235px;
+        }
+        
+        
+        }
+        @media (width: 667px){
+            .navbar .active {
+               margin: -6px 250px;
+           }
+           
+           .nav-link-hover {
+               margin: 0px 235px;
+           }
+           
+           
+   
+       .shop-now {
+            top: 20rem !important;
+            height: 10% !important;
+        }
+
+
+       .cooc-container {
+   width: 650px;
+}
+}
+
+
     @media (max-width: 640px) {
 
         .navbar .active {
-            margin: 50px 225px;
+            margin: 25px 225px;
         }
 
         .nav-link-hover {
-            margin: 50px 225px;
+            margin: 20px 225px;
         }
 
     }
@@ -637,11 +726,11 @@ font-size: 18px !important;
     @media (max-width: 630px) {
 
         .navbar .active {
-            margin: 50px 210px;
+            margin: 25px 210px;
         }
 
         .nav-link-hover {
-            margin: 50px 210px;
+            margin: 20px 210px;
         }
 
     }
@@ -649,11 +738,11 @@ font-size: 18px !important;
     @media (max-width: 600px) {
 
         .navbar .active {
-            margin: 50px 200px;
+            margin: 25px 200px;
         }
 
         .nav-link-hover {
-            margin: 50px 200px;
+            margin: 20px 200px;
         }
 
     }
@@ -661,11 +750,11 @@ font-size: 18px !important;
     @media (max-width: 590px) {
 
         .navbar .active {
-            margin: 50px 190px;
+            margin: 25px 190px;
         }
 
         .nav-link-hover {
-            margin: 50px 190px;
+            margin: 20px 190px;
         }
 
     }
@@ -673,18 +762,27 @@ font-size: 18px !important;
     @media (max-width: 575px) {
 
         .navbar .active {
-            margin: 50px 180px;
+            margin: 25px 180px;
         }
 
         .nav-link-hover {
-            margin: 50px 180px;
+            margin: 20px 180px;
         }
    
 
     } 
 
-    
+    @media (max-width: 514px) {
 
+    .navbar .active {
+        margin: 25px 170px;
+    }
+
+
+    .nav-link-hover {
+        margin: 20px 160px;
+    }
+    }
     @media (max-width: 504px) {
 
 
@@ -717,11 +815,11 @@ font-size: 18px !important;
 
     @media (max-width: 414px) {
         .navbar .active {
-            margin: 50px 120px;
+            margin: 25px 120px;
         }
 
         .nav-link-hover {
-            margin: 50px 120px;
+            margin: 20px 120px;
         }
 
         .dropdown .dropdown_btn:focus+.dropdown_menu,
@@ -771,14 +869,22 @@ font-size: 18px !important;
             height: 120px;
         }
 
+        .contact-heading {
+            width: 60%;
+        }
+
         .al-firdous {
             top: 85px;
         left: 10px;
         }
 
+        .navbar .active {
+            margin: 20px 66px;
+        }
+
 
         .nav-link-hover {
-            margin: 50px 97px;
+            margin: 20px 94px;
         }
  
           .footer .row > div > div > span {
