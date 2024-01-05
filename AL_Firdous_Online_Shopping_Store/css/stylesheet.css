@@ -1929,7 +1929,7 @@ letter-spacing: 2px;
   align-items: center;
   justify-content: center; 
   transition: 0.5s linear !important;
-  margin: -94px 34% 110px;
+  margin: -94px 32% 110px;
  
 }
 
@@ -1953,7 +1953,7 @@ letter-spacing: 2px;
   align-items: center;
   justify-content: center; 
   transition: 0.5s linear !important;
-  margin: 26% 32% 110px;
+  margin: 26% 27% 110px;
 }
 
 .see-more-btn:hover {
@@ -1965,15 +1965,15 @@ letter-spacing: 2px;
 } 
 
 .CSM-btn{
-  margin: 26% 23% 110px;
+  margin: -12% 25% 110px !important;
 }
 
 .wucs-btn{
-  margin: 26% 23% 110px;
+  margin: 26% 27% 110px !important;
 }
 
 .BSM-btn{
-  margin: 26% 26% 110px;
+  margin: 26% 26% 110px !important;
 }
 
 

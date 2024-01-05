@@ -1788,8 +1788,13 @@ width: 120%;
     transform: translate(0px, -39px);
 }
 
+.cards-5__heading {
+    font-size: 1.3rem;
+}
 
-
+.cards-5__heading-span--1 {
+    font-size: 20px;
+}
 
 
         .footer .container {
