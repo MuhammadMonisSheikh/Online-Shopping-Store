@@ -347,9 +347,6 @@
 
 @media (max-width:1199px) {
 
-
-
-
     .images__cont-two {
         width: 500px;
     }
@@ -1617,14 +1614,15 @@ left: 12px;
     .BSM-btn {
         margin: 24% 35% 110px !important;
     }
-
     .images__cont {
         width: 650px;
-        margin-left: 46px;
+        left: 50px;
+        position: relative;
     }
     .images__cont-two {
         width: 650px;
-        margin-left: -53px;
+        left: 20px;
+        position: relative;
     }
 
     .modal-dialog .card-body{
@@ -1923,11 +1921,13 @@ left: 12px;
 
     .footer {
         height: 65%;
+    width: 767px;
+
     }
 
 
     .footer-1 {
-        height: 490px;
+        height: 490px;    
     }
 
 
@@ -2357,7 +2357,7 @@ width: 600px;
     @media (max-width: 634px) {
 
     .shop-now {
-        left: 67.5% !important;
+        left: 82.5% !important;
     }
     }
 
@@ -2370,9 +2370,10 @@ width: 600px;
         .nav-link-hover {
             margin: 34px 210px;
         }
-        .shop-now {
-            left: 67.6% !important;
-          }
+
+            .shop-now {
+                left: 83.2% !important;
+            }
 
 
         .images__cont {
@@ -2385,10 +2386,31 @@ width: 600px;
 
     }
 
-    @media (max-width: 610px) {
+    @media (max-width: 625px) {
+
     .shop-now {
-        left: 68.6% !important;
+        left: 83.9% !important;
     }
+    }
+
+    @media (max-width: 620px) {
+
+    .shop-now {
+        left: 84.4% !important;
+    }
+    }
+
+    @media (max-width: 614px) {
+    .shop-now {
+        left: 85.6% !important;
+    }
+}   
+    
+    @media (max-width: 610px) {
+
+        .shop-now {
+            left: 85.9% !important;
+        }
     }
     @media (max-width: 600px) {
 
@@ -2401,8 +2423,8 @@ width: 600px;
         }
 
         .shop-now {
-              left: 69% !important;
-         }
+            left: 87.9% !important;
+        }
 
         .images__cont {
             width: 540px;
@@ -2422,6 +2444,10 @@ width: 600px;
     }
 
     @media (max-width: 593px) {
+
+        .shop-now {
+            left: 88.7% !important;
+        }
 
     .heading1 {
         width: 90%;
@@ -2450,12 +2476,18 @@ width: 600px;
             margin: 50px 190px;
         }
 
+
+        .shop-now {
+            left: 89.2% !important;
+        }
+
+
     }
 
 
     @media (max-width: 580px) {
     .shop-now {
-        left: 68.6% !important;
+        left: 90.6% !important;
         width: 16% !important;
     }
     }
@@ -2476,8 +2508,10 @@ width: 600px;
         }
 
         .shop-now {
-            left: 68.8% !important;
+            left: 91.6% !important;
         }
+            
+
         .products .row {
             --bs-gutter-x: 0rem !important;
         }
@@ -2509,15 +2543,14 @@ width: 600px;
     @media (max-width: 570px) {
 
 
-        #home {
-            height: 364px;
+        #home { 
   background-image: url(../img/banner-2.png);
             
         }
 
         .shop-now {
-            left: 64.2% !important;
-            top: 42%!important;
+            left: 89.2% !important;
+            width: 19% !important;
         }
         
         
@@ -2536,9 +2569,9 @@ width: 600px;
         }
         
         
-
-        .shop-now {
-             left: 65.2% !important;
+ 
+            .shop-now {
+                left: 92.6% !important;
         }
 
 
@@ -2560,6 +2593,9 @@ width: 600px;
     }
 
     @media (max-width: 540px) {
+ .shop-now {
+            left: 94.6% !important;
+        }
 
     .card-wb {
         width: 100%;
@@ -2571,23 +2607,35 @@ width: 600px;
 
     }
  
+    @media (max-width: 534px) {
 
-    @media (max-width: 522px) {
-
-        .shop-now {
-             left: 66% !important;
-        }
-        
-     
-    }    
-    
-
-    @media (max-width: 520px) {
     .shop-now {
-        width: 18% !important;
-        left: 65.4% !important;
+        left: 95.6% !important;
+    }
     }
 
+    @media (max-width: 530px) {
+    .shop-now {
+        left: 96.6% !important;
+    }
+    }
+
+    @media (max-width: 524px) {
+
+    .shop-now {
+        left: 97.5% !important;
+    }
+    }
+ 
+
+    @media (max-width: 520px) {
+        .shop-now {
+            left: 97% !important;
+            width: 22% !important;
+            height: 42px !important;
+            top: 383px !important;
+            padding-top: 2.1% !important;
+        }
     .images__cont {
         width: 462px;
     }
@@ -2599,7 +2647,18 @@ width: 600px;
 
     }
 
+    @media (max-width: 515px) {
 
+    .shop-now {
+        left: 98.3% !important;
+    }
+    }
+    @media (max-width: 510px) {
+
+    .shop-now {
+        left: 99% !important;
+    }
+    }
     @media (max-width: 504px) {
 
 
@@ -2610,9 +2669,8 @@ width: 600px;
         .images__cont-two {
             width: 444px;
         }
-
         .shop-now {
-             left: 66.4% !important;
+            left: 100% !important;
         }
 
         .footer .row > div > div > a.sf {
@@ -2632,63 +2690,46 @@ width: 600px;
 
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 500px){
     .shop-now {
-        left: 67.2% !important;
-        padding-top: 8px !important;
+        left: 507px !important;
     }
-    }
+}
+
+     
 
     @media (max-width: 460px){
-    .shop-now {
-        left: 64% !important;
-         width: 19% !important;
-    }
-
+ 
     #home {
-        background-image: url(../img/banner-3.png);
-        width: 462px;
+        background-image: url(../img/banner-3.png); 
+    }
+
+
+    .shop-now {
+        left: 478px !important;
+        width: 25% !important;
     }
 
 }
-
-
-@media (max-width: 450px){
-
-.shop-now {
-    left: 65.8% !important;
-}
-}
+ 
 
 @media (max-width: 440px){
-.shop-now {
-    left: 67.8% !important;
-}
+    .shop-now {
+        left: 481px !important;
+    }    
 
 }
-
-@media (max-width: 430px){
-
-.shop-now {
-    left: 68.9% !important;
-}
-}
+ 
 
 @media (max-width: 424px){
-
-.shop-now {
-    left: 70.9% !important;
-}
+    .shop-now {
+        left: 483px !important;
+    }
 }
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px) {
- 
-
-        #home {
-            height: 290px;
-        }        
-
-
+        
+        
         .navbar {
             height: 68px;
         }
@@ -2724,14 +2765,11 @@ width: 600px;
             top: 104px;
         }
         
-        .shop-now {
-            width: 18% !important;
-            left: 68% !important;
-            font-size: 0.5rem !important;
-            top: 222px !important;
-            height: 31px!important;
-        }
 
+        .shop-now {
+            left: 482px !important;
+        } 
+        
         .heading1 {
              left: 20px;
         }
@@ -3077,34 +3115,29 @@ width: 117%;
         left: 18px;
     }
     }
-    @media (max-width: 410px) {
-
-    .shop-now {
-         left: 68.6% !important;
-    }
-    }
+  
     @media (max-width: 400px) {
-
-    .shop-now {
-        left: 70.6% !important;
+        .shop-now {
+            left: 485px !important;
+        }
     }
-    }
-
-    @media (max-width: 394px) {
-    .shop-now {
-        left: 71.6% !important;
-    }
-    }
+ 
     @media (max-width: 390px) {
 
         #home {
-             width: 395px;
+            width: 408px;
+            height: 260px;
         }
-
         .shop-now {
-            left: 63% !important;
-            width: 19% !important;
+            left: 250px !important;
+            width: 16% !important;
+            top: 190px !important;
+            font-size: 6px !important;
+            height: 27px !important;
+            padding-top: 5px !important;
         }
+        
+        
     .footer {
          width: 101.2%;
     }
@@ -3112,12 +3145,14 @@ width: 117%;
 
     @media (max-width: 380px){
         #home {
-             width: 395px;
+            width: 401px;
         }
 
- .shop-now {
-    left: 65% !important;
-}
+        .shop-now {
+            left: 247px !important;
+        }
+
+
 .footer {
     width: 395px;
 }
@@ -3126,8 +3161,8 @@ width: 117%;
     @media (max-width: 375px) {
 
         #home {
-            width: 375px;
-            height: 238px;
+            width: 383px;
+            height: 245px;
         }
 
         .logo {
@@ -3150,7 +3185,7 @@ width: 117%;
             font-size: 6px !important;
             height: 29px!important;
             top: 180px !important;
-            left: 60.7% !important;
+            left: 234px !important;
         }
 
 
@@ -3205,8 +3240,7 @@ width: 117%;
     @media (max-width: 366px) {
 
     .shop-now {
-         top: 170px !important;
-        left: 62.7% !important;
+       padding-top: 8px !important;
     }
 }
 
@@ -3214,55 +3248,14 @@ width: 117%;
 @media (max-width: 363px){
 .shop-now {
     width: 17% !important;
+    left: 233px !important;
+}
+} 
+@media (max-width: 343px){
+ .shop-now {
+    width: 17% !important;
+    left: 235px !important;
+    font-size: 0.3rem !important;
 }
 }
-@media (max-width: 360px) {
- 
-
-.shop-now {
-     width: 18% !important;
-}
-
-}
-
-@media (max-width: 350px) {
-
-.shop-now {
-     left: 64.7% !important;
-}
-}
-
-@media (max-width: 340px) {
-
-.shop-now {
-    left: 66.7% !important;
-}
-}
-
-@media (max-width: 334px) {
-
-.shop-now {
-    left: 68.7% !important;
-}
-}
-@media (max-width: 330px) {
-
-.shop-now {
-    left: 69.4% !important;
-}
-}
-
-@media (max-width: 324px) {
-
-.shop-now {
-    left: 70.4% !important;
-          font-size: 5px !important;
-}
-}
-
-
-@media (max-width: 320px){
-.shop-now {
-    left: 71.7% !important;
-}
-}
+  
