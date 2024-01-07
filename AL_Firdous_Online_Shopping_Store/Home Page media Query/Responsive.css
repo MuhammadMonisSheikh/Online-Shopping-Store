@@ -1559,8 +1559,8 @@ left: 12px;
     } 
     
     #products {
-        width: 100%;
-    }    
+        width: 96%;
+    } 
 
     .cooc-container {
         width: 750px; 
@@ -1582,9 +1582,6 @@ left: 12px;
 
 @media (max-width: 767px) {
   
-
-
-
     .empty-space {
         margin: 132px 39px;
     }
@@ -1621,7 +1618,7 @@ left: 12px;
     }
     .images__cont-two {
         width: 650px;
-        left: 20px;
+        left: 12px;
         position: relative;
     }
 
@@ -1660,7 +1657,7 @@ left: 12px;
         display: none !important; 
     }
     .cooc-container {
-        width: 767px;
+        width: 748px;
     }
 
     .heading3{
@@ -1921,8 +1918,7 @@ left: 12px;
 
     .footer {
         height: 65%;
-    width: 767px;
-
+        width: 100%;
     }
 
 
@@ -2003,10 +1999,10 @@ left: 12px;
 @media (max-width: 765px) {
 
     #home {
-         width: 767px;
+         width: 744px;
     }
 .footer {
-     width: 767px;
+     width: 100%;
 }
 }
 
@@ -2015,8 +2011,36 @@ left: 12px;
     width: 100%;
 }
 }
+
+@media (max-width: 760px) {
+
+#home {
+    width: 742px;
+}
+ 
+}
+
+@media (max-width: 758px) {
+
+#home {
+    width: 740px;
+}
+}
+
+@media (max-width: 756px) {
+
+#home {
+    width: 734px;
+}
+}
+
 @media (max-width: 750px) {
     
+    #home {
+        width: 730px;
+    }
+
+
     .navbar .active {
         margin: 50px 270px;
     }
@@ -2026,13 +2050,55 @@ left: 12px;
     }
     
     .shop-now {
-        left: 69.9% !important;
+        left: 506px !important;
+        top: 396px !important;
     }
     
+
+    .images__cont {
+         left: 35px;
+    }
+    .images__cont-two {
+         left: -4px;
+    }
     
 }
 
+@media (max-width: 746px) {
 
+#home {
+    width: 727px;
+}
+}
+
+@media (max-width: 745px) {
+ 
+
+.responsive-info {
+    padding-left: 23% !important;
+}
+
+.footer .row > div > div > span {
+    width: 418px;
+    font-size: 19px;
+}
+
+}
+
+@media (max-width: 743px) {
+#home {
+    width: 100%;
+}
+}
+
+@media (max-width: 740px) {
+
+.footer .row > div > div > span {
+    width: 418px;
+    font-size: 19px;
+}
+
+}
 
 @media (width: 736px) {
     .shop-now {
