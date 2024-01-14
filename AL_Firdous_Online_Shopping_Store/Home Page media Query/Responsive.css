@@ -10,6 +10,10 @@
         height: 74px !important;
 }
 
+.trending-now {
+     width: 50%;
+}
+
 .heading1 {
      width: 50%;
 }
@@ -58,8 +62,6 @@
 
 /* LAPTOP VIEW */
 
-
-
 @media (max-width:1366px) {
 
     #home {
@@ -70,9 +72,17 @@
         top: 77% !important;
      }
 
-}
+     .trending-now {
+         margin: 30px auto 24px;
+     }
 
- 
+
+     .images__cont {
+         left: 50px;
+    }
+    
+
+}
 
 @media (max-width:1350px) {
 
@@ -221,8 +231,10 @@
     }
 }
 
-
 @media (max-width:1282px) {
+    .trending-now {
+        width: 94%;
+   }
     .heading1 {
         width: 94%;
    }
@@ -247,7 +259,6 @@
     }
    }
 
-
    @media (max-width:1261px) {
 
    .images__cont-two {
@@ -255,7 +266,6 @@
     width: 500px;
 }
    }
-
 
    @media (max-width:1250px) {
 
@@ -274,7 +284,6 @@
 
 
  }
-
 
    @media (max-width:1230px) {
 
@@ -298,6 +307,7 @@
 }
 
 }
+
    @media (max-width:1200px) {
 
     #home {
@@ -317,6 +327,10 @@
    }
 
 
+   .trending-now {
+    width: 54%;
+    left: 6%;
+}
    .heading1 {
     width: 54%;
     left: 6%;
@@ -355,6 +369,9 @@
         display: none !important;
     }
 
+    .trending-now {
+         left: 4%;
+    }
     .heading1 {
          left: 4%;
     }
@@ -437,11 +454,6 @@ left: 12px;
 }
 
 @media (max-width:1198px) {
-
-
- 
-
-
     .products .row .card .btn {
         width: 246px;
     }
@@ -643,6 +655,12 @@ left: 12px;
     
     .nav-link-hover {
         margin: 0px 12px;
+    }
+
+    .trending-now {
+        animation: responsive-animation-h1 3s ease-in-out;
+       animation-iteration-count: infinite;
+       left: 2%;
     }
 
     .heading1 {
@@ -1026,6 +1044,10 @@ left: 12px;
      
 
 
+    .trending-now {
+         top: 140px;
+    }
+
     .heading1 {
          top: 52px;
     }
@@ -1165,7 +1187,6 @@ left: 12px;
     font-size: 14px;
 }
 }
-
 
 @media (max-width: 930px) {
 
@@ -1318,7 +1339,6 @@ left: 12px;
 }
 }
 
-
 @media (max-width: 860px) { 
 
     .navbar .active {
@@ -1375,6 +1395,10 @@ left: 12px;
 
     
     
+    .trending-now {
+        width: 78%;
+    }
+    
     .heading1 {
         width: 78%;
     }
@@ -1405,7 +1429,6 @@ left: 12px;
 
 
 }
-
 
 @media (max-width: 826px) {
 
@@ -1441,7 +1464,6 @@ left: 12px;
 
 }
 
-
 @media (max-width: 810px) {
 
     .navbar .active {
@@ -1470,8 +1492,6 @@ left: 12px;
 
 }
 
-
-
 @media (max-width: 800px) {
 
     .navbar .active {
@@ -1499,7 +1519,6 @@ left: 12px;
     }
 }
 
-
 @media (max-width: 790px) {
 
     .shop-now {
@@ -1510,6 +1529,7 @@ left: 12px;
     margin-left: -25px;
 }
 }
+
 @media (max-width: 780px) {
 
     .shop-now {
@@ -1622,11 +1642,116 @@ left: 12px;
         position: relative;
     }
 
-    .modal-dialog .card-body{
-        width: 300px;
-            }
+    .modal-dialog {
+        height: 896px;
+        max-width: 660px !important;
+ 
+    }
+    #Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+        height: 966px;
+    }
 
-     
+
+    #Colorful_Led_Gaming_Key_Board_And_Mouse > .modal-dialog {
+        height: 920px;
+     }
+
+    .modal-dialog .card-body {
+        width: 100% !important;
+    }
+
+    .modal-dialog .card-body {
+         height: 336px;
+    }
+
+    .carousel-inner {
+         width: 105.1% !important;
+     }
+
+     .carousel-control-next {
+        right: -40px !important;
+    }
+
+
+    #T-Shirt > .modal-dialog {
+        height: 972px !important;
+    }
+
+
+    #RGB_Gaming_Mouse > .modal-dialog {
+        height: 916px;
+    }
+
+   #Stainless_Steel_Wrist_Watch > .modal-dialog {
+        height: 944px;
+    }
+
+    #Layered_Zircone_Stone_Pendant > .modal-dialog {
+        height: 994px;
+    }
+   
+    #Gun_Design_Pendant_For_Men > .modal-dialog {
+        height: 960px;
+    }
+
+    #Alloy_Gold_Plated > .modal-dialog {
+        height: 1010px;
+    }
+
+    #Pcs_Women_Elegant > .modal-dialog {
+        height: 968px;
+    }
+    
+    #Zircon_Necklace_Set_modal17 > .modal-dialog {
+        height: 933px;
+    }
+ 
+    #Jewellery_Combo_Set_18 > .modal-dialog {
+        height: 955px;
+    }
+    
+    #Dhanak_Printed_Suit_31 > .modal-dialog {
+        height: 1168px;
+    }
+
+    #Khaddar_Printed_Suit_32 > .modal-dialog {
+        height: 1086px;
+    }
+ 
+    #Lawn_Printed_Suit_33 > .modal-dialog {
+        height: 1086px;
+    }
+
+    #Lawn_Printed_Suit_34 > .modal-dialog {
+        height: 1086px;
+    }
+
+    #Lawn_Printed_Suit_35 > .modal-dialog {
+        height: 950px;
+    }
+    #Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
+        height: 1020px;
+    }
+
+    #Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+        height: 970px;
+    }
+
+    #Safwa_Women_Unstitched_39 > .modal-dialog {
+        height: 980px;
+    }
+    
+    #Violet_Bloom_40 > .modal-dialog {
+        height: 1050px;
+    }
+
+    #Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
+        height: 1180px;
+    }
+    #Yellow_Kurti_42 > .modal-dialog {
+        height: 1180px;
+    }
+
     .card-wb {
         width: 500px;
      }
@@ -1657,7 +1782,7 @@ left: 12px;
         display: none !important; 
     }
     .cooc-container {
-        width: 748px;
+        width: 104.1%;
     }
 
     .heading3{
@@ -1732,7 +1857,7 @@ left: 12px;
     .product_card_img_modal-1 img {
         width: 597px;
         position: relative;
-        left: 70px;
+        left: 32px;
     }
 
     .product_card_img_modal-1:hover img {
@@ -1743,7 +1868,7 @@ left: 12px;
     .product_card_img_modal-2 img {
         width: 597px;
         position: relative;
-        left: 70px;
+        left: 32px;
     }
 
     .product_card_img_modal-2:hover img {
@@ -1754,7 +1879,7 @@ left: 12px;
     .product_card_img_modal-4 img {
         width: 597px;
         position: relative;
-        left: 70px;
+        left: 32px;
     }
 
     .product_card_img_modal-4:hover img {
@@ -1767,7 +1892,7 @@ left: 12px;
     .product_card_img_modal-5 img {
         width: 597px;
         position: relative;
-        left: 70px;
+        left: 32px;
     }
 
     .product_card_img_modal-5:hover img {
@@ -1778,7 +1903,7 @@ left: 12px;
      .product_card_img_modal-16 img {
         width: 597px;
         position: relative;
-        left: 70px;
+        left: 32px;
     }
 
     .product_card_img_modal-16:hover img {
@@ -1786,10 +1911,20 @@ left: 12px;
     }
 
 
-     .product_card_img_modal-35 img {
+     .product_card_img_modal-30 img {
         width: 597px;
         position: relative;
-        left: 70px;
+        left: 32px;
+    }
+
+    .product_card_img_modal-30:hover img {
+        width: 597px;
+    }
+
+    .product_card_img_modal-35 img {
+        width: 597px;
+        position: relative;
+        left: 32px;
     }
 
     .product_card_img_modal-35:hover img {
@@ -1909,9 +2044,7 @@ left: 12px;
         width: 597px;
     }
 
-    .modal-dialog {
-        height: 1270px;
-    }
+  
     .button {
         margin: -94px 18% 110px;
     }
@@ -2008,7 +2141,7 @@ left: 12px;
 
 @media (max-width: 764px) {
 .cooc-container {
-    width: 100%;
+    width: 104%;
 }
 }
 
@@ -2310,8 +2443,6 @@ left: 12px;
     
     }
 
-
-
     @media (max-width: 680px) {
 
         .shop-now {
@@ -2361,8 +2492,121 @@ left: 12px;
         .nav-link-hover {
             margin: 22px 235px;
         }
-  
+        .modal-dialog {
+             max-width: 554px !important;
+        }
+
+        .product_card_img_modal-1 img {
+             left: 16px;
+        }
+        .product_card_img_modal-2 img {
+             left: 16px;
+        }
+
+        #T-Shirt > .modal-dialog {
+            height: 1014px !important;
+        }
+
+        .carousel-inner {
+            width: 106.1% !important;
+        }
+
+        .product_card_img_modal-4 img {
+            width: 488px;
+        }
+
+        .product_card_img_modal-4:hover img {
+            width: 492px;
+        }
+
+        .product_card_img_modal-5 img {
+            width: 488px;
+        }
+
+        .product_card_img_modal-5:hover img {
+            width: 492px;
+        }
+        
+
+        #Layered_Zircone_Stone_Pendant > .modal-dialog {
+            height: 1014px;
+        }
+
+        #Alloy_Gold_Plated > .modal-dialog {
+            height: 1033px;
+        }
+
+
+        .product_card_img_modal-16 img {
+             left: 15px;
+        }
+
+        #Dhanak_Printed_Suit_31 > .modal-dialog {
+            height: 1200px;
+        }
+
+        #Khaddar_Printed_Suit_32 > .modal-dialog {
+            height: 1125px;
+        }
+
+        .product_card_img_modal-35 img {
+            width: 488px;
+        }
+
+        .product_card_img_modal-35:hover img {
+            width: 492px;
+        }
+        
+
+        #Lawn_Printed_Suit_33 > .modal-dialog {
+            height: 1100px;
+        }
+
+
+        #Lawn_Printed_Suit_35 > .modal-dialog {
+            height: 974px;
+        }
+
+        .product_card_img_modal-30 img {
+            width: 488px;
+        }
+
+        .product_card_img_modal-30:hover img {
+            width: 492px;
+        }
+        
+        #Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+            height: 1010px;
+        }
+    
+       #Lawn_Digital_Printed_Kurta_38 > .modal-dialog {
+            height: 915px;
+        }
+
+        #Safwa_Women_Unstitched_39 > .modal-dialog {
+            height: 1048px;
+        }
+        
+        
+        #Violet_Bloom_40 > .modal-dialog {
+            height: 1100px;
+        }
+
+        #Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
+            height: 1240px;
+        }
+        
+
+        .card-body.product_card-body_41 {
+            width: 100% !important;
+        }
+
+        #Yellow_Kurti_42 > .modal-dialog {
+            height: 1200px;
+        }
+
     }
+
 
     @media (width: 667px){
              .navbar .active {
@@ -2640,6 +2884,9 @@ left: 12px;
         }
 
 
+    .trending-now {
+        width: 90%;
+    }
     .heading1 {
         width: 90%;
     }
@@ -2777,6 +3024,107 @@ left: 12px;
              height: 45px !important;
         }
 
+
+        .modal-dialog {
+            max-width: 484px !important;
+            left: 7%;
+        }
+
+        .product_card_img_modal-1 img {
+            left: 0px;
+        }
+
+        
+                #Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+                    height: 1014px;
+                }
+
+        .product_card_img_modal-2 img {
+            left: 0px;
+        }
+
+        .carousel-inner {
+            width: 100% !important;
+        }
+
+        .carousel-control-next {
+            right: 4px !important;
+        }
+        .product_card_img_modal-4 img {
+            width: 484px;
+           left: 0px;
+        }        
+
+
+        .product_card_img_modal-4:hover img {
+            width: 488px;
+        }
+
+        .product_card_img_modal-5 img {
+            width: 484px;
+            left: 0px;
+        }
+
+        .product_card_img_modal-5 img {
+            width: 488px;
+         }
+
+         #Stainless_Steel_Wrist_Watch > .modal-dialog {
+            height: 970px;
+        }
+
+        #Pcs_Women_Elegant > .modal-dialog {
+            height: 990px;
+        }
+        
+
+        .product_card_img_modal-16 img {
+            width: 484px;
+            left: 0px;
+        }
+
+        .product_card_img_modal-16 img {
+            width: 488px;
+         }
+
+         #Zircon_Necklace_Set_modal17 > .modal-dialog {
+            height: 943px;
+        }
+
+        #Jewellery_Combo_Set_18 > .modal-dialog {
+            height: 986px;
+        }
+
+        #Khaddar_Printed_Suit_32 > .modal-dialog {
+            height: 1160px;
+        }
+
+        
+        .product_card_img_modal-35 img {
+            width: 480px;
+            left: 0px;
+        }
+
+        .product_card_img_modal-35 img {
+            width: 484px;
+        }
+        .product_card_img_modal-30 img {
+            width: 480px;
+            left: 0px;
+        }
+
+        .product_card_img_modal-30 img {
+            width: 484px;
+        }
+
+        #Lawn_Digital_Printed_Kurta_38 > .modal-dialog {
+            height: 950px;
+        }
+
+        #Yellow_Kurti_42 > .modal-dialog {
+            height: 1273px;
+        }
+
     }
 
     @media (max-width: 570px) {
@@ -2896,6 +3244,11 @@ left: 12px;
             width: 480px;
             left: -5%; 
         }
+        .trending-now {
+            width: 80%;
+                 left: 8%;
+            
+        }
         .heading1 {
             width: 80%;
                  left: 8%;
@@ -2918,6 +3271,10 @@ left: 12px;
     left: 6%;
 }
 
+.modal-dialog {
+     left: 5%;
+}
+
 
 }
 
@@ -2935,6 +3292,11 @@ left: 12px;
         width: 100%;
     }
 
+    .modal-dialog {
+        left: 4%;
+   }
+   
+
     }
  
     @media (max-width: 534px) {
@@ -2950,6 +3312,12 @@ left: 12px;
         .shop-now {
             left: 348px !important;
         }
+
+        .modal-dialog {
+            left: 3%;
+       }
+       
+
     }
 
     @media (max-width: 524px) {
@@ -3028,7 +3396,9 @@ left: 12px;
          transform: translate(-53px, -6px);
     }
 
-
+    .modal-dialog {
+        left: 2%;
+    }
     
     }
 
@@ -3037,6 +3407,11 @@ left: 12px;
     .shop-now {
         left: 328px !important;
     }
+
+    .modal-dialog {
+        left: 0%;
+    }
+
     }
     @media (max-width: 510px) {
 
@@ -3060,15 +3435,164 @@ left: 12px;
             left: 322px !important;
         }
  
- 
+        .modal-dialog {
+            max-width: 90% !important;
+                 left: 3%;
+            
+        }
 
-    }
+        #Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+            height: 1022px;
+        }
+
+        .modal-dialog {
+            height: 916px;
+        }        
+
+        #Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+            height: 1040px;
+        }
+    
+        #T-Shirt > .modal-dialog {
+            height: 1040px !important;
+        }
+
+        .product_card_img_modal-4 img {
+            width: 452px;
+        }
+
+        .product_card_img_modal-4:hover img {
+            width: 454px;
+        }
+        .product_card_img_modal-5 img {
+            width: 452px;
+        }
+
+        .product_card_img_modal-5:hover img {
+            width: 454px;
+        }
+    
+
+        #Layered_Zircone_Stone_Pendant > .modal-dialog {
+            height: 1040px;
+        }
+ #Gun_Design_Pendant_For_Men > .modal-dialog {
+    height: 970px;
+}
+
+#Jewellery_Combo_Set_18 > .modal-dialog {
+    height: 1010px;
+}
+
+#Dhanak_Printed_Suit_31 > .modal-dialog {
+    height: 1260px;
+}
+
+#Khaddar_Printed_Suit_32 > .modal-dialog {
+    height: 1200px;
+}
+
+#Lawn_Printed_Suit_33 > .modal-dialog {
+    height: 1138px;
+}
+
+#Lawn_Printed_Suit_34 > .modal-dialog {
+    height: 1108px;
+}
+
+#Lawn_Printed_Suit_35 > .modal-dialog {
+    height: 1000px;
+}
+
+.product_card_img_modal-35 img {
+    width: 452px;
+}
+
+.product_card_img_modal-35:hover img {
+    width: 454px;
+}
+
+#Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
+    height: 1034px;
+}
+
+.product_card_img_modal-30 img {
+    width: 452px;
+}
+
+.product_card_img_modal-30:hover img {
+    width: 454px;
+}
+
+#Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+    height: 1060px;
+}
+
+#Violet_Bloom_40 > .modal-dialog {
+    height: 1146px;
+}
+
+#Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
+    height: 1270px;
+}
+
+#Yellow_Kurti_42 > .modal-dialog {
+    height: 1300px;
+}
+
+.trending-now {
+    margin: -88px auto 30px;
+}
+
+
+.heading1 {
+    margin:26px auto 47px;
+}
+
+
+
+}
+
 
     @media (max-width: 500px){
         .shop-now {
             left: 320px !important;
         }
-}
+
+
+        #Colorful_Led_Gaming_Key_Board_And_Mouse > .modal-dialog {
+            height: 980px;
+        }
+
+        .product_card_img_modal-4 img {
+            width: 100%;
+        }
+
+        .product_card_img_modal-5 img {
+            width: 100%;
+        }
+
+        #Stainless_Steel_Wrist_Watch > .modal-dialog {
+            height: 1000px;
+        }
+
+        #Layered_Zircone_Stone_Pendant > .modal-dialog {
+            height: 1060px;
+        }
+
+        #Gun_Design_Pendant_For_Men > .modal-dialog {
+            height: 1006px;
+        }
+
+        #Alloy_Gold_Plated > .modal-dialog {
+            height: 1062px;
+        }
+    
+        #Pcs_Women_Elegant > .modal-dialog {
+            height: 1010px;
+        }
+
+    }
 
 @media (max-width: 480px){
 
@@ -3099,6 +3623,9 @@ left: 12px;
     width: 426px;
 }
 
+.trending-now {
+    width: 85%;
+}
 .heading1 {
     width: 85%;
 }
@@ -3161,6 +3688,10 @@ left: 12px;
         width: 390px;
     }
 
+    .trending-now {
+        width: 70%;
+    }
+
     .heading1 {
         width: 70%;
     }
@@ -3195,14 +3726,48 @@ left: 12px;
     }
 
     .responsive-view {
-        left: -1.5%;
+        left: -4.5%;
     }
+
+    .button {
+        margin: -94px 29% 110px;
+    }
+
 
     .cards-5__side {
         width: 370px;
     }
 
+    .heading2 {
+        left: 3%;
+    }
+
+    .responsive-jew {
+        left: 5.5%;
+    }
+
+    .see-more-btn {
+        margin: 26% 32% 110px;
+    }
+
+    .cooc-container {
+        width: 113.6%;
+    }
+
+    .heading4 {
+        left: 0%;
+        width: 97%;
+
+    }
+
+    .footer .row > div > div > span {
+        width: 253px;
+        font-size: 14px;
+    }
+    
 }
+
+ 
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px) {
         
@@ -3215,11 +3780,11 @@ left: 12px;
             height: 7pc !important;
         }
 
-         .logo {
+        .logo {
             width: 100%;
-            height: 142px;
-            left: -5px;
-            top: -17px;
+            height: 200px;
+            left: -22px;
+            top: -52px;
         }
         
         .navbar .active {
@@ -3244,9 +3809,12 @@ left: 12px;
         
 
         .shop-now {
-            left: 482px !important;
+            left: 270px !important;
         } 
         
+        .trending-now {
+             left: 20px;
+        }
         .heading1 {
              left: 20px;
         }
@@ -3267,22 +3835,58 @@ left: 12px;
             margin: 2px 8px;
         }
 
-        .cards-2 {
-             left: 20px;
+        .responsive-jew {
+            left: 4.5%;
+            top: -92px;
+        }
+ 
+
+        .see-more-btn {
+            margin: 26% 24% 110px;
         }
 
         .cards-5__picture {
             width: 100%;
         }
 
-
         .cooc-container {
-            width: 395px;
+            width: 414px;
         }
 
 
         .shop-now-cooc {
             left: 27% !important;
+        }
+        .heading4 {
+            left: 20px;
+            width: 70%;
+           }
+       
+        .responsive-wuc {
+            left: -1%;
+        }
+
+        .wucs-btn {
+            margin: 92px 34% 110px !important;
+        }
+
+        .heading5 {
+            left: 2%;
+        }
+
+
+        .cards-5 {
+            top: -100px;
+             left: 15px;
+        }        
+
+        .cards-5__side {
+            width: 354px;
+        }
+
+
+        .BSM-btn {
+            margin: -11% 31% 110px !important;
         }
 
 .product_card_img_modal-1 img {
@@ -3504,13 +4108,7 @@ left: 12px;
      left: 20px;
 }
 
-.heading4 {
-     left: 20px;
-}
 
-.cards-5 {
-     left: 15px;
-}
 
 @keyframes responsive-animation-h1 {
     
@@ -3573,19 +4171,42 @@ width: 117%;
             height: 662px;
         }
 
+        .footer .row b {
+            font-size: 16px;
+        }
+
+        .footer .row > div > div > a.sf {
+            width: 86px;
+            font-size: 16px;
+        }
+
         .footer .row > div > div > span {
-            width: 302px;
-            font-size: 14px;
+            width: 280px;
+            font-size: 12px;
         }
-
         .footer .row > div > div > a {
-            width: 124px;
-            font-size: 18px;
+            width: 112px;
+            font-size: 16px;
         }
 
+        .footer .row > div > div > a.em {
+            width: 152px;
+            font-size: 16px;
+        }
 
     }
+    @media (max-width: 413px) {
+    
+    .cooc-container {
+        width: 413px;
+    }
+    }
     @media (max-width: 412px) {
+
+
+        .cooc-container {
+            width: 108.6%;
+        }
 
     .price button {
         width: 134px !important;
@@ -3595,14 +4216,55 @@ width: 117%;
   
     @media (max-width: 400px) {
         .shop-now {
-            left: 485px !important;
+            left: 264px !important;
         }
+
+        .images__cont {
+            width: 354px;
+        }
+
+        .images__cont-two {
+            width: 354px;
+        }
+        .cards-5__side {
+            width: 340px;
+        }
+
+        .footer .row > div > div > span {
+            width: 260px;
+        }        
+    
+    
     }
  
+    @media (max-width: 395px) {
+
+    .trending-now {
+        width: 76%;
+    }
+    .heading1 {
+        width: 76%;
+    }
+
+    .responsive-view {
+        left: -7.5%;
+    }
+
+    .images__cont {
+        width: 350px;
+    }
+
+    .images__cont-two {
+        width: 350px;
+    }
+
+
+    }
+
     @media (max-width: 390px) {
 
         #home {
-            width: 408px;
+            width: 104.3%;
             height: 260px;
         }
         .shop-now {
@@ -3614,37 +4276,145 @@ width: 117%;
             padding-top: 5px !important;
         }
         
+
+        .images__cont {
+            width: 360px;
+        }
+
+        .images__cont-two {
+            width: 360px;
+        }
+
+        .cooc-container {
+            width: 113.6%;
+        }
         
-    .footer {
-         width: 101.2%;
+        .cards-2 {
+            width: 104%;
+        }
+
+        .responsive-wuc {
+            left: 1%;
+        }
+
+        .heading5 {
+            left: 6%;
+        }
+
+        .responsive-brd {
+            left: 2%;
+        }
+
+        .footer {
+            width: 104.5%;
+        }
     }
+
+    @media (max-width: 386px){
+
+    #home {
+        width: 103.9%;
+    }
+
+    .images__cont {
+        width: 350px;
+    }
+
+    .images__cont-two {
+        width: 350px;
+    }
+
+    .cooc-container {
+        width: 113.3%;
+    }
+
+    .footer {
+        width: 104.2%;
+    }
+    
+    
+
+
+    }
+    @media (max-width: 384px){
+
+    #home {
+         height: 254px;
+    }
+
+    .shop-now {
+        left: 245px !important;
+    }
+    
+    
+    .cooc-container {
+        width: 112.9%;
+    }
+
+    .cards-5__picture--1 {
+         width: 118%;
+    }
+    .cards-5__picture--2 {
+         width: 118%;
+    }
+    .cards-5__picture--3 {
+         width: 118%;
+    }
+    .cards-5__picture--4 {
+         width: 118%;
+    }
+    .cards-5__picture--5 {
+         width: 118%;
+    }
+    .cards-5__picture--6 {
+         width: 118%;
+    }
+
+    .footer {
+        width: 103.8%;
+    }
+
+
+    }
+    @media (max-width: 382px){
+
+    #home {
+         height: 254px;
+    width: 103.5%;
+        }
+
+    .shop-now {
+        left: 245px !important;
+    }
+    
+    
+    .cooc-container {
+        width: 112.6%;
+    }
+
+  
+
+    .footer {
+        width: 103.6%;
+    }
+
+
     }
 
     @media (max-width: 380px){
-        #home {
-            width: 401px;
-        }
-
         .shop-now {
-            left: 247px !important;
+            left: 240px !important;
         }
-
-
-.footer {
-    width: 395px;
-}
 }
 
     @media (max-width: 375px) {
 
         #home {
-            width: 383px;
-            height: 245px;
-        }
+            width: 100%;
+         }
 
         .logo {
-            width: 87%;
-            height: 120px;
+            left: -44px;
         }
 
         .al-firdous {
@@ -3662,7 +4432,7 @@ width: 117%;
             font-size: 6px !important;
             height: 29px!important;
             top: 180px !important;
-            left: 234px !important;
+            left: 233px !important;
         }
 
 
@@ -3680,7 +4450,22 @@ width: 117%;
             width: 330px;
         }
 
-        
+        .trending-now {
+            width: 80%;
+        }
+        .heading1 {
+            width: 80%;
+        }
+
+
+        .responsive-view {
+            left: -11.5%;
+        }
+
+        .button {
+            margin: -94px 34% 110px;
+        }
+
           .price button {
             width: 140px !important;
             left: 5px;
@@ -3696,15 +4481,53 @@ width: 117%;
 
         
         .cooc-container {
-    width: 357px;
+    width: 114.8%;
 }
-          .footer .row > div > div > span {
-            width: 262px;
-            font-size: 15px;
-        }
+
+
+
+.wucs-btn {
+    margin: 92px 30% 110px !important;
+}
+
+
+.cards-5__side {
+    width: 310px;
+}
+
+.cards-5__picture--1 {
+    width: 132%;
+    transform: translate(-98px, -6px);
+}
+.cards-5__picture--2 {
+    width: 132%;
+    transform: translate(-98px, -6px);
+}
+.cards-5__picture--3 {
+    width: 119%;
+    transform: translate(-37px, 9px);
+}
+.cards-5__picture--4 {
+    width: 126%; 
+}
+.cards-5__picture--5 {
+    width: 132%;
+    transform: translate(-98px, -6px);
+}
+.cards-5__picture--6 {
+     transform: translate(-38px, -6px);
+}
+.BSM-btn {
+    margin: -11% 29% 110px !important;
+}
+
+.footer .row > div > div > span {
+    width: 246px;
+    font-size: 14px;
+}
    
         .footer {
-            width: 358px;
+            width: 100%;
         }
 
         .footer-1 {
@@ -3714,25 +4537,260 @@ width: 117%;
    
     }
  
+    @media (max-width: 370px) {
+    .shop-now {
+         left: 230px !important;
+    }
+
+    .images__cont {
+        width: 322px;
+    }
+    .images__cont-two {
+        width: 322px;
+        left: -15%;
+    }
+
+    .heading4 {
+         width: 82%;
+    }
+    
+
+    }
+
     @media (max-width: 366px) {
 
     .shop-now {
        padding-top: 8px !important;
-    }
+         left: 228px !important;
+        }
+
+        .trending-now {
+            width: 65%;
+        }
+
+        .heading1 {
+            width: 65%;
+        }
+
 }
 
 
 @media (max-width: 363px){
 .shop-now {
-    width: 17% !important;
-    left: 233px !important;
+    width: 17% !important; 
 }
 } 
+
+@media (max-width: 360px){
+
+.images__cont {
+    width: 314px;
+}
+
+.images__cont-two {
+    width: 314px;
+}
+
+.cards-5 {
+     left: 7px;
+}
+}
+
+@media (max-width: 355px){
+
+.shop-now {
+     left: 222px !important;
+    top: 188px !important;
+}
+
+.product-img1:hover, .product-img2:hover, .product-img3:hover, .product-img4:hover, .product-img5:hover, .product-img6:hover, .product-img7:hover, .product-img8:hover, .product-img9:hover, .product-img10:hover, .product-img11:hover, .product-img12:hover, .product-img25:hover, .product-img26:hover, .product-img27:hover, .product-img28:hover, .product-img29:hover, .product-img30:hover {
+    width: 19rem;
+}
+
+.cooc-container {
+    height: 235px;
+}
+
+.row.cooc-heading-container {
+    padding-top: 71px !important;
+}
+
+
+.cooc-heading {
+    font-size: 1.6rem;
+}
+
+.shop-now-cooc {
+    width: 129px !important;
+    font-size: 1rem !important;
+    height: 42px !important;
+    left: 31% !important;
+    top: 132px !important;
+}
+
+.cards-5__side {
+    width: 298px;
+}
+
+}
+
+@media (max-width: 350px){
+
+
+    .images__cont {
+        width: 304px;
+    }
+
+    .images__cont-two {
+        width: 304px;
+             left: -16%;
+        
+    }
+        
+
+    .responsive-view {
+        left: -12.5%;
+    }
+
+.cards-5__picture--1 {
+    width: 134%;
+}
+.cards-5__picture--2 {
+    width: 134%;
+}
+.cards-5__picture--5 {
+    width: 134%;
+}
+
+.BSM-btn {
+    margin: -11% 25% 110px !important;
+}
+
+}
+
+
 @media (max-width: 343px){
  .shop-now {
-    width: 17% !important;
-    left: 235px !important;
-    font-size: 0.3rem !important;
+    left: 218px !important;
 }
+
+.responsive-view {
+    left: -14.5%;
+}
+.cards-5 {
+    left: 4px;
+}
+
+.footer .row > div > div > span {
+    width: 228px;
+    font-size: 13px;
+}
+
+
 }
   
+
+@media (max-width: 340px){
+    .shop-now {
+        left: 215px !important;
+    width: 18% !important;
+}
+
+    .images__cont {
+        width: 296px;
+    }
+    .images__cont-two {
+        width: 296px;
+left: -17%;
+    }
+
+    .product-img1:hover, .product-img2:hover, .product-img3:hover, .product-img4:hover, .product-img5:hover, .product-img6:hover, .product-img7:hover, .product-img8:hover, .product-img9:hover, .product-img10:hover, .product-img11:hover, .product-img12:hover, .product-img25:hover, .product-img26:hover, .product-img27:hover, .product-img28:hover, .product-img29:hover, .product-img30:hover {
+        width: 18rem;
+    }
+
+}
+
+@media (max-width: 330px){
+
+#home {
+    height: 235px;
+}
+
+.shop-now {
+    width: 17% !important;
+    font-size: 5px !important;
+    left: 207px !important;
+    top: 174px !important;
+}
+.images__cont {
+    left: 0%;
+}
+
+.images__cont-two {
+     left: -20%;
+}
+
+.cards-5 {
+    left: 0px;
+}
+
+.heading5 {
+     width: 58%;
+}
+
+
+
+}
+
+@media (max-width: 320px){
+
+    #home {
+        width: 103%;
+    }
+
+    .trending-now {
+        width: 80%;
+    }
+
+    .heading4 {
+        width: 88%;
+    }
+
+    .heading2 {
+        left: 8%;
+    }
+    
+    
+
+    .cards-2 {
+        left: -1%;
+        width: 108%;
+    }
+
+
+    .product-img5 .product-image {
+         width: 267px;
+    }
+
+    .product-img6 .product-image {
+         left: 3rem;
+    }
+
+    .cooc-container {
+        width: 118.4%;
+    }
+
+
+.cards-5__side {
+    width: 290px;
+}
+
+.button {
+    margin: -94px 40% 110px;
+}
+
+.footer {
+    width: 103%;
+}
+
+}
