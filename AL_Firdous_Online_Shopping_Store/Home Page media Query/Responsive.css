@@ -3387,7 +3387,7 @@ left: 12px;
          transform: translate(-53px, -6px);
     }
     .cards-5__picture--4 {
-         transform: translate(-53px, -6px);
+         transform: translate(-53px, -60px);
     }
     .cards-5__picture--5 {
          transform: translate(-90px, -6px);
@@ -3589,10 +3589,117 @@ left: 12px;
         }
     
         #Pcs_Women_Elegant > .modal-dialog {
-            height: 1010px;
+            height: 1016px;
+        }
+ 
+        #Zircon_Necklace_Set_modal17 > .modal-dialog {
+            height: 970px;
         }
 
+        #Jewellery_Combo_Set_18 > .modal-dialog {
+            height: 1026px;
+        }
+
+        #Dhanak_Printed_Suit_31 > .modal-dialog {
+            height: 1284px;
+        }
+
+        #Khaddar_Printed_Suit_32 > .modal-dialog {
+            height: 1210px;
+        }
+        #Lawn_Printed_Suit_33 > .modal-dialog {
+            height: 1150px;
+        }
+
+        #Lawn_Printed_Suit_34 > .modal-dialog {
+            height: 1130px;
+        }
+
+        #Lawn_Printed_Suit_35 > .modal-dialog {
+            height: 1024px;
+        
+        }
+        .product_card_img_modal-35 img {
+            width: 100%;
+        }
+
+        .product_card_img_modal-35:hover img {
+            width: 100%;
+        }
+
+
+        #Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
+            height: 1064px;
+        }
+
+        .product_card_img_modal-30 img {
+            width: 100%;
+        }
+
+        .product_card_img_modal-30:hover img {
+            width: 100%;
+        }
+
+
+        #Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+            height: 1080px;
+        }
+
+        #Lawn_Digital_Printed_Kurta_38 > .modal-dialog {
+            height: 970px;
+        }
+
+        #Safwa_Women_Unstitched_39 > .modal-dialog {
+            height: 1056px;
+        }
+
+        #Violet_Bloom_40 > .modal-dialog {
+            height: 1155px;
+        }
+
+        #RGB_Gaming_Mouse > .modal-dialog {
+            height: 940px;
+        }
+
+
     }
+
+@media (max-width: 498px){
+   #Pcs_Women_Elegant > .modal-dialog {
+        height: 1042px;
+    }
+
+    #Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
+        height: 1296px;
+    }
+
+    #Yellow_Kurti_42 > .modal-dialog {
+        height: 1330px;
+    }
+
+
+}
+
+@media (max-width: 496px){
+
+#Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
+    height: 1076px;
+}
+}
+
+@media (max-width: 487px){
+
+.modal-dialog {
+    height: 944px;
+}
+
+#Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+    height: 1072px;
+}
+
+
+
+}
 
 @media (max-width: 480px){
 
@@ -3606,6 +3713,30 @@ left: 12px;
 
 .images__cont-two {
      left: -9%;
+}
+
+#Alloy_Gold_Plated > .modal-dialog {
+    height: 1074px;
+}
+
+}
+
+@media (max-width: 477px){
+
+#Khaddar_Printed_Suit_32 > .modal-dialog {
+    height: 1236px;
+}
+}
+
+
+@media (max-width: 472px){
+
+#T-Shirt > .modal-dialog {
+    height: 1080px !important;
+}
+
+#Jewellery_Combo_Set_18 > .modal-dialog {
+    height: 1056px;
 }
 
 }
@@ -3646,6 +3777,52 @@ left: 12px;
     width: 405px;
 }
 
+#Alloy_Gold_Plated > .modal-dialog {
+    height: 1086px;
+}
+
+#Zircon_Necklace_Set_modal17 > .modal-dialog{
+    height: 996px;
+}
+
+
+#Lawn_Printed_Suit_33 > .modal-dialog {
+    height: 1158px;
+}
+ 
+#Lawn_Printed_Suit_34 > .modal-dialog {
+    height: 1138px;
+}
+
+#Dhanak_Printed_Suit_31 > .modal-dialog {
+    height: 1300px;
+}
+
+}
+
+@media (max-width: 463px){
+
+
+    .images__cont {
+        left: 0%;
+    }
+
+    .images__cont-two {
+        left: -13%;
+    }
+
+    .heading1 {
+        left: 5%;
+   }
+
+    .responsive-view {
+        left:3%;
+    }
+     
+
+#Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
+    height: 1324px;
+}
 }
 
     @media (max-width: 460px){
@@ -3668,12 +3845,40 @@ left: 12px;
     }
 
 
+
     .responsive-view {
         left: 4.5%;
     }
 
+
+
 }
- 
+
+@media (max-width: 454px){
+
+#Stainless_Steel_Wrist_Watch > .modal-dialog {
+    height: 1020px;
+}
+}
+
+@media (max-width: 450px){
+
+#Colorful_Led_Gaming_Key_Board_And_Mouse > .modal-dialog {
+    height: 1000px;
+}
+
+#T-Shirt > .modal-dialog {
+    height: 1096px !important;
+}
+
+#Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
+    height: 1106px;
+}
+
+
+
+
+}
 
 @media (max-width: 440px){
     .shop-now {
@@ -3704,12 +3909,76 @@ left: 12px;
         font-size: 1.3rem;
     }
 
+    #RGB_Gaming_Mouse > .modal-dialog {
+        height: 960px;
+    }
+
+    #Stainless_Steel_Wrist_Watch > .modal-dialog {
+        height: 1026px;
+    }
+
+    #Dhanak_Printed_Suit_31 > .modal-dialog {
+        height: 1310px;
+    }
+
+    #Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+        height: 1087px;
+    }
+    
     .footer .row > div > div > span {
         width: 289px;
     font-size: 1rem;
     }
 }
- 
+
+@media (max-width: 438px){
+
+#Lawn_Printed_Suit_34 > .modal-dialog {
+    height: 1170px;
+}
+}
+
+@media (max-width: 434px){
+
+#Lawn_Printed_Suit_35 > .modal-dialog {
+    height: 1054px;
+}
+}
+
+@media (max-width: 430px){
+
+#T-Shirt > .modal-dialog {
+    height: 1126px !important;
+}
+
+#Dhanak_Printed_Suit_31 > .modal-dialog {
+    height: 1340px;
+}
+#Lawn_Printed_Suit_33 > .modal-dialog {
+    height: 1186px;
+}
+
+#Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+    height: 1118px;
+}
+
+#Lawn_Digital_Printed_Kurta_38 > .modal-dialog {
+    height: 1012px;
+}
+
+#Safwa_Women_Unstitched_39 > .modal-dialog {
+    height: 1120px;
+}
+
+#Violet_Bloom_40 > .modal-dialog {
+    height: 1190px;
+}
+
+#Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
+    height: 1350px;
+}
+
+}
 
 @media (max-width: 424px){
     .shop-now {
@@ -3767,7 +4036,13 @@ left: 12px;
     
 }
 
- 
+@media (max-width: 420px){
+
+#Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+    height: 1092px;
+}
+}
+
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px) {
         
@@ -3888,220 +4163,6 @@ left: 12px;
         .BSM-btn {
             margin: -11% 31% 110px !important;
         }
-
-.product_card_img_modal-1 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-.product_card_img_modal-1 img {
-     left: 0px;
-}
- 
-
-.product_card_img_modal-2 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-.product_card_img_modal-2 img {
-     left: 0px;
-}
- 
-
-.product_card_img_modal-3 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-.product_card_img_modal-3 img {
-    left: 0px;
-}
-
-
-
-.product_card_img_modal-4 img {
-    width: 379px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-.product_card_img_modal-4 img {
-     left: 0px;
-}
-
-
-.product_card_img_modal-5 img {
-    width: 379px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-.product_card_img_modal-5 img {
-     left: 0px;
-}
-
-
-.product_card_img_modal-16 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
- .product_card_img_modal-16 img {
-     left: 0px;
-}
-
-.product_card_img_modal-30 img {
-    width: 379px;
-}
-
-.product_card_img_modal-35 img {
-    width: 379px;
-    position: relative;
-    left: 0px;
-}
-
-
-
- .product_card_img_modal-35 img {
-     left: 0px;
-}
-
-
-.product_card_img_modal-36 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-36 img {
-     left: 0px;
-}
-
-
-.product_card_img_modal-54 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-54 img {
-     left: 0px;
-}
-
-
-.product_card_img_modal-68 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-68 img {
-     left: 0px;
-}
- 
-
-
-.product_card_img_modal-72 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-72 img {
-     left: 0px;
-}
- 
-
-.product_card_img_modal-73 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-73 img {
-     left: 0px;
-}
- 
-
-.product_card_img_modal-57 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-
-     .product_card_img_modal-57 img {
-     left: 0px;
-}
- 
-
-
-.product_card_img_modal-74 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-74 img {
-     left: 0px;
-}
-
-
-.product_card_img_modal-78 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-78 img {
-     left: 0px;
-}
- 
-
-
-.product_card_img_modal-84 img {
-    width: 597px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-     .product_card_img_modal-84 img {
-     left: 0px;
-}
  
 
 .card-wuc {
@@ -4162,6 +4223,9 @@ width: 117%;
 }
 
 
+#Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+    height: 1098px;
+}
 
         .footer .container {
             width: 60%;
@@ -4200,6 +4264,12 @@ width: 117%;
     .cooc-container {
         width: 413px;
     }
+
+    .modal-dialog {
+        height: 960px;
+    }
+
+
     }
     @media (max-width: 412px) {
 
