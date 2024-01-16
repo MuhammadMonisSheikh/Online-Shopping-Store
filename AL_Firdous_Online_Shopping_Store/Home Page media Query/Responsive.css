@@ -4227,6 +4227,18 @@ width: 117%;
     height: 1098px;
 }
 
+#Lawn_Printed_Suit_33 > .modal-dialog {
+    height: 1210px;
+}
+
+#Lawn_Printed_Suit_34 > .modal-dialog {
+    height: 1210px;
+}
+
+#Yellow_Kurti_42 > .modal-dialog {
+    height: 1376px;
+}
+
         .footer .container {
             width: 60%;
         }
@@ -4282,8 +4294,32 @@ width: 117%;
         width: 134px !important;
         left: 18px;
     }
+
+
+    .modal-dialog {
+        height: 972px;
     }
-  
+    }
+ 
+    @media (max-width: 408px) {
+
+    #Yellow_Kurti_42 > .modal-dialog {
+        height: 1400px;
+    }
+    }
+    @media (max-width: 406px) {
+
+    #Lawn_Printed_Suit_33 > .modal-dialog {
+        height: 1240px;
+    }
+    }
+    @media (max-width: 405px) {
+
+    #Pcs_Women_Elegant > .modal-dialog {
+        height: 1060px;
+    }
+    }
+
     @media (max-width: 400px) {
         .shop-now {
             left: 264px !important;
@@ -4298,6 +4334,10 @@ width: 117%;
         }
         .cards-5__side {
             width: 340px;
+        }
+
+        #Alloy_Gold_Plated > .modal-dialog {
+            height: 1100px;
         }
 
         .footer .row > div > div > span {
@@ -4329,6 +4369,13 @@ width: 117%;
     }
 
 
+    }
+
+    @media (max-width: 394px) {
+
+        #Yellow_Kurti_42 > .modal-dialog {
+            height: 1452px;
+        }
     }
 
     @media (max-width: 390px) {
@@ -4374,6 +4421,14 @@ width: 117%;
         .responsive-brd {
             left: 2%;
         }
+
+        #Alloy_Gold_Plated > .modal-dialog {
+            height: 1114px;
+        }
+
+#Yellow_Kurti_42 > .modal-dialog {
+    height: 1466px;
+}
 
         .footer {
             width: 104.5%;
@@ -4475,7 +4530,72 @@ width: 117%;
         .shop-now {
             left: 240px !important;
         }
-}
+         
+        #T-Shirt > .modal-dialog {
+            height: 1133px !important;
+        }
+
+        #Colorful_Led_Gaming_Key_Board_And_Mouse > .modal-dialog {
+            height: 1004px;
+        }
+
+      #Layered_Zircone_Stone_Pendant > .modal-dialog {
+            height: 1072px;
+        }        
+
+        #Alloy_Gold_Plated > .modal-dialog {
+            height: 1120px;
+        }
+
+        #Pcs_Women_Elegant > .modal-dialog {
+            height: 1074px;
+        }
+
+        #Zircon_Necklace_Set_modal17 > .modal-dialog {
+            height: 1014px;
+        }
+
+        #Jewellery_Combo_Set_18 > .modal-dialog {
+            height: 1066px;
+        }
+
+        #Khaddar_Printed_Suit_32 > .modal-dialog {
+            height: 1244px;
+        }
+        
+        #Lawn_Printed_Suit_33 > .modal-dialog {
+            height: 1245px;
+        }        
+
+        #Lawn_Printed_Suit_34 > .modal-dialog {
+            height: 1216px;
+        }
+
+        #Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
+            height: 1114px;
+        }
+
+        #Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+            height: 1120px;
+        }
+        
+        #Lawn_Digital_Printed_Kurta_38 > .modal-dialog {
+            height: 1028px;
+        }
+
+        #Violet_Bloom_40 > .modal-dialog {
+            height: 1192px;
+        }
+
+        #Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
+            height: 1355px;
+        }
+
+        #Yellow_Kurti_42 > .modal-dialog {
+            height: 1480px;
+        }
+
+    }
 
     @media (max-width: 375px) {
 
@@ -4542,13 +4662,7 @@ width: 117%;
         }
  
 
-        .product_card_img_modal-4 img {
-            width: 340px;
-        }
-        .product_card_img_modal-5 img {
-            width: 340px;
-        }
-
+ 
         
         .cooc-container {
     width: 114.8%;
@@ -4607,6 +4721,16 @@ width: 117%;
    
     }
  
+    @media (max-width: 373px) {
+
+    .modal-dialog {
+        height: 998px;
+    }
+
+
+    
+    }
+
     @media (max-width: 370px) {
     .shop-now {
          left: 230px !important;
@@ -4625,6 +4749,45 @@ width: 117%;
     }
     
 
+    .modal-dialog {
+        height: 1030px;
+    }
+
+
+    #Alloy_Gold_Plated > .modal-dialog {
+        height: 1155px;
+    }
+
+
+    #Jewellery_Combo_Set_18 > .modal-dialog {
+        height: 1110px;
+    }
+    
+    #Khaddar_Printed_Suit_32 > .modal-dialog {
+        height: 1270px;
+    }
+    
+#Lawn_Printed_Suit_34 > .modal-dialog {
+    height: 1242px;
+}
+
+#Lawn_Printed_Suit_35 > .modal-dialog {
+    height: 1086px;
+}
+
+
+#Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+    height: 1142px;
+}
+
+
+#Lawn_Digital_Printed_Kurta_38 > .modal-dialog {
+    height: 1056px;
+}
+
+#Safwa_Women_Unstitched_39 > .modal-dialog {
+    height: 1142px;
+}
     }
 
     @media (max-width: 366px) {
