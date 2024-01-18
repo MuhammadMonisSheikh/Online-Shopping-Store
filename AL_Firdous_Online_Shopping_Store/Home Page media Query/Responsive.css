@@ -32,13 +32,11 @@
     padding-right: 0px !important;
 }
  
-.images__cont {
-     margin-left: 44px;
+.images__cont { 
     width: 535px;
 }
 
-.images__cont-two {
-     margin-left: 44px;
+.images__cont-two { 
     width: 535px;
 }
 
@@ -61,6 +59,18 @@
 
 
 /* LAPTOP VIEW */
+
+@media (max-width:1399px) {
+
+    .images__cont {
+         left: 90px;
+    }
+
+.images__cont-two {
+     position: relative;
+    left: 66px;
+}
+}
 
 @media (max-width:1366px) {
 
@@ -128,6 +138,11 @@
         width: 1240px;
     }
 
+
+    .images__cont-two {
+         left: 50px;
+    }
+
     .cards-2 {
      
         width: 352px; 
@@ -169,11 +184,13 @@
 }
 @media (max-width:1300px) {
 
-
     .shop-now {
          top: 455px !important;
     }
 
+    .images__cont-two {
+        left: 35px;
+    }
     .button {
         margin: -94px 48% 110px;
     }
@@ -252,6 +269,11 @@
 }
 }
 
+@media (max-width:1280px) {
+.images__cont-two {
+    left: 18px;
+}
+}
 
 @media (max-width:1272px) {
     #products {
@@ -262,8 +284,7 @@
    @media (max-width:1261px) {
 
    .images__cont-two {
-    margin-left: 44px;
-    width: 500px;
+     width: 500px;
 }
    }
 
@@ -277,11 +298,6 @@
          top: 462px !important;
     }
  
-    .images__cont {
-    margin-left: 33px;
-    width: 493px;
-}
-
 
  }
 
@@ -298,7 +314,6 @@
      }
 
    .images__cont {
-    margin-left: 44px;
     width: 487px;
 }
 
@@ -321,12 +336,10 @@
    .shop-now {
      top: 458px !important;
 }
-
-   .al-firdous {
-     left: 14px;
-   }
-
-
+ 
+   .images__cont-two {
+    left: -10px;
+}
    .trending-now {
     width: 54%;
     left: 6%;
@@ -363,6 +376,8 @@
 
     .images__cont-two {
         width: 500px;
+        left: 62px;
+        
     }
 
     #carouselAP{
@@ -598,12 +613,22 @@ left: 12px;
     .nav-link-hover {
         margin: 0px 15px;
     }
- 
-    
-    .al-firdous {
-        left: 18px;
-    }    
+    .images__cont-two {
+         left: 48px;
+    }
 }
+
+@media (max-width:1180px) {
+.images__cont {
+    left: 42px;
+}
+
+.images__cont-two {
+    left: 42px;
+}
+
+}
+
 @media (max-width:1164px) {
 
     #home {
@@ -618,12 +643,38 @@ left: 12px;
     }
 }
 
+@media (max-width:1160px) {
+
+    .images__cont {
+        left: 32px;
+    }
+
+.images__cont-two {
+    left: 30px;
+}
+}
+
 @media (max-width:1150px) {
 
 .responsive-cont{
     padding-left: 0px !important;
     padding-right: 62px !important;
+}
 
+.images__cont {
+    left: 52px;
+}
+
+.images__cont-two {
+    left: 50px;
+}
+
+.heading1 {
+    left: 0%;
+}
+
+.product-img1 .product-image {
+     width: 288px;
 }
 
 }
@@ -634,6 +685,23 @@ left: 12px;
         background-position: center -65px;
     }
  }
+
+@media (max-width: 1120px){
+
+ .images__cont {
+    left: 30px;
+}
+}
+
+@media (max-width: 1110px){
+
+    .images__cont {
+        left: 42px;
+    }
+    .images__cont-two {
+        left: 26px;
+    }
+}
 
 @media (max-width:1104px) {
   
@@ -655,6 +723,10 @@ left: 12px;
     
     .nav-link-hover {
         margin: 0px 12px;
+    }
+
+    .images__cont-two {
+        left: 36px;
     }
 
     .trending-now {
@@ -733,8 +805,13 @@ left: 12px;
         height: 8% !important;
      }
 
+     .images__cont {
+        width: 472px;
+    }
+
 .images__cont-two {
     width: 466px;
+    left: 45px; 
 }
 
 
@@ -790,13 +867,22 @@ left: 12px;
 }
 
 }
-@media (max-width: 1060px){
+
+@media (max-width: 1066px){
 .images__cont-two {
-    width: 430px;
+     left: 36px;
+}
 }
 
+@media (max-width: 1060px){
 .images__cont {
      width: 458px;
+     left: 60px;
+}
+
+.images__cont-two {
+    width: 430px;
+    left: 48px;
 }
 
 .shop-now {
@@ -836,6 +922,12 @@ left: 12px;
     }
 }
 
+@media (max-width: 1040px){
+.images__cont-two {
+     left: 32px;
+}
+}
+
 /* IPAD LANDSCAPE VIEW */
 
 @media (max-width: 1024px) {
@@ -871,12 +963,10 @@ left: 12px;
     .product-img1:hover, .product-img2:hover, .product-img3:hover, .product-img4:hover, .product-img5:hover, .product-img6:hover, .product-img7:hover, .product-img8:hover, .product-img9:hover, .product-img10:hover, .product-img11:hover, .product-img12:hover, .product-img25:hover, .product-img26:hover, .product-img27:hover, .product-img28:hover, .product-img29:hover, .product-img30:hover {
          width: 16rem;
      }
-
-     .images__cont-two {
-        width: 400px;
-    }
-
-
+ 
+     .images__cont {
+        width: 430px;
+     }
 
 .cards-5 {
     width: 296px;
@@ -898,22 +988,19 @@ left: 12px;
 
   
 } 
+
+@media (max-width: 1023px) {
+.images__cont-two {
+    left: 10px;
+}
+}
+
 @media (max-width: 1022px) {
     .nav-link-hover {
         margin: 0px 8px;
     } 
-
-
-
-    .images__cont {
-        width: 442px;
-    }
-
-    .images__cont-two {
-        margin-left: 10px;
-    }
- 
 }
+
 @media (max-width: 1012px) {
 
 #products {
@@ -973,12 +1060,12 @@ left: 12px;
     
 
     .images__cont {
-        width: 438px;
+        left: 44px;
     }
 
     .images__cont-two {
-        margin-left: 110px;
-    }
+        left: 112px;
+        }
 
 
 
@@ -1133,6 +1220,19 @@ left: 12px;
 
 }
 
+@media (max-width: 980px) {
+
+.images__cont {
+    left: 36px;
+}
+}
+
+@media (max-width: 970px) {
+.images__cont-two {
+    left: 98px;
+}
+}
+
 @media (max-width: 962px) {
     .shop-now {
         left: 67.4%  !important;
@@ -1140,14 +1240,8 @@ left: 12px;
     }
 
     .images__cont-two {
-    margin-left: 76px;
-}
-
-.images__cont {
-    margin-left: 36px;
-    width: 410px;
-}
-
+        left: 92px;
+    }
 
 .mens__col-man {
      font-size: 1.2rem;
@@ -1176,10 +1270,22 @@ left: 12px;
         left: 67.7% !important;
     }    
 
+    .images__cont-two {
+        left: 84px;
+    }
 
 }
 
 @media (max-width: 940px) {
+ 
+    .images__cont {
+        width: 410px;
+    }
+ 
+    .images__cont-two {
+        width: 416px;
+    }
+
     .footer .row > div > div > span {
     width: 374px;
     font-size: 14px;
@@ -1203,13 +1309,8 @@ left: 12px;
 }
 
 @media (max-width: 920px) {
-
-.images__cont {
-    margin-left: 18px;
-}
-
 .images__cont-two {
-    margin-left: 64px;
+    left: 76px;
 }
 
 .button {
@@ -1260,6 +1361,11 @@ left: 12px;
         height: 50px !important;
       }
 
+      .images__cont-two {
+        left: 62px;
+    }
+
+
     .footer .row > div > div > span:hover { 
         background-color:rgb(41,40,40);
             transform: rotate(5deg) scale(1.2);
@@ -1290,13 +1396,9 @@ left: 12px;
     padding: 12px 40px !important;
 }
 
- 
-
-.images__cont-two {
-    margin-left: 46px;
+.images__cont {
+    left: 24px;
 }
-
-
 }
 
 @media (max-width: 885px) {
@@ -1309,10 +1411,12 @@ left: 12px;
 }
 
 @media (max-width: 880px) {
+ 
 
-    .dropdown_btn {
-        padding: 12px 40px !important;
+    .images__cont-two {
+        width: 385px;
     }
+
 }
 
 @media (max-width: 872px) {
@@ -1333,7 +1437,7 @@ left: 12px;
     }
 
 .images__cont-two {
-    width: 378px;
+    width: 376px;
 }
 }
 
@@ -1349,6 +1453,10 @@ left: 12px;
 
     .shop-now {
         left: 66.5% !important;
+    }
+
+    .images__cont-two {
+        left: 48px;
     }
 
     .footer .row > div > div > span {
@@ -1371,11 +1479,9 @@ left: 12px;
         font-size: 14px !important;
     }
     
-    
-
-.images__cont-two {
-    margin-left: 24px;
-}
+    .images__cont-two {
+        left: 38px;
+    }
 }
 @media (max-width: 844px) {
 
@@ -1389,10 +1495,7 @@ left: 12px;
 
 }
 
-@media (max-width: 830px) {
-
-    
-    
+@media (max-width: 830px) {  
     .trending-now {
         width: 78%;
     }
@@ -1411,6 +1514,10 @@ left: 12px;
     }
     .heading5 {
         width: 80%;
+    }
+
+    .images__cont-two {
+        left: 22px;
     }
 
 .footer ul {
@@ -1453,11 +1560,10 @@ left: 12px;
     .images__cont {
         width: 360px;
     }
-
+    
     .images__cont-two {
-        margin-left: 6px;
+        left: 18px;
     }
-
  
 
 }
@@ -1472,11 +1578,9 @@ left: 12px;
         margin: 34px 310px;
     }
 
-    
-    .images__cont-two {
-        margin-left: -4px;
+     .images__cont-two {
+        left: 10px;
     }
-
     .footer .row > div > div > span {
          position: relative;
         z-index: 1;
@@ -1631,7 +1735,7 @@ left: 12px;
     }
     .images__cont {
         width: 650px;
-        left: 50px;
+        left: 70px;
         position: relative;
     }
     .images__cont-two {
@@ -2180,7 +2284,7 @@ left: 12px;
     
 
     .images__cont {
-         left: 35px;
+         left: 54px;
     }
     .images__cont-two {
          left: -4px;
@@ -2217,7 +2321,7 @@ left: 12px;
     }    
 
     .images__cont {
-        left: 24px;
+        left: 46px;
     }
     
     .images__cont-two {
@@ -2298,7 +2402,7 @@ left: 12px;
 
     .images__cont {
         width: 596px;
-        left: 57px;
+        left: 74px;
     }
     .images__cont-two {
         width: 596px;
@@ -2370,7 +2474,7 @@ left: 12px;
         }
 
         .images__cont {
-             left: 11%;
+             left: 16%;
         }
 
         .images__cont-two {
@@ -2449,7 +2553,7 @@ left: 12px;
         }
 
     .images__cont {
-        left: 6%;
+        left: 11%;
     }
 
     .images__cont-two {
@@ -2464,7 +2568,7 @@ left: 12px;
     }
 
     .images__cont {
-        left: 4%;
+        left: 9.5%;
     }
 
 
@@ -2645,7 +2749,7 @@ left: 12px;
 }
 
 .images__cont {
-    left: 2%;
+    left: 8.5%;
 }
 
 .images__cont-two {
@@ -3206,7 +3310,7 @@ left: 12px;
         }
 
         .images__cont {
-            left: 1%;
+            left: 7%;
         }
 
     .images__cont-two {
@@ -3236,7 +3340,7 @@ left: 12px;
 
         .images__cont {
             width: 480px;
-            left: 4%;
+            left: 11%;
         }
         .images__cont-two {
             width: 480px;
@@ -3326,7 +3430,7 @@ left: 12px;
 
 
         .images__cont {
-            left: 0%;
+            left: 5%;
         }
 
         .images__cont-two {
@@ -3422,7 +3526,7 @@ left: 12px;
 
         .images__cont {
             width: 444px;
-            left: 3% ;
+            left: 9% ;
         }
 
         .images__cont-two {
@@ -3706,11 +3810,11 @@ left: 12px;
 }
 
 .images__cont {
-     left: 2%;
+     left: 7%;
 }
 
 .images__cont-two {
-     left: -9%;
+     left: -10%;
 }
 
 #Alloy_Gold_Plated > .modal-dialog {
@@ -3802,7 +3906,7 @@ left: 12px;
 
 
     .images__cont {
-        left: 0%;
+        left: 5%;
     }
 
     .images__cont-two {
@@ -3885,6 +3989,7 @@ left: 12px;
 
     .images__cont {
         width: 390px;
+        left: 7%;
     }
 
     .images__cont-two {
@@ -3985,6 +4090,7 @@ left: 12px;
 
     .images__cont {
         width: 379px;
+        left: 10%;
     }
 
     .images__cont-two {
@@ -5071,7 +5177,7 @@ width: 117%;
     }
     .images__cont-two {
         width: 296px;
-left: -17%;
+left: -19%;
     }
 
     .product-img1:hover, .product-img2:hover, .product-img3:hover, .product-img4:hover, .product-img5:hover, .product-img6:hover, .product-img7:hover, .product-img8:hover, .product-img9:hover, .product-img10:hover, .product-img11:hover, .product-img12:hover, .product-img25:hover, .product-img26:hover, .product-img27:hover, .product-img28:hover, .product-img29:hover, .product-img30:hover {
@@ -5083,7 +5189,7 @@ left: -17%;
     }
 
     #Gun_Design_Pendant_For_Men > .modal-dialog {
-        height: 1050px;
+        height: 1062px;
     }
 
     #Alloy_Gold_Plated > .modal-dialog {
@@ -5124,8 +5230,22 @@ left: -17%;
     
     #Yellow_Kurti_42 > .modal-dialog {
         height: 1546px;
-    }
-    
+    } 
+}
+
+@media (max-width: 337px){
+
+#Pcs_Women_Unstitched_Silk_Organza_Plain_Suit > .modal-dialog {
+    height: 1154px;
+}
+
+#Stainless_Steel_Wrist_Watch > .modal-dialog {
+    height: 1082px;
+}
+
+#Gun_Design_Pendant_For_Men > .modal-dialog {
+    height: 1080px;
+}
 
 }
 
@@ -5142,7 +5262,7 @@ left: -17%;
     top: 174px !important;
 }
 .images__cont {
-    left: 0%;
+    left: 11%;
 }
 
 .images__cont-two {
@@ -5157,6 +5277,33 @@ left: -17%;
      width: 58%;
 }
 
+#Dhanak_Printed_Suit_31 > .modal-dialog {
+    height: 1412px;
+}
+
+#Khaddar_Printed_Suit_32 > .modal-dialog {
+    height: 1340px;
+}
+
+#Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
+    height: 1164px;
+}
+
+#Lawn_Digital_Printed_Kurta_37 > .modal-dialog {
+    height: 1190px;
+}
+
+#Safwa_Women_Unstitched_39 > .modal-dialog {
+    height: 1198px;
+}
+ 
+#Violet_Bloom_40 > .modal-dialog {
+    height: 1264px;
+}
+
+#Stainless_Steel_Wrist_Watch > .modal-dialog {
+    height: 1110px;
+}
 
 
 }
@@ -5206,6 +5353,39 @@ left: -17%;
 
 .button {
     margin: -94px 40% 110px;
+}
+
+
+#Pcs_Women_Elegant > .modal-dialog {
+    height: 1126px;
+}
+
+#Zircon_Necklace_Set_modal17 > .modal-dialog {
+    height: 1056px;
+}
+
+#Khaddar_Printed_Suit_32 > .modal-dialog {
+    height: 1360px;
+}
+
+#Lawn_Printed_Suit_34 > .modal-dialog {
+    height: 1294px;
+}
+
+#Lawn_Printed_Suit_35 > .modal-dialog {
+    height: 1166px;
+}
+
+#Safwa_Women_Unstitched_39 > .modal-dialog {
+    height: 1222px;
+}
+
+#Violet_Bloom_40 > .modal-dialog {
+    height: 1290px;
+}
+
+#Yellow_Kurti_42 > .modal-dialog {
+    height: 1580px;
 }
 
 .footer {
