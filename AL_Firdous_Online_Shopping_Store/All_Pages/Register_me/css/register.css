@@ -107,7 +107,7 @@ text-transform: uppercase;
 
 
 
-/* DROPDOWN */
+/* DROPDOWN
 .dropdown {
   display: inline-block;
   position: relative;
@@ -199,7 +199,7 @@ text-transform: uppercase;
   background-color: rgba(75, 181, 71, 0.5);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16) inset;
   color: #fff;
-}
+} */
 
 
 .fa-right-to-bracket{
@@ -238,6 +238,7 @@ text-transform: uppercase;
   max-width: 1216px;
   width: 100%;
 }
+
 .register-img{
   height: 90%;
   position: relative;
@@ -246,10 +247,8 @@ text-transform: uppercase;
   top: 5%;
       -webkit-animation: float 2s ease-in-out infinite;
     animation: float 2s ease-in-out infinite;
-    }
-    
-
-
+  }
+  
   .card-header{
     border-bottom: 2px solid #4EB548 !important;
 
@@ -268,9 +267,7 @@ text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 400;
-    transform: rotate(360deg);
-    animation: send-message-heading 4s linear infinite;
-}
+ }
 
   .register-container{
     background-color:rgba(250, 242, 242, 0.165) !important;

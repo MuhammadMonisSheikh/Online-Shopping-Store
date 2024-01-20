@@ -108,7 +108,7 @@ text-transform: uppercase;
 
 
 /* DROPDOWN */
-.dropdown {
+/* .dropdown {
   display: inline-block;
   position: relative;
 }
@@ -199,7 +199,7 @@ text-transform: uppercase;
   background-color: rgba(75, 181, 71, 0.5);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16) inset;
   color: #fff;
-}
+} */
 
 
 .fa-right-to-bracket{
@@ -236,18 +236,10 @@ text-transform: uppercase;
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
     }
   
-   
-.about-container{  
- animation: move 2s linear infinite alternate;
- border-radius: 20px;
-  top: 3rem;
-  border: 1px solid #000;
-}
-
-.about-p{
-  padding: 3rem;
-}
-
+    
+    .abt-us {
+      height: 408px !important;
+  }
 
 .lead{
     color: #000;

@@ -5053,8 +5053,16 @@ width: 117%;
 }
 
 @media (max-width: 350px){
+    .nav-link-hover {
+            margin: 20px 60px;
+        }
 
 
+        .navbar .active {
+            margin: 25px 42px;
+        }
+        
+     
     .images__cont {
         width: 304px;
     }

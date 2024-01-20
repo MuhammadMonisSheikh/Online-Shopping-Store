@@ -42,6 +42,7 @@
    }
  
 }
+  
 @media (max-width:1244px) {
 
 .form-container {
@@ -53,12 +54,6 @@
    .logo {
      left: 28px;
    }
-
-   .al-firdous {
-     left: 14px;
-   }
-
-
    }
  
 @media (max-width:1194px) {
@@ -198,18 +193,17 @@ font-size: 18px !important;
 @media (max-width:991px) {
 
     .navbar-brand {
-        height: 104px;
+        height: 115px;
     }
 
     .logo {
+        width: 94%;
+        height: 236px;
+        left: -47px;
+        top: -69px;
         position: relative;
-        top: -62px;
     }
-
-    .al-firdous {
-     top: 80px;
-    }
-
+ 
     .responsive-nav {
         width: 90% !important;
         position: relative;
@@ -508,6 +502,9 @@ font-size: 18px !important;
         height: 65%;
     }
 
+    .responsive-info {
+        padding-left: 10% !important;
+    }
 
     .footer-1 {
         height: 630px;
@@ -590,6 +587,11 @@ font-size: 18px !important;
         }
 
     }
+    @media (max-width: 745px) {
+    .responsive-info {
+        padding-left: 23% !important;
+    }
+    }
 
     @media (width: 736px) {
 
@@ -664,18 +666,6 @@ font-size: 18px !important;
     }
 
     /* Android (Pixel 2) landscape */
-     @media (max-width: 670px) {
-
-        .navbar .active {
-            margin: 25px 235px;
-        }
-
-        .nav-link-hover {
-            margin: 20px 235px;
-        }
-
-    }
-
     @media (width: 684px) {
 
         .navbar .active {
@@ -687,7 +677,20 @@ font-size: 18px !important;
         }
         
         
+        }   
+          @media (max-width: 670px) {
+
+        .navbar .active {
+            margin: 25px 235px;
         }
+
+        .nav-link-hover {
+            margin: 20px 235px;
+        }
+
+    }
+
+
         @media (width: 667px){
             .navbar .active {
                margin: -6px 250px;
@@ -709,8 +712,12 @@ font-size: 18px !important;
    width: 650px;
 }
 }
+@media (max-width: 665px) {
 
-
+.responsive-info {
+    padding-left: 20% !important;
+}
+}
     @media (max-width: 640px) {
 
         .navbar .active {
@@ -721,6 +728,14 @@ font-size: 18px !important;
             margin: 20px 225px;
         }
 
+        .responsive-info {
+            padding-left: 18% !important;
+        }
+        
+        .footer .row > div > div > span {
+            width: 348px;
+            font-size: 16px;
+        }
     }
 
     @media (max-width: 630px) {
@@ -733,6 +748,13 @@ font-size: 18px !important;
             margin: 20px 210px;
         }
 
+    }
+
+    @media (max-width: 610px) {
+
+    .responsive-info {
+        padding-left: 16% !important;
+    }
     }
 
     @media (max-width: 600px) {
@@ -791,10 +813,10 @@ font-size: 18px !important;
              font-size: 20px;
         }
 
-    .footer .row > div > div > span {
-        width: 388px;
-        font-size: 18px;
-    }
+        .footer .row > div > div > span {
+            width: 330px;
+            font-size: 15px;
+        }
 
     .footer .row > div > div > a {
         width: 138px;
@@ -810,6 +832,18 @@ font-size: 18px !important;
     }
     }
 
+    @media (max-width: 456px) {
+    .footer .row > div > div > span {
+        width: 302px;
+        font-size: 14px;
+    }
+
+    .footer .row > div > div > span:hover {
+        background-color: rgb(41,40,40);
+        transform: rotate(5deg) scale(1);
+    }
+
+    }
     /* iPhone 6-8 Plump portrait */
    
 
@@ -822,12 +856,12 @@ font-size: 18px !important;
             margin: 20px 120px;
         }
 
-        .dropdown .dropdown_btn:focus+.dropdown_menu,
+        /* .dropdown .dropdown_btn:focus+.dropdown_menu,
         .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
             left: 125px;
             pointer-events: inherit;
             top: 104px;
-        }
+        } */
   @keyframes responsive-animation-h1 {100% {
     font-size: 1.3rem;
     height: 7rem;
@@ -861,17 +895,19 @@ font-size: 18px !important;
 
 
     }
-  
+
+    @media (max-width: 400px) {
+    .footer .row > div > div > span {
+        width: 282px;
+        font-size: 13px;
+    }
+    }
 
     @media (max-width: 375px) {
-        .logo {
-            width: 87%;
-            height: 120px;
-        }
-
         .contact-heading {
-            width: 60%;
+            width: 55%;
         }
+ 
 
         .al-firdous {
             top: 85px;
@@ -891,5 +927,29 @@ font-size: 18px !important;
             width: 262px;
             font-size: 15px;
         }
-   
+ 
+        
+        .footer ul {
+            font-size: 14px;
+        }
+
+}
+
+@media (max-width: 354px) {
+.navbar-brand {
+     width: 70%;
+}
+}
+@media (max-width: 350px) {
+.responsive-info {
+    padding-left: 10% !important;
+}
+}
+
+@media (max-width: 330px) {
+
+.footer .row > div > div > span {
+    width: 232px;
+    font-size: 13px;
+}
 }

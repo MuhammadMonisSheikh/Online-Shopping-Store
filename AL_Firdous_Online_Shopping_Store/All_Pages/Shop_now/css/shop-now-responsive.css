@@ -160,10 +160,10 @@
      left: 28px;
    }
 
-   .al-firdous {
-     left: 14px;
-   }
-
+   #products .row {
+    position: relative;
+    left: 3%;
+}
 
    }
 
@@ -385,11 +385,7 @@ left: 4px;
          width: 98vw;
          background-position: 84% 48%;
     }
-
-    .logo {
-        width: 177px;
-        height: 188px;
-    }
+ 
    
     .nav-link-hover {
         margin: 0px 12px;
@@ -443,6 +439,25 @@ left: 4px;
     }
 }
 
+@media (max-width: 1047px) {
+#products {
+    width: 96%;
+}
+}
+@media (max-width: 1027px) {
+    .heading1 {
+        width: 76%;
+        left: 44px;
+    }
+#products {
+    width: 95%;
+}
+
+.card-wuc h2 {
+     font-size: 1.1em;
+}
+
+}
 /* IPAD LANDSCAPE VIEW */
  
 @media (max-width: 1022px) {
@@ -451,6 +466,11 @@ left: 4px;
     } 
 }
 
+@media (max-width: 1012px) {
+#products {
+    width: 94%;
+}
+}
 
 @media (max-width: 1004px) {
     .nav-link-hover {
@@ -475,20 +495,22 @@ left: 4px;
 
 @media (max-width:991px) {
 
-    .navbar-brand{
-        height: 109px !important;
+    .navbar-brand {
+        height: 115px;
     }
-
 
     .logo {
+        width: 94%;
+        height: 236px;
+        left: -47px;
+        top: -69px;
         position: relative;
-         top: -42px;
     }
-
-    .al-firdous {
-     top: 80px;
+    .footer .row > div > div > span:hover {
+        color: #4EB548;
+        background-color: rgb(41,40,40);
+        transform: rotate(5deg) scale(1.1);
     }
-
     .responsive-nav {
         width: 90% !important;
         position: relative;
@@ -597,8 +619,7 @@ left: 4px;
      left: 20%;
 }
 
-.footer .row > div > div > span:hover {
-    color: aqua;
+.footer .row > div > div > span:hover { 
     background-color:rgb(41,40,40);
         transform: rotate(5deg) scale(1.2);
     }
@@ -643,10 +664,9 @@ left: 4px;
     }
 
 
-    .footer .row > div > div > span:hover {
-        color: aqua;
+    .footer .row > div > div > span:hover { 
         background-color:rgb(41,40,40);
-            transform: rotate(5deg) scale(1.2);
+            transform: rotate(5deg) scale(1.1);
         }
 
     .footer .row > div .image {
@@ -831,7 +851,9 @@ left: 4px;
 
 @media (max-width: 767px) {
  
- 
+    .responsive-info {
+        padding-left: 10% !important;
+    }
 
     .modal-dialog .card-body{
         width: 300px;
@@ -857,7 +879,6 @@ left: 4px;
         height: 23rem;
     }
 
-
     .card-wuc {
         height: 520px;
         width: 534px;
@@ -878,10 +899,10 @@ left: 4px;
         width: 520px;
     }
     
-    .cards-5__picture {
-         width: 518px;
-    }
 
+    .cards-5__picture {
+        width: 577px;
+    }
 
     .cards-5__picture--1 {
         background-image: url(../Product_imges/Product_37_img1.jpg);
@@ -1211,6 +1232,12 @@ left: 4px;
         }
 
     }
+    @media (max-width: 745px) {
+
+    .responsive-info {
+        padding-left: 23% !important;
+    }
+    }
 
     @media (width: 736px) {
 
@@ -1316,6 +1343,12 @@ left: 4px;
 
     }
 
+    @media (max-width: 665px) {
+
+    .responsive-info {
+        padding-left: 20% !important;
+    }
+    }
 
     @media (max-width: 640px) {
 
@@ -1326,6 +1359,12 @@ left: 4px;
         .nav-link-hover {
             margin: 25px 225px;
         }
+
+        
+        .responsive-info {
+            padding-left: 18% !important;
+        }
+
 
     }
 
@@ -1346,6 +1385,12 @@ left: 4px;
             margin: 25px 210px;
         }
 
+    }
+
+    @media (max-width: 610px) {
+    .responsive-info {
+        padding-left: 16% !important;
+    }
     }
 
     @media (max-width: 600px) {
@@ -1391,7 +1436,6 @@ left: 4px;
 
     }
 
-
     @media (max-width: 585px) {
     .cooc-container {
         width: 97vw;
@@ -1425,7 +1469,13 @@ left: 4px;
             margin: 116px 108px 80px 166px;
         }
     }
+    @media (max-width: 567px) {
 
+    .footer .row > div > div > span {
+        width: 354px;
+        font-size: 16px;
+    }
+    }
     @media (max-width: 560px) {
         .button {
             margin: 116px 108px 80px 150px;
@@ -1470,40 +1520,64 @@ left: 4px;
     }
 
     }
-
-    @media (max-width: 504px) {
-
-
-        .footer .row > div > div > a.sf {
-            width: 104px;
-             font-size: 20px;
-        }
-
-    .footer .row > div > div > span {
-        width: 388px;
-        font-size: 18px;
-    }
-
-    .footer .row > div > div > a {
-        width: 138px;
-        font-size: 20px;
-    }
-
-    }
-
+ 
     @media (max-width: 500px) {
+
+        .nav-link-hover {
+            margin: 25px 120px;
+        }
 
     .cooc-container {
         height: 320px;
     }
     }
 
+    @media (max-width: 466px) {
+    .footer .row > div > div > span {
+        width: 324px;
+        font-size: 15px;
+    }
+    }
+    @media (max-width: 456px) {
+    .responsive-info {
+        padding-left: 10% !important;
+    }
+    }
+
+    @media (max-width: 434px) {
+ 
+        .cards-5__picture {
+            width: 453px;
+        }
+        .cards-5__picture--55 {
+             transform: translate(-41px, -46px);
+          }
+        
+          .button {
+            margin: 116px 108px 80px 90px;
+        }
+        
+          .footer .row > div > div > span {
+        width: 303px;
+        font-size: 14px;
+    }
+    }
+
+    @media (max-width: 422px) {
+    .card-wuc {
+         left: 4%;
+    }
+
+    .cards-5 {
+         position: relative;
+        left: 2%;
+    }
+
+    }
+
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px) {
- 
-
-   
-        .button {
+         .button {
             margin: 116px 108px 80px 95px;
         }
 
@@ -1522,10 +1596,21 @@ left: 4px;
             top: 104px;
         }
  
-
+        .heading1 {
+             left: 20px;
+                 width: 60%;
+            
+            }
         .cooc-container {
             width: 95.6vw;
             height: 264px;
+        }
+        .card-wuc {
+            left: 1%;
+        }
+ 
+        .cards-5 {
+             left: 0%;
         }
 
         .cards-5__picture {
@@ -1823,24 +1908,57 @@ width: 120%;
     }
     }
 
-    @media (max-width: 375px) {
-        .logo {
-            width: 100%;
-            height: 137px;
-            top: -18px;
-        }
+    @media (max-width: 400px) {
+    .responsive-info {
+        padding-left: 8% !important;
+    }
+    }
 
-        .al-firdous {
-            top: 85px;
-        left: 10px;
+    @media (max-width: 390px) {
+    
+        .cards-5__picture--60 {
+            transform: translate(-70px, -7px);
+            width: 412px;
         }
+    
+        .footer .row > div > div > span {
+        width: 268px;
+        font-size: 12px;
+    }
+
+    .footer .row > div > div > a.sf {
+        width: 98px;
+        font-size: 18px;
+    }
+
+    .footer .row > div > div > a {
+        width: 110px;
+        font-size: 16px;
+    }
+
+    .footer .row > div > div > a.em {
+        width: 170px;
+        font-size: 18px;
+    }
+
+    .footer .row b {
+        font-size: 18px;
+    }
+
+}
+
+    @media (max-width: 375px) {
+        .navbar .active {
+            margin: 15px 35px;
+        }
+ 
         .cooc-container {
             width: 94.6vw;
             height: 236px;
         }
 
         .nav-link-hover {
-            margin: 1px 97px;
+            margin: 2px 40px;
         }
       
           .price button {
@@ -1848,6 +1966,10 @@ width: 120%;
             left: 5px;
         }
  
+        .cards-5__picture--60 {
+            transform: translate(-46px, -40px);
+        width: 114%;
+        }
 
         .button {
             margin: 116px 48px 80px 95px;
@@ -1857,6 +1979,83 @@ width: 120%;
             width: 262px;
             font-size: 15px;
         }
-   
+        .footer ul {
+             font-size: 14px;
+        }
    
     }
+    @media (max-width: 360px) {
+    
+        .cards-5__picture--60 {
+            transform: translate(-58px, -40px);
+            width: 120%;
+        }
+
+        .button {
+            margin: 116px 48px 80px 80px;
+        }
+
+        .responsive-info {
+        padding-left: 8% !important;
+    }
+    }    
+    
+    @media (max-width: 354px) {
+    .navbar-brand {
+         width: 70%;
+    }
+} 
+
+@media (max-width: 350px) {
+
+.cooc-container {
+    width: 106%;
+}
+}
+
+@media (max-width: 345px) {
+
+    .cards-5__picture--55 {
+        transform: translate(-24px, -39px);
+        width: 330px;
+    }
+
+    .cards-5__picture--56 {
+        transform: translate(-87px, -26px);
+        width: 392px;
+    }
+  
+    .cards-5__picture--57 {
+        transform: translate(-113px, -13px);
+        width: 409px;
+    }
+    
+
+    .cards-5__picture--59 {
+        transform: translate(-31px, 0px);
+        width: 332px;
+    }
+
+    .cards-5__picture--60 {
+        transform: translate(-93px, -18px);
+        width: 398px;
+    }
+.responsive-info {
+    padding-left: 4% !important;
+}
+}
+@media (max-width: 330px) {
+
+    .heading1 {
+         width: 72%;
+    }
+
+    .button {
+        margin: 116px 48px 80px 60px;
+    }
+
+.responsive-info {
+    padding-left: 1% !important;
+}
+
+}

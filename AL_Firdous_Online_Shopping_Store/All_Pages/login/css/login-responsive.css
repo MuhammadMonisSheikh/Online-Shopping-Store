@@ -115,7 +115,6 @@
 
 }
 
-
 @media (max-width:1100px) {
    
     .logo {
@@ -146,7 +145,6 @@
     }
     
 }
- 
 
 @media (max-width:1055px) {
     .nav-link-hover {
@@ -207,15 +205,18 @@
 
 
 @media (max-width:991px) {
-
     .navbar-brand {
-        height: 104px;
+        height: 115px;
     }
 
     .logo {
+        width: 94%;
+        height: 236px;
+        left: -47px;
+        top: -69px;
         position: relative;
-        top: -62px;
     }
+ 
 
     .al-firdous {
      top: 80px;
@@ -533,6 +534,11 @@
     .footer-1 {
         height: 630px;
     }
+
+    .responsive-info {
+        padding-left: 10% !important;
+    }
+
     .footer .row > div .image {
         left: 0%;
         width: 178px;
@@ -611,6 +617,11 @@
 
     }
 
+    @media (max-width: 745px) {
+        .responsive-info {
+            padding-left: 23% !important;
+        }
+        }
 
     @media (width: 736px) {
 
@@ -726,6 +737,12 @@
 
 }
 
+@media (max-width: 665px) {
+    .responsive-info {
+        padding-left: 20% !important;
+    }
+    }
+
     @media (max-width: 640px) {
 
         .navbar .active {
@@ -735,6 +752,11 @@
         .nav-link-hover {
             margin: 20px 225px;
         }
+
+        .responsive-info {
+            padding-left: 18% !important;
+        }
+
 
     }
 
@@ -749,6 +771,13 @@
         }
 
     }
+
+    @media (max-width: 610px) {
+
+        .responsive-info {
+            padding-left: 16% !important;
+        }
+        }
 
     @media (max-width: 600px) {
 
@@ -772,6 +801,11 @@
             margin: 20px 190px;
         }
 
+        .footer .row > div > div > span {
+            width: 350px;
+            font-size: 16px;
+        }
+
     }
 
     @media (max-width: 575px) {
@@ -786,17 +820,24 @@
    
 
     } 
-
+    @media (max-width: 554px) {
+        .footer .row > div > div > span {
+            width: 346px;
+            font-size: 14px;
+        }
+        
+        }
+    
 
     @media (max-width: 514px) {
 
         .navbar .active {
-            margin: 25px 170px;
+            margin: 25px 96px;
         }
     
     
         .nav-link-hover {
-            margin: 20px 160px;
+            margin: 20px 96px;
         }
 
 
@@ -808,17 +849,10 @@
         }
 
     @media (max-width: 504px) {
-
-
         .footer .row > div > div > a.sf {
             width: 104px;
              font-size: 20px;
-        }
-
-    .footer .row > div > div > span {
-        width: 388px;
-        font-size: 18px;
-    }
+        } 
 
     .footer .row > div > div > a {
         width: 138px;
@@ -830,7 +864,7 @@
     @media (max-width: 500px) {
 
         .login-heading {
-            width: 75%;
+            width: 90%;
         }  
 
 
@@ -847,6 +881,44 @@
     }
 
     }
+    @media (max-width: 480px) {
+    .footer .row > div > div > span {
+        width: 285px;
+        font-size: 13px;
+    }
+    }
+    @media (max-width: 475px) {
+
+        .footer .row > div > div > span:hover {
+            transform: rotate(5deg) scale(1.1);
+        }
+
+    .footer .row > div > div > span {
+        width: 346px;
+        font-size: 16px;
+    }
+    }
+
+    @media (max-width: 460px) {
+    .login-heading {
+        width: 80%;
+    }
+
+    .responsive-info {
+        padding-left: 12% !important;
+    }
+    .footer .row > div > div > span{
+        width: 304px;
+        font-size: 14px;
+    }
+    }
+
+    @media (max-width: 420px) {
+    .footer .row b {
+        font-size: 16px;
+    }
+    }
+
 
     /* iPhone 6-8 Plump portrait */
    
@@ -860,12 +932,12 @@
             margin: 20px 120px;
         }
 
-        .dropdown .dropdown_btn:focus+.dropdown_menu,
+        /* .dropdown .dropdown_btn:focus+.dropdown_menu,
         .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
             left: 125px;
             pointer-events: inherit;
             top: 104px;
-        }
+        } */
 
         .login-heading {
             width: 88%;
@@ -901,7 +973,9 @@
             width: 60%;
         }
  
-
+        .responsive-info {
+            padding-left: 12% !important;
+        }
 
         .footer .row > div > div > span {
             width: 302px;
@@ -922,16 +996,59 @@
     }
     }
 
+    @media (max-width: 400px) {
+      
+        .nav-link-hover {
+            margin: 20px 50px;
+        }
+      
+        .navbar .active {
+            margin: 25px 40px;
+        }
+      
+        .footer .row > div > div > a.sf {
+        width: 96px;
+        font-size: 18px;
+    }
+
+    .footer .row > div > div > a.em {
+        width: 208px;
+        font-size: 22px;
+    }  
+
+    .footer ul {
+         font-size: 14px;
+    }
+
+}    
+
+    @media (max-width: 390px) {
+        .login-heading {
+            width: 70%;
+            left: 5px;
+            position: relative;
+        }
+        
+        .login-img {
+            left: 0%;
+        }
+        
+        
+        .login-container {
+             left: -5px;
+        }
+        
+        .footer .row > div > div > span {
+            width: 285px;
+            font-size: 13px;
+        }
+        
+        
+        
+        }
+
     @media (max-width: 375px) {
-        .logo {
-            left: -11%;
-        }
-
-        .al-firdous {
-            top: 85px;
-        left: 10px;
-        }
-
+  
 
         .nav-link-hover {
             margin: 20px 97px;
@@ -956,3 +1073,62 @@
         }
    
 }
+
+@media (max-width: 354px) {
+    .navbar-brand {
+         width: 70%;
+    }
+    }
+
+@media (max-width: 352px) {
+    .login-heading {
+        width: 78%;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .nav-link-hover {
+        margin: 20px 38px;
+    }
+    .text-animation span {
+        font-size: 24px;
+   }
+.responsive-info {
+    padding-left: 10% !important;
+}
+}
+
+
+@media (max-width: 340px) {
+   
+    .login-heading {
+        padding: 20px;
+    }
+    .responsive-info {
+        padding-left: 6% !important;
+    }
+    }
+    
+    @media (max-width: 330px) {
+    
+        .login-heading {
+            padding: 17px;
+        }
+
+        .footer .row > div > div > span {
+            width: 232px;
+            font-size: 13px;
+        }
+        }
+    
+        @media (max-width: 320px) {
+    
+            .login-heading {
+                padding: 12px;
+            }
+
+        .text-animation span {
+            font-size: 20px;
+        }
+    }
