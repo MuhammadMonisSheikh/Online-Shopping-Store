@@ -205,6 +205,11 @@
 
 
 @media (max-width:991px) {
+
+    .reg-b{
+        border-right: none;
+    }
+
     .navbar-brand {
         height: 115px;
     }
@@ -236,7 +241,7 @@
         margin: 20px 370px;
     }
 
-    .dropdown_btn {
+    /* .dropdown_btn {
         padding: 12px 62px !important;
     }
 
@@ -251,7 +256,7 @@
 
     .search-container {
         padding-top: 62px;
-    }
+    } */
 
     .offcanvas-body::-webkit-scrollbar {
         display: none;

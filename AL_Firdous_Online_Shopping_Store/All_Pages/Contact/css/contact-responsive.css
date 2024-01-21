@@ -192,6 +192,10 @@ font-size: 18px !important;
 
 @media (max-width:991px) {
 
+    .reg-b{
+        border-right: none;
+    }
+
     .navbar-brand {
         height: 115px;
     }
@@ -218,7 +222,7 @@ font-size: 18px !important;
         margin: 30px 370px;
     }
 
-    .dropdown_btn {
+    /* .dropdown_btn {
         padding: 12px 62px !important;
     }
 
@@ -233,7 +237,7 @@ font-size: 18px !important;
 
     .search-container {
         padding-top: 62px;
-    }
+    } */
 
     .offcanvas-body::-webkit-scrollbar {
         display: none;

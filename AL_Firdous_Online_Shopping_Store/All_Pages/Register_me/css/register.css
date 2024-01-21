@@ -19,7 +19,7 @@
     font-weight: bold;
   }
   
-  .dropdown_menu::-webkit-scrollbar{
+  /* .dropdown_menu::-webkit-scrollbar{
   width: 7px;
   
   }
@@ -33,7 +33,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-  }
+  } */
   
   
 /* NAVBAR */
@@ -105,7 +105,9 @@ text-transform: uppercase;
   height: 2px;
 }
 
-
+.reg-b{
+  border-right: 2px gray solid;
+}
 
 /* DROPDOWN
 .dropdown {

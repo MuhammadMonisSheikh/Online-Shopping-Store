@@ -463,9 +463,16 @@ left: 12px;
 
 
     .button {
+        border: 2px solid #1F763B !important;
+        color: #1F763B !important;
         margin: -94px 40% 110px;
+        background-color: #fff !important;
     }
 
+    .button:hover {
+         background: #4CB648 !important;
+        border: 2px solid #4CB648 !important;
+    }
 }
 
 @media (max-width:1198px) {
@@ -940,7 +947,7 @@ left: 12px;
      .shop-now {
         left: 66.2% !important;
         top: 490px !important;
-        height: 7% !important;
+        height: 52px !important;
     }
  
 
@@ -1048,6 +1055,10 @@ left: 12px;
 @media (max-width:991px) {
 
     
+.reg-b{
+    border-right: none;
+}
+    
     .logo {
         left: -32px;
     }
@@ -1069,21 +1080,18 @@ left: 12px;
 
 
 
-    .navbar-brand{
-        height: 8pc !important;
-    }
-    
+        .navbar-brand {
+            height: 115px;
+        }
+
     .logo {
-        top: -73px;
+        width: 94%;
+        height: 236px;
+        left: -47px;
+        top: -69px;
         position: relative;
-    
     }
-
-    .al-firdous {
-     top: 80px;
-    }
-
-    .responsive-nav {
+     .responsive-nav {
         width: 90% !important;
         position: relative;
         top: -26px;
@@ -1095,7 +1103,7 @@ left: 12px;
     .nav-link-hover {
         margin: 34px 370px;
     }
-
+/* 
     .dropdown_btn {
         padding: 12px 68px !important;
     }
@@ -1111,7 +1119,7 @@ left: 12px;
 
     .search-container {
         padding-top: 62px;
-    }
+    } */
 
     .offcanvas-body::-webkit-scrollbar {
         display: none;
@@ -1131,14 +1139,18 @@ left: 12px;
 
     .trending-now {
          top: 140px;
+             margin: -82px auto 55px;
+        
     }
 
     .heading1 {
          top: 52px;
-    }
+         margin: 24px auto -53px;
+         left: 4%;
+        }
 
     .responsive-view {
-         left: 3.5%;
+         left: 5.8%;
     }
 
     .button {
@@ -1147,23 +1159,29 @@ left: 12px;
 
     .heading2 {
          top: 52px;
+         margin: -48px auto -38px;
     }
 
     .responsive-jew {
-        left: 1%;
+        left: 4%;
      }
 
      .see-more-btn {
         margin: 26% 15% 110px;
     }
 
+    .cooc-container {
+        width: 107.5%;
+    }
 
     .heading3 {
          top: 52px;
+         margin: 30px auto 16px;
     }
 
     .cosmetics {
         padding-top: 2rem;
+        left: 5%;
     }
 
     .CSM-btn {
@@ -1173,6 +1191,11 @@ left: 12px;
     .heading4 {
         width: 100%;
         top: 52px;
+        margin: -94px auto -4px;
+    }
+
+    .responsive-wuc {
+        left: 5%;
     }
 
     .wucs-btn {
@@ -1182,9 +1205,13 @@ left: 12px;
     .heading5 {
         width: 100%;
         top: 52px;
+        margin: -92px auto -40px;
+        left: -1%;
     }
     
-    
+    .responsive-brd {
+        left: 5%;
+    }    
     
     .products .row {
         padding-top: 114px !important;
@@ -1212,11 +1239,15 @@ left: 12px;
         padding-top: 0px !important;
     }
 
-
+    .BSM-btn {
+        margin: 52px 18% 110px !important;
+    }
 
     .cp {
         margin-bottom: -2px;
     }
+
+
 
 }
 
@@ -1344,10 +1375,10 @@ left: 12px;
 }
 
 @media (max-width: 900px) {
-
+/* 
     .dropdown_btn {
         padding: 12px 22px !important;
-    }
+    } */
 
     .shop-now {
         left: 69.1% !important;
@@ -1365,6 +1396,34 @@ left: 12px;
         left: 62px;
     }
 
+    .responsive-view {
+        left: 6.5%;
+    }
+    .button {
+        margin: -48px 7% 110px;
+    }
+
+    .heading2 {
+         left: 4%;
+    }
+    .responsive-jew {
+        left: 4.5%;
+    }
+
+    .cosmetics {
+         left:5.6%;
+    }
+
+    .responsive-wuc {
+    left: 5.8%;
+}
+.heading5 {
+    left: -3%;
+}
+
+.responsive-brd {
+    left: 5.88%;
+}
 
     .footer .row > div > div > span:hover { 
         background-color:rgb(41,40,40);
@@ -1482,6 +1541,35 @@ left: 12px;
     .images__cont-two {
         left: 38px;
     }
+
+    .responsive-view {
+        left: 7.5%;
+    }
+
+    .button {
+        margin: -48px 12% 110px;
+    }
+
+    .heading2 {
+        left: 6%;
+    }
+    
+
+    .responsive-jew {
+        left: 5.6%;
+    }
+
+    .cosmetics {
+        left: 6.6%;
+    }
+
+    .heading5 {
+        left: -2%;
+    }
+    .responsive-brd {
+        left: 6%;
+    }
+
 }
 @media (max-width: 844px) {
 
@@ -1669,23 +1757,27 @@ left: 12px;
 
 @media (max-width: 768px) {
 
-    .dropdown .dropdown_btn:focus+.dropdown_menu,
+    /* .dropdown .dropdown_btn:focus+.dropdown_menu,
     .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
         left: 293px;
         pointer-events: inherit;
         top: 108px;
-    } 
+    }  */
 
-    .heading4 {
+    .shop-now {
+        left: 68.2% !important;
+    }
+ 
+    #products {
+        width: 93%;
+    }
+
+   .heading4 {
         width: 86%;
     } 
-    
-    #products {
-        width: 96%;
-    } 
+     
 
-    .cooc-container {
-        width: 750px; 
+    .cooc-container { 
               height: 498px;
         
     }
@@ -1709,11 +1801,11 @@ left: 12px;
     }
 
     .responsive-view {
-        left: 11.5%;
+        left: 17%;
     }
     
     .responsive-wuc {
-        left: 1%;
+        left: 4.5%;
         position: relative;
     }
 
@@ -1727,7 +1819,7 @@ left: 12px;
     }
 
     .responsive-brd {
-        left: 0%;
+        left: 4.4%;
      }
 
     .BSM-btn {
@@ -1884,7 +1976,7 @@ left: 12px;
         display: none !important; 
     }
     .cooc-container {
-        width: 104.1%;
+        width: 107.5%;
     }
 
     .heading3{
@@ -2058,6 +2150,7 @@ left: 12px;
     
     .heading4 {
         width: 60%;
+        margin: -14px auto 36px;
     }
 
     
@@ -2243,7 +2336,7 @@ left: 12px;
 
 @media (max-width: 764px) {
 .cooc-container {
-    width: 104%;
+    width: 107.5%;
 }
 }
 
@@ -2292,7 +2385,6 @@ left: 12px;
     
 }
 
- 
 
 @media (max-width: 745px) {
  
@@ -2382,15 +2474,7 @@ left: 12px;
     }
     .shop-now {
         top: 404px !important;
-    }
-
-
-
-
-    .cooc-container {
-        width: 100%;
-    }
-
+    } 
     .heading4 {
         width: 100%;
     }    
@@ -2448,6 +2532,12 @@ left: 12px;
 
 
     }
+    @media (max-width: 715px) {
+
+    .cooc-container {
+        width: 107.7%;
+        } 
+       }    
 
     @media (max-width: 710px) {
 
@@ -2456,7 +2546,15 @@ left: 12px;
         left: 495px !important;
         top: 403px !important;
     }
+
+    #products {
+        width: 92%;
     }
+
+    .cooc-container {
+        width: 108.7%;
+    }
+}
     
     @media (max-width: 700px) {
 
@@ -2469,8 +2567,12 @@ left: 12px;
         }
 
         .shop-now {
-            left: 488px !important;
+            left: 490px !important;
             top: 398px !important;
+        }
+
+        #products {
+            width: 90%;
         }
 
         .images__cont {
@@ -2480,9 +2582,59 @@ left: 12px;
         .images__cont-two {
             left: 1%;
         }
+       
+        .heading1 {
+             left: 6%;
+        }
+
+        .responsive-view {
+            left: 18%;
+        }
+
+        .responsive-jew {
+            left: 8.8%;
+        }
+
+        .cooc-container {
+            width: 111.1%;
+        }
+
+        .responsive-wuc {
+            left: 5.5%;
+        }
+
+        .responsive-brd {
+            left: 5.7%;
+        }
 
     }
+    @media (max-width: 694px) {
+    #products {
+        width: 87%;
+    }
 
+    .responsive-view {
+        left: 19.5%;
+    }
+
+    .responsive-jew {
+        left: 9.8%;
+    }
+
+    .cooc-container {
+        width:114.9%;
+    }
+    
+    .responsive-wuc {
+        left: 6.7%;
+    }
+
+    .responsive-brd {
+        left: 6.9%;
+    }
+
+}
+ 
     @media (max-width: 690px) {
 
         #home {
@@ -2511,13 +2663,12 @@ left: 12px;
 
   
         .shop-now {
-             left: 460px !important;
+             left: 462px !important;
             top: 340px !important;
          }  
-    .cooc-container {
-        width: 100%;
-    }
-
+         .cooc-container {
+            width: 114.9%;
+        }
     .heading4 {
         width: 100%;
     }
@@ -2548,7 +2699,7 @@ left: 12px;
     @media (max-width: 680px) {
 
         .shop-now {
-            left: 450px !important;
+            left: 461px !important;
             top: 340px !important;
         }
 
@@ -2563,8 +2714,12 @@ left: 12px;
     }
 
     @media (max-width: 674px) {
-    #products {
-        width: 95%;
+
+        .shop-now {
+            left: 457px !important;
+        }
+            #products {
+        width: 86%;
     }
 
     .images__cont {
@@ -2577,7 +2732,7 @@ left: 12px;
     }
 
     .cooc-container {
-        width: 105%;
+        width: 116.2%;
     }
 
 
@@ -2586,6 +2741,10 @@ left: 12px;
  
     
     @media (max-width: 670px) {
+
+        .shop-now {
+            left: 455px !important;
+        }
 
         .navbar .active {
             margin: 22px 235px;
@@ -2783,7 +2942,7 @@ left: 12px;
 }
 
 .responsive-brd {
-    left: 4%;
+    left: 5%;
 }
 
 
@@ -2792,8 +2951,19 @@ left: 12px;
 @media (max-width: 660px) {
 
     .shop-now {
-        left: 445px !important;
+        left: 451px !important;
     }    
+}
+
+@media (max-width: 650px) {
+
+    .responsive-view {
+        left: 15.5%;
+    }
+
+.cooc-container {
+    width: 108.7%;
+}
 }
 
     @media (max-width: 650px) {
@@ -2823,7 +2993,7 @@ left: 12px;
         }
 
         .shop-now {
-            left: 435px !important;
+            left: 442px !important;
         }
         
         .images__cont {
@@ -2885,7 +3055,7 @@ left: 12px;
     @media (max-width: 625px) {
 
     .shop-now {
-        left: 428px !important;
+        left: 435px !important;
     }
     
     }
@@ -2893,7 +3063,7 @@ left: 12px;
     @media (max-width: 620px) {
 
         .shop-now {
-            left: 427px !important;
+            left: 433px !important;
         }
     }
 
@@ -2937,7 +3107,7 @@ left: 12px;
         }
 
         .shop-now {
-            left: 418px !important;
+            left: 425px !important;
         }
 
         .images__cont {
@@ -2973,8 +3143,8 @@ left: 12px;
         }
 
         .shop-now {
-            left: 387px !important;
-            top: 285px !important;
+            left: 400px !important;
+            top: 288px !important;
         }
         
         .images__cont {
@@ -3238,7 +3408,7 @@ left: 12px;
         }
 
         .shop-now {
-            left: 368px !important;
+            left: 375px !important;
             top: 276px !important;
         }
 
@@ -3306,7 +3476,7 @@ left: 12px;
     @media (max-width: 560px) {
 
         .shop-now {
-            left: 362px !important;
+            left: 372px !important;
         }
 
         .images__cont {
@@ -3319,7 +3489,12 @@ left: 12px;
     }
 
     @media (max-width: 554px) {
-    .card-wuc {
+    
+        .navbar-brand {
+            width: 76%;
+        }
+    
+        .card-wuc {
         width: 100%;
     }
     }
@@ -3657,6 +3832,15 @@ left: 12px;
 
 
     @media (max-width: 500px){
+     
+        .nav-link-hover {
+            margin: 21px 84px;
+        }
+     
+        .navbar .active {
+            margin: 50px 77px;
+        }
+
         .shop-now {
             left: 320px !important;
         }
@@ -3789,6 +3973,16 @@ left: 12px;
 }
 }
 
+@media (max-width: 490px){
+
+    .cooc-container {
+        width: 113.6%;
+    }
+
+.cards-5 {
+    left: 2.5%;
+}
+}
 @media (max-width: 487px){
 
 .modal-dialog {
@@ -3965,6 +4159,15 @@ left: 12px;
 
 @media (max-width: 450px){
 
+    .heading1 {
+        width: 88%;
+    }
+        
+
+    .shop-now {
+        left: 284px !important;
+    }
+
 #Colorful_Led_Gaming_Key_Board_And_Mouse > .modal-dialog {
     height: 1000px;
 }
@@ -3976,9 +4179,6 @@ left: 12px;
 #Printed_Lawn_Unistitched_Shirt_36 > .modal-dialog {
     height: 1106px;
 }
-
-
-
 
 }
 
@@ -4043,9 +4243,14 @@ left: 12px;
 
 @media (max-width: 434px){
 
+    .shop-now {
+        left: 277px !important;
+    }
+
 #Lawn_Printed_Suit_35 > .modal-dialog {
     height: 1054px;
 }
+
 }
 
 @media (max-width: 430px){
@@ -4081,6 +4286,13 @@ left: 12px;
     height: 1350px;
 }
 
+}
+
+@media (max-width: 425px){
+
+.shop-now {
+    left: 273px !important;
+}
 }
 
 @media (max-width: 424px){
@@ -4174,7 +4386,7 @@ left: 12px;
             margin: 26px 120px;
         }
 
-
+/* 
         .dropdown_btn {
             padding: 12px 30px !important;
         }
@@ -4185,10 +4397,10 @@ left: 12px;
             pointer-events: inherit;
             top: 104px;
         }
-        
+         */
 
         .shop-now {
-            left: 270px !important;
+            left: 268px !important;
         } 
         
         .trending-now {
@@ -4920,6 +5132,10 @@ width: 117%;
             width: 65%;
         }
 
+        .responsive-jew {
+            left: 5.5%;
+        }
+
 }
 
 @media (max-width: 364px){
@@ -4932,6 +5148,8 @@ width: 117%;
 @media (max-width: 363px){
 .shop-now {
     width: 17% !important; 
+    left: 226px !important;
+    top: 185px !important;
 }
 
 #Khaddar_Printed_Stitched_Suit_41 > .modal-dialog {
@@ -5033,7 +5251,6 @@ width: 117%;
 }
 
 }
-
 
 @media (max-width: 354px){
 
@@ -5255,6 +5472,11 @@ left: -19%;
     height: 1080px;
 }
 
+}
+@media (max-width: 334px){
+.shop-now {
+    left: 212px !important;
+}
 }
 
 @media (max-width: 330px){

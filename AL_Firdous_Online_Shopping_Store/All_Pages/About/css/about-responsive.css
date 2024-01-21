@@ -126,6 +126,11 @@
 
 @media (max-width:991px) {
 
+
+    .reg-b{
+        border-right: none;
+    }
+
     .navbar-brand {
         height: 115px;
     }
