@@ -4,14 +4,32 @@
 @media (max-width:1400px) {
 
 .heading1 {
-     width: 56%;
+     width: 56%;  
 }
+
+.cooc-container {
+     width: 99.9%;
+ }
+
 } 
 @media (max-width:1352px) {
 
 #products {
     width: 1330px;
 }
+
+.heading1 {
+     left: 3%;
+}
+
+.card-wuc {
+    left: 2%;
+}
+
+.cooc-container {
+    width: 100%;
+}
+
 }
 
 @media (max-width:1350px) {
@@ -19,12 +37,21 @@
     #products {
         width: 1310px;
     }
+
+    .cooc-container {
+        width: 102%;
+    }
+
 }
 
 @media (max-width:1340px) {
 
     #products {
         width: 1290px;
+    }
+
+    .cooc-container {
+        width: 102.7%;
     }
 }
 
@@ -33,6 +60,27 @@
     #products {
         width: 1270px;
     }
+    .cooc-container {
+        width: 103.4%;
+    }
+
+    .heading1 {
+        left: 6%;
+    }
+
+    .card-wuc {
+        left: 7%;
+    }
+
+    
+.cards-5 {
+     left: 6%;
+}
+
+.button {
+     margin: 15% 39% 110px;
+}
+
 }
 
 @media (max-width:1320px) {
@@ -128,7 +176,6 @@
     }
 }
 
-
 @media (max-width:1282px) {
     .heading1 {
         width: 94%;
@@ -146,7 +193,6 @@
      width: 94%;
 }
 }
-
 
 @media (max-width:1272px) {
     #products {
@@ -378,15 +424,14 @@ left: 4px;
     }    
 }
 
-
 @media (max-width:1100px) {
   
     .cooc-container {
-         width: 98vw;
+         width: 102%;
          background-position: 84% 48%;
-    }
- 
-   
+         height: 714px;
+ }
+    
     .nav-link-hover {
         margin: 0px 12px;
     }
@@ -394,7 +439,8 @@ left: 4px;
     .heading1 {
         animation: responsive-animation-h1 3s ease-in-out;
        animation-iteration-count: infinite;
-   }
+       margin: 56px auto -80px;
+    }
     .heading2 {
         animation: responsive-animation-h1 3s ease-in-out;
        animation-iteration-count: infinite;
@@ -437,13 +483,31 @@ left: 4px;
         width: 130px !important;
         font-size: 18px !important;
     }
+
+    .cooc-container {
+        width: 102.4%;
+        height: 704px;
+    }
+    
 }
 
 @media (max-width: 1047px) {
 #products {
-    width: 96%;
+    width: 94%;
+}
+
+.cooc-container {
+    width: 106.4%;
+}
+
+}
+
+@media (max-width: 1030px) {
+.cooc-container { 
+    height: 690px;
 }
 }
+
 @media (max-width: 1027px) {
     .heading1 {
         width: 76%;
@@ -467,9 +531,14 @@ left: 4px;
 }
 
 @media (max-width: 1012px) {
-#products {
-    width: 94%;
-}
+    #products {
+        width: 93%;
+    }
+
+    .cooc-container {
+        width: 107.5%;
+    }
+
 }
 
 @media (max-width: 1004px) {
@@ -489,7 +558,13 @@ left: 4px;
 
 
 }
-
+@media (max-width: 1000px) {
+.cooc-container {
+    width: 107.6%;
+         height: 664px;
+     
+}
+}
 /* TABLET VIEW */
 
 
@@ -530,7 +605,7 @@ left: 4px;
         margin: 30px 370px;
     }
 
-    .dropdown_btn {
+    /* .dropdown_btn {
         padding: 12px 62px !important;
     }
 
@@ -545,16 +620,20 @@ left: 4px;
 
     .search-container {
         padding-top: 62px;
-    }
+    } */
 
     .offcanvas-body::-webkit-scrollbar {
         display: none;
-    
-}
+    }
+
+    #products {
+        width: 92%;
+    }
 
 .cooc-container {
      background-position: 68% 48%;
       height: 646px;
+      width: 108.7%;
 }
 
     .button {
@@ -653,14 +732,12 @@ left: 4px;
 }
 }
 
-
 @media (max-width: 930px) {
 
     .dropdown_btn {
         padding: 12px 65px !important;
     }
 }
-
 
 @media (max-width: 900px) {
 
@@ -754,7 +831,6 @@ left: 4px;
 
 }
 
-
 @media (max-width: 826px) {
 
     .navbar .active {
@@ -764,12 +840,7 @@ left: 4px;
     .nav-link-hover {
         margin: 25px 320px;
     }
-
-    .cooc-container {
-        width: 97.9vw;
-    }
-
-
+ 
 }
 
 
@@ -813,8 +884,7 @@ left: 4px;
 @media (max-width: 786px) {
 
 .cooc-container {
-    width: 97.6vw;
-}
+    height: 618px;}
 }
 @media (max-width: 780px) {
 
@@ -867,7 +937,9 @@ left: 4px;
     .button {
         margin: 116px 108px 80px 194px;
     }
-
+    .card-wuc {
+        left: 3%;
+    }
     .card-wb {
         width: 500px;
      }
@@ -1296,8 +1368,6 @@ left: 4px;
 
     }
 
-
-
     @media (max-width: 690px) {
 
         .navbar .active {
@@ -1311,13 +1381,13 @@ left: 4px;
     }
 
     @media (max-width: 687px) {
-
+        #products .row {
+             left: 0%;
+        }
     .cooc-container {
-         height: 447px;
-         width: 97.4vw;
+         height: 447px; 
     }
     }
-
 
     @media (width: 684px) {
 
@@ -1372,14 +1442,7 @@ left: 4px;
 
 
     }
-
-    @media (max-width: 634px) {
-
-    .cooc-container {
-         width: 97.2vw;
-    }
-    }
-
+ 
     @media (max-width: 630px) {
 
         .navbar .active {
@@ -1388,6 +1451,10 @@ left: 4px;
 
         .nav-link-hover {
             margin: 25px 210px;
+        }
+
+        .card-wuc {
+            left: 4%;
         }
 
     }
@@ -1440,23 +1507,18 @@ left: 4px;
         }
 
     }
-
-    @media (max-width: 585px) {
-    .cooc-container {
-        width: 97vw;
-    }
-    }
+ 
     
     @media (max-width: 575px) {
 
         .navbar .active {
             margin: 25px 172px;
         }
-
+/* 
 
         .dropdown_btn {
             padding: 12px 20px !important;
-        }
+        } */
         .nav-link-hover {
             margin: 25px 172px;
         }
@@ -1466,9 +1528,14 @@ left: 4px;
             --bs-gutter-x: 0rem !important;
         }
 
+        .heading1 {
+             left: 35px;
+        } 
+
         .card-wuc {
              width: 526px;
-        }
+             left: 3%;
+            }
         
                 .button {
             margin: 116px 108px 80px 166px;
@@ -1481,6 +1548,27 @@ left: 4px;
         font-size: 16px;
     }
     }
+
+    @media (max-width: 561px) {
+    
+        #products {
+            width: 90%;
+        }
+    
+        .cooc-container {
+            width: 111.2%;
+        }
+
+        #products .row {
+            left: -2%;
+        }
+
+        .cards-5 {
+            left: 3.9%;
+        }
+
+        }
+
     @media (max-width: 560px) {
         .button {
             margin: 116px 108px 80px 150px;
@@ -1490,28 +1578,26 @@ left: 4px;
     @media (max-width: 554px) {
     .card-wuc {
         width: 100%;
+        left: 8%;
     }
     }
 
     @media (max-width: 550px) {
-      
-
-        .cooc-container {
-            width: 96.6vw;
-        }
-
+       
         .cards-5 {
             width: 100%;
+        left: 7.9%;
+            
         }
 
         .cards-5__side {
             width: 100%;
 }
-     
-       
-        .button {
-            margin: 116px 108px 80px 140px;
-        }
+
+.button {
+    margin: 68px 108px 62px 175px;
+}
+
     }
 
     @media (max-width: 540px) {
@@ -1566,20 +1652,7 @@ left: 4px;
         width: 303px;
         font-size: 14px;
     }
-    }
-
-    @media (max-width: 422px) {
-    .card-wuc {
-         left: 4%;
-    }
-
-    .cards-5 {
-         position: relative;
-        left: 2%;
-    }
-
-    }
-
+    } 
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px) {
          .button {
@@ -1594,12 +1667,12 @@ left: 4px;
             margin: 15px 120px;
         }
 
-        .dropdown .dropdown_btn:focus+.dropdown_menu,
+        /* .dropdown .dropdown_btn:focus+.dropdown_menu,
         .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
             left: 125px;
             pointer-events: inherit;
             top: 104px;
-        }
+        } */
  
         .heading1 {
              left: 20px;
@@ -1607,16 +1680,9 @@ left: 4px;
             
             }
         .cooc-container {
-            width: 95.6vw;
-            height: 264px;
+             height: 264px;
         }
-        .card-wuc {
-            left: 1%;
-        }
- 
-        .cards-5 {
-             left: 0%;
-        }
+         
 
         .cards-5__picture {
             width: 100%;
@@ -1958,7 +2024,6 @@ width: 120%;
         }
  
         .cooc-container {
-            width: 94.6vw;
             height: 236px;
         }
 

@@ -379,7 +379,7 @@
 
 /* iPad portrait */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
     .dropdown .dropdown_btn:focus+.dropdown_menu,
     .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
@@ -388,13 +388,22 @@
         top: 108px;
     }
  
-}
+} */
 
 /* MOBILE VIEW */
 
 
 @media (max-width: 767px) {
 
+    .about {
+        font-family: 'Heebo' !important;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }  
+
+    .abt-us-paragraph{
+text-align: center;
+    }
 
         .abt-us {
         max-width: 100% !important;
@@ -520,8 +529,6 @@
 
 
 }
-
-
     /* iPhone eXpensive landscape */
  
     @media (max-width: 727px) {
@@ -556,8 +563,6 @@
 
     }
 
-
-
     @media (width: 684px) {
 
         .navbar .active {
@@ -571,8 +576,6 @@
         
         }
 
-
-
     /* Android (Pixel 2) landscape */
      @media (max-width: 670px) {
 
@@ -585,7 +588,6 @@
         }
 
     }
-
 
     @media (width: 667px) {
 
@@ -605,7 +607,6 @@
             padding-left: 20% !important;
         }
     }
-
 
     @media (max-width: 640px) {
 
@@ -673,10 +674,12 @@
             margin: 30px 180px;
         }
   
+        .abt-us-container{
+            text-align: center;
+        }
 
- 
-        .about-container{
-            max-width: 482px;
+        .abt-us {
+            max-width: 84% !important;
         }
 
         .lead {
@@ -691,6 +694,11 @@
     .navbar-brand {
          width: 76%;
     }
+
+    .responsive-info {
+        padding-left: 10% !important;
+    }
+    
     }
 
     @media (max-width: 540px) {
@@ -701,6 +709,12 @@
     }
 
     @media (max-width: 524px) {
+
+        .footer .row > div > div > span {
+            width: 410px;
+            font-size: 19px;
+        }
+        
 
     .footer .row > div > div > span:hover {
         background-color: rgb(41,40,40);
@@ -728,6 +742,32 @@
     }
 
     }
+
+    @media (max-width: 470px){
+    
+        .about {
+              padding-bottom: 5rem;
+        }
+
+        .lead {
+            font-size: 1rem !important;
+        }
+
+        .abt-us {
+            height: 382px !important;
+        }
+
+        .responsive-info {
+        padding-left: 4% !important;
+    }
+
+    .footer .row > div > div > span {
+        width: 370px;
+        font-size: 17px;
+    }
+
+}    
+
     @media (max-width: 442px){
     .footer .row > div > div > span {
         width: 329px;
@@ -737,15 +777,9 @@
 
     /* iPhone 6-8 Plump portrait */
     @media (max-width: 414px){
-    .about-container {
-        max-width: 340px;
-    }
-
-    .about-p {
-        padding: 1rem;
-    }
-    
-    
+        .abt-us {
+            height: 330px !important;
+        }
 
     .lead {
         font-size: 1rem !important;
@@ -772,13 +806,13 @@
             margin: 20px 120px;
         }
 
-        .dropdown .dropdown_btn:focus+.dropdown_menu,
+        /* .dropdown .dropdown_btn:focus+.dropdown_menu,
         .dropdown .dropdown_btn:focus+.dropdown_menu:hover {
             left: 125px;
             pointer-events: inherit;
             top: 104px;
         }
-  
+   */
 
  
 
@@ -800,7 +834,17 @@
 
 
     }
-  
+
+    @media (max-width: 400px) {
+    
+        .navbar .active {
+            margin: 25px 40px;
+        }
+    
+        .nav-link-hover {
+        margin: 20px 60px;
+    }
+    }
 
     @media (max-width: 375px) {
         .footer ul {
@@ -833,6 +877,15 @@
     .navbar .active {
         margin: 25px 42px;
     }
-    
 
+    .lead {
+        font-size: 0.8rem !important;
+    }
+
+}
+
+@media (max-width: 330px) {
+.responsive-info {
+    padding-left: 2% !important;
+}
 }
